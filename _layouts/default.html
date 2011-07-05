@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-	<meta charset="utf-8" />
-	<title>{{ page.title }}</title>
-	<link rel="stylesheet" href="style.css" type="text/css" />
-</head>
-<body>
-	<h1 id="siteTitle"><a href="/">Jon Allured</a></h1>
-	{{ content }}
-</body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>{{ page.title }}</title>
+		<link rel="icon" type="image/gif" href="/favicon.gif" />
+		<link rel="stylesheet" href="/style.css" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<h1 id="home"><a href="/">Jon Allured</a></h1>
+			<p id="tagline">Builder of Websites, Lover of Gadgets, Reader of Comic Books</p>
+		</header>
+		{{ content }}
+		<footer>
+			<p>&copy; Jon Allured, site design inspired by <a href="http://www.plaintxt.org/#veryplaintxt">VERYPLAINTXT</a></p>
+		</footer>
+	</body>
 </html>
