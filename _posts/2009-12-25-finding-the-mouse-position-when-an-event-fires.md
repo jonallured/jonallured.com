@@ -25,7 +25,7 @@ The magic is really just the bit where you define the hover functions and then t
 	   }
 	);
 
-If you pass the hover functions a variable, it will give you access to the `[event object](http://docs.jquery.com/Events/jQuery.Event)` through which you can determine the mouse's position by using its `pageX` and `pageY` attributes - slick, huh?
+If you pass the hover functions a variable, it will give you access to the [event object](http://docs.jquery.com/Events/jQuery.Event) through which you can determine the mouse's position by using its `pageX` and `pageY` attributes - slick, huh?
 
 So, I really liked this and wanted to see it in action - I thought [logging the info to the FireBug console](http://getfirebug.com/console.html) would be a nice way to see it, but later I realized that I wanted to run this code in other browsers (IE), so I made my own console div and then wrote the coordinates to it.
 
@@ -37,4 +37,4 @@ When I tested this out, however, I didn't like that I had to keep scrolling the 
 	   consoleDiv.scrollTop = consoleDiv.scrollHeight;
 	}
 
-The `div` element's `scrollTop` is set to its `scrollHeight` so that it will remain scrolled to the bottom as its size grows. I had never heard of these attributes, but they are nicely documented in Mozilla's Developer Center: [`scrollTop`](https://developer.mozilla.org/en/DOM/element.scrollTop), [`scrollHeight`](https://developer.mozilla.org/en/DOM/element.scrollHeight).
+The `div` element's `scrollTop` is set to its `scrollHeight` so that it will remain scrolled to the bottom as its size grows. I had never heard of these attributes, but they are nicely documented in Mozilla's Developer Center: [scrollTop](https://developer.mozilla.org/en/DOM/element.scrollTop), [scrollHeight](https://developer.mozilla.org/en/DOM/element.scrollHeight).
