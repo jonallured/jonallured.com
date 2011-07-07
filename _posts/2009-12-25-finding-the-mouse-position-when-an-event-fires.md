@@ -6,6 +6,8 @@ title: Finding the Mouse Position When an Event Fires
 {{ page.title }}
 ================
 
+<p id="articleDate">published Friday, December 25, 2009</p>
+
 We recently had a project where we needed to find out where the mouse was (its coordinates) when an event fired (hover). I wanted to create a little [example page](http://files.jonallured.com/examples/mouse_position.html) that I could play around with to see how this worked.
 
 The markup is really simple and just creates four divs in red - on `over` their background color is changed to green and then its changed back on `out`. We're using jQuery here, so the syntax is based on the [hover documentation](http://docs.jquery.com/Events/hover) and the solution as inspired by their [Mouse Position tutorial](http://docs.jquery.com/Tutorials:Mouse_Position).

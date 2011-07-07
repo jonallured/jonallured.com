@@ -125,3 +125,10 @@ aside ul {
 	margin: 0;
 	padding: 0;
 }
+
+article p#articleDate {
+	font-family: 'times new roman',times,serif;
+	font-size: 15px;
+	font-style: italic;
+	margin: 8px 0 -5px;
+}
