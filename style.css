@@ -132,3 +132,8 @@ article p#articleDate {
 	font-style: italic;
 	margin: 8px 0 -5px;
 }
+
+.weak {
+	color: #666;
+	font-size: .85em;
+}
