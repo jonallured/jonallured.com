@@ -137,3 +137,32 @@ article p#articleDate {
 	color: #666;
 	font-size: .85em;
 }
+
+div.project {
+	border-bottom: 1px solid #000;
+	margin: 15px 0;
+	overflow: hidden;
+}
+
+div.project img {
+	border: 2px solid #555;
+	float: left;
+	margin: 0 10px 5px 0;
+	width: 250px;
+}
+
+div.project img:hover {
+	border: 2px solid #00f;
+}
+
+div.project h2 {
+	margin-top: 0;
+}
+
+div.project div.description {
+	clear: both;
+}
+
+div.project div.details {
+	margin-left: 262px;
+}
