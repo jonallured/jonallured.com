@@ -32,8 +32,12 @@ div.project { border-bottom: 1px solid #000; margin: 15px 0; overflow: hidden; }
 div.project:last-child { border-bottom: none; }
 
 div.project h2 { margin-top: 0; }
-div.project img { border: 2px solid #555; float: left; margin: 12px 10px 5px 0; width: 250px; }
+div.project img { border: 2px solid #555; float: left; margin: 12px 10px 10px 0; width: 250px; }
 div.project img:hover { border: 2px solid #00f; }
 
 div.project div.description { clear: both; }
-div.project div.details { margin-left: 262px; }
+div.project div.details { margin-left: 264px; }
+
+div.project strong {
+	
+}
