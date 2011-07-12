@@ -20,6 +20,7 @@ article pre { background-color: #eee; line-height: 16px; overflow-x: auto; paddi
 article pre code { background: none; }
 
 article .weak { color: #666; font-size: .85em; }
+article .listHeading { margin-bottom: -10px; }
 article p#articleDate { font-family: 'times new roman',times,serif; font-size: 15px; font-style: italic; margin: 8px 0 -5px; }
 
 aside { font-family: 'times new roman',times,serif; font-size: 14px; float: right; margin: 30px 0; text-align: center; width: 180px; }

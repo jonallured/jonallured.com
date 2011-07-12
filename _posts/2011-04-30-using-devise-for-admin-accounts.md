@@ -15,7 +15,7 @@ One thing you'll probably run into while building a typical app using this gem i
 You Really Need an Admin Model
 ------------------------------
 
-The two techniques described are:
+<p class="listHeading">The two techniques described are:</p>
 
 * create a separate Admin model
 * add an admin boolean to your existing User model
@@ -44,7 +44,7 @@ You'll have someone from Accounting that just needs to run a report every month 
 
 You'll continue to create screens that are easier than the command line for things you do frequently and you aren't going to want anyone messing around in there besides people that know what they are doing.
 
-You could create a different Devise user type of each of these, but I find that approach ends up being too much. And when there are overlaps about who can see what, its weird to code. Before we move on, lets summarize:
+<p class="listHeading">You could create a different Devise user type of each of these, but I find that approach ends up being too much. And when there are overlaps about who can see what, its weird to code. Before we move on, lets summarize:</p>
 
 * its important to have an Admin model so that as things get more complex you have something to hang some logic on
 * there are different kinds of admin users, but don't go crazy and create a model for each type
