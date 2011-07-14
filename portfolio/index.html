@@ -23,24 +23,23 @@ title: Portfolio
 	<div class="project">
 		<h2>Compare And Sync Tool</h2>
 		<div class="description">
-			<p>This project involved re-creating an existing training program that Allured had acquired in Rails. The previous program was running off of a WordPress install that had been customized to support a simple authentication system.</p>
-			<p>The goal was to convert existing users and provide a new system to deal with taking Quizzes for each Lesson. Brightcove was used to deliver the video and thus integrating their service into the app was required.</p>
+			<p>In order to stop printing physical media kits, we decided to digitize the content and this tool kept the live website in sync with a local version for when a salesrep might not have internet access. Using a Ruby script and cron to update a shared Dropbox folder, all reps were kept in sync with any changes Marketing would make to the content of the site. So, its essentially a brochure-type website being scanned for updates and then when detected these updates make their way via Dropbox to a local copy of the site that can be run without internet access.</p>
 		</div>
 	</div>
 	<div class="project">
 		<h2>Magazine Subscription Forms</h2>
 		<a href="https://subs.cosmeticsandtoiletries.com"><img src="/images/subs-pic.gif" /></a>
 		<div class="details">
-			<p><em>launched:</em> March 2011<br />
-				<em>registered users:</em> 169 (as of 7/7/11)<br />
-				<em>tech:</em> Rails 3.0.x, delayed_job, Devise, Prawn, jQuery<br />
-				<em>host:</em> Heroku (bamboo-mri-1.9.2)<br />
+			<p><em>launched:</em> December 2010<br />
+				<em>average signups per day:</em> 79 (as of 7/13)<br />
+				<em>tech:</em> Sinatra, Nokogiri, Savon, Amazon S3, jQuery, Validate (jQuery Plugin)<br />
+				<em>host:</em> Heroku (bamboo-ree-1.8.7), using the Hostname SSL addon<br />
 				<em>client:</em> Allured Business Media</p>
 		</div>
 		<div class="description">
 			<p><em>urls:</em> <a href="https://subs.cosmeticsandtoiletries.com">subs.cosmeticsandtoiletries.com</a>, <a href="https://subs.gcimagazine.com">subs.gcimagazine.com</a>, <a href="https://subs.perfumerflavorist.com">subs.perfumerflavorist.com</a>, <a href="https://subs.skininc.com">subs.skininc.com</a></p>
-			<p>This project involved re-creating an existing training program that Allured had acquired in Rails. The previous program was running off of a WordPress install that had been customized to support a simple authentication system.</p>
-			<p>The goal was to convert existing users and provide a new system to deal with taking Quizzes for each Lesson. Brightcove was used to deliver the video and thus integrating their service into the app was required.</p>
+			<p>These forms take magazine subscription orders and using a SOAP-based API provided by Allured's Fulfillment house, are inserted directly into the subscription file. One main goal of writing this app was to make Circulation as independent as possible, free to make copy changes and make different offers at different price points.</p>
+			<p>Also notable this project has a staging environment as detailed on the Heroku Developer Site.</p>
 		</div>
 	</div>
 	<div class="project">
@@ -48,15 +47,14 @@ title: Portfolio
 		<a href="http://www.jeoronline.com"><img src="/images/jeor-pic.png" /></a>
 		<div class="details">
 			<p><em>url:</em> <a href="http://www.jeoronline.com">jeoronline.com</a><br />
-				<em>launched:</em> March 2011<br />
-				<em>registered users:</em> 169 (as of 7/7/11)<br />
-				<em>tech:</em> Rails 3.0.x, delayed_job, Devise, Prawn, jQuery<br />
+				<em>launched:</em> April 2009<br />
+				<em>average monthly pageviews:</em> 10,500 (as of 7/13/11)<br />
+				<em>tech:</em> Rails 2.2.x => 3.0.x, Devise<br />
 				<em>host:</em> Heroku (bamboo-mri-1.9.2)<br />
 				<em>client:</em> Allured Business Media</p>
 		</div>
 		<div class="description">
-			<p>This project involved re-creating an existing training program that Allured had acquired in Rails. The previous program was running off of a WordPress install that had been customized to support a simple authentication system.</p>
-			<p>The goal was to convert existing users and provide a new system to deal with taking Quizzes for each Lesson. Brightcove was used to deliver the video and thus integrating their service into the app was required.</p>
+			<p>My first Rails deploy, this is always my go-to app when I'm ready to try upgrading to a new version of Rails in production. Its a simple app that allows readers to purchase Journal articles and has some information for would-be contributors or those interested in subscriptions.</p>
 		</div>
 	</div>
 	<div class="project">
@@ -64,31 +62,28 @@ title: Portfolio
 		<a href="http://files.allured.com"><img src="/images/fup-pic.png" /></a>
 		<div class="details">
 			<p><em>url:</em> <a href="http://files.allured.com">files.allured.com</a><br />
-				<em>launched:</em> March 2011<br />
-				<em>registered users:</em> 169 (as of 7/7/11)<br />
-				<em>tech:</em> Rails 3.0.x, delayed_job, Devise, Prawn, jQuery<br />
-				<em>host:</em> Heroku (bamboo-mri-1.9.2)<br />
+				<em>launched:</em> August 2009<br />
+				<em>tech:</em> Rails 2.2.2, attachment_fu, restful_authentication, Amazon S3<br />
+				<em>host:</em> Heroku (bamboo-ree-1.8.7)<br />
 				<em>client:</em> Allured Business Media</p>
 		</div>
 		<div class="description">
-			<p>This project involved re-creating an existing training program that Allured had acquired in Rails. The previous program was running off of a WordPress install that had been customized to support a simple authentication system.</p>
-			<p>The goal was to convert existing users and provide a new system to deal with taking Quizzes for each Lesson. Brightcove was used to deliver the video and thus integrating their service into the app was required.</p>
+			<p>Designed to accept file uploads from our advertisers, the main purpose of this app was to get away from having advertisers use our FTP site. We wanted something more friendly, especially for hesitant web users, which most advertisers are. As usually happens with internal tools like this, it never gets any love, thus its still on a very old version of Rails.</p>
 		</div>
 	</div>
 	<div class="project">
 		<h2>Magazine Websites</h2>
 		<a href="http://www.cosmeticsandtoiletries.com"><img src="/images/mag-pic.png" /></a>
 		<div class="details">
-			<p><em>launched:</em> March 2011<br />
-				<em>registered users:</em> 169 (as of 7/7/11)<br />
-				<em>tech:</em> Rails 3.0.x, delayed_job, Devise, Prawn, jQuery<br />
-				<em>host:</em> Heroku (bamboo-mri-1.9.2)<br />
+			<p><em>launched:</em> between July 2008 and January 2009 as each site was ready<br />
+				<em>total average pageviews per month:</em> 311,266<br />
+				<em>tech:</em> Velocity template language, jQuery<br />
+				<em>host:</em> Clickability<br />
 				<em>client:</em> Allured Business Media</p>
 		</div>
 		<div class="description">
 			<p><em>urls:</em> <a href="http://www.cosmeticsandtoiletries.com">cosmeticsandtoiletries.com</a>, <a href="http://www.gcimagazine.com">gcimagazine.com</a>, <a href="http://www.perfumerflavorist.com">perfumerflavorist.com</a>, <a href="http://www.skininc.com">skininc.com</a></p>
-			<p>This project involved re-creating an existing training program that Allured had acquired in Rails. The previous program was running off of a WordPress install that had been customized to support a simple authentication system.</p>
-			<p>The goal was to convert existing users and provide a new system to deal with taking Quizzes for each Lesson. Brightcove was used to deliver the video and thus integrating their service into the app was required.</p>
+			<p>Uses the Clickability Platform as its CMS and Velocity as its template language. All four sites run on the same codebase.</p>
 		</div>
 	</div>
 </article>
