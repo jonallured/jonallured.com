@@ -11,19 +11,13 @@ title: Portfolio
 		<div class="details">
 			<p><em>url:</em> <a href="http://learn.cosmeticsandtoiletries.com">learn.cosmeticsandtoiletries.com</a><br />
 				<em>launched:</em> March 2011<br />
-				<em>registered users:</em> 172 (as of 7/12/11)<br />
+				<em>registered users:</em> 172<br />
 				<em>tech:</em> Rails 3.0.x, delayed_job, Devise, Prawn, jQuery<br />
 				<em>host:</em> Heroku (bamboo-mri-1.9.2)<br />
 				<em>client:</em> Allured Business Media</p>
 		</div>
 		<div class="description">
-			<p>The project was to take an existing program hobbled together and do it right with Rails. For payment we used PayPal and to serve the video we used Brightcove, so integrating with these services was required. Two apps were developed - one as the actual platform for the training to take place and another just for dealing with the PayPal notifications.</p>
-		</div>
-	</div>
-	<div class="project">
-		<h2>Compare And Sync Tool</h2>
-		<div class="description">
-			<p>In order to stop printing physical media kits, we decided to digitize the content and this tool kept the live website in sync with a local version for when a salesrep might not have internet access. Using a Ruby script and cron to update a shared Dropbox folder, all reps were kept in sync with any changes Marketing would make to the content of the site. So, its essentially a brochure-type website being scanned for updates and then when detected these updates make their way via Dropbox to a local copy of the site that can be run without internet access.</p>
+			<p>The project was to take an existing program done on WordPress and do it right with Rails. For payment we used PayPal and to serve the video we used Brightcove, so integrating with these services was required. Two apps were developed - one as the actual platform for the training to take place and another just for dealing with the PayPal notifications.</p>
 		</div>
 	</div>
 	<div class="project">
@@ -31,30 +25,26 @@ title: Portfolio
 		<a href="https://subs.cosmeticsandtoiletries.com"><img src="/images/subs-pic.gif" /></a>
 		<div class="details">
 			<p><em>launched:</em> December 2010<br />
-				<em>average signups per day:</em> 79 (as of 7/13)<br />
+				<em>average signups per day:</em> 79<br />
 				<em>tech:</em> Sinatra, Nokogiri, Savon, Amazon S3, jQuery, Validate (jQuery Plugin)<br />
 				<em>host:</em> Heroku (bamboo-ree-1.8.7), using the Hostname SSL addon<br />
 				<em>client:</em> Allured Business Media</p>
 		</div>
 		<div class="description">
 			<p><em>urls:</em> <a href="https://subs.cosmeticsandtoiletries.com">subs.cosmeticsandtoiletries.com</a>, <a href="https://subs.gcimagazine.com">subs.gcimagazine.com</a>, <a href="https://subs.perfumerflavorist.com">subs.perfumerflavorist.com</a>, <a href="https://subs.skininc.com">subs.skininc.com</a></p>
-			<p>These forms take magazine subscription orders and using a SOAP-based API provided by Allured's Fulfillment house, are inserted directly into the subscription file. One main goal of writing this app was to make Circulation as independent as possible, free to make copy changes and make different offers at different price points.</p>
-			<p>Also notable this project has a staging environment as detailed on the Heroku Developer Site.</p>
+			<p>These forms take magazine subscription orders and using a SOAP-based API provided by Allured's Fulfillment house, are inserted directly into the subscription file. One important goal of this app was to make Circulation as independent as possible; free to make copy changes and make different offers at different price points without having to rely on a programmer's help.</p>
+			<p>Also notable this project is deployed twice to Heroku, once as production and again as a staging environment.</p>
 		</div>
 	</div>
 	<div class="project">
-		<h2>The Journal of Essential Oil Research Website</h2>
-		<a href="http://www.jeoronline.com"><img src="/images/jeor-pic.png" /></a>
-		<div class="details">
-			<p><em>url:</em> <a href="http://www.jeoronline.com">jeoronline.com</a><br />
-				<em>launched:</em> April 2009<br />
-				<em>average monthly pageviews:</em> 10,500 (as of 7/13/11)<br />
-				<em>tech:</em> Rails 2.2.x => 3.0.x, Devise<br />
-				<em>host:</em> Heroku (bamboo-mri-1.9.2)<br />
-				<em>client:</em> Allured Business Media</p>
-		</div>
+		<h2>Compare And Sync Tool</h2>
 		<div class="description">
-			<p>My first Rails deploy, this is always my go-to app when I'm ready to try upgrading to a new version of Rails in production. Its a simple app that allows readers to purchase Journal articles and has some information for would-be contributors or those interested in subscriptions.</p>
+			<p><em>url:</em> <a href="http://learn.cosmeticsandtoiletries.com">learn.cosmeticsandtoiletries.com</a><br />
+				<em>launched:</em> October 2010<br />
+				<em>tech:</em> Ruby 1.9.2, Dropbox API<br />
+				<em>host:</em> MacMini in the office<br />
+				<em>client:</em> Allured Business Media</p>
+			<p>In order to stop printing physical media kits, we decided to digitize the content and this tool kept the live website in sync with a local version for when a salesrep might not have internet access. Using a Ruby script and cron to update a shared Dropbox folder, all reps were kept in sync with any changes Marketing would make to the content of the site. So, its essentially a brochure-type website being scanned for updates and then when detected these updates make their way via Dropbox to a local copy of the site that can be run without internet access.</p>
 		</div>
 	</div>
 	<div class="project">
@@ -72,18 +62,33 @@ title: Portfolio
 		</div>
 	</div>
 	<div class="project">
+		<h2>The Journal of Essential Oil Research Website</h2>
+		<a href="http://www.jeoronline.com"><img src="/images/jeor-pic.png" /></a>
+		<div class="details">
+			<p><em>url:</em> <a href="http://www.jeoronline.com">jeoronline.com</a><br />
+				<em>launched:</em> April 2009<br />
+				<em>average monthly pageviews:</em> 10,500<br />
+				<em>tech:</em> Rails 2.2.x => 3.0.x, Devise<br />
+				<em>host:</em> Heroku (bamboo-mri-1.9.2)<br />
+				<em>client:</em> Allured Business Media</p>
+		</div>
+		<div class="description">
+			<p>My first Rails deploy, this is always my go-to app when I'm ready to try upgrading to a new version of Rails in production. Its a simple app that allows readers to purchase Journal articles and has some information for would-be contributors or those interested in subscriptions.</p>
+		</div>
+	</div>
+	<div class="project">
 		<h2>Magazine Websites</h2>
 		<a href="http://www.cosmeticsandtoiletries.com"><img src="/images/mag-pic.png" /></a>
 		<div class="details">
 			<p><em>launched:</em> between July 2008 and January 2009 as each site was ready<br />
 				<em>total average pageviews per month:</em> 311,266<br />
 				<em>tech:</em> Velocity template language, jQuery<br />
-				<em>host:</em> Clickability<br />
+				<em>host:</em> Clickability CMS Platform<br />
 				<em>client:</em> Allured Business Media</p>
 		</div>
 		<div class="description">
 			<p><em>urls:</em> <a href="http://www.cosmeticsandtoiletries.com">cosmeticsandtoiletries.com</a>, <a href="http://www.gcimagazine.com">gcimagazine.com</a>, <a href="http://www.perfumerflavorist.com">perfumerflavorist.com</a>, <a href="http://www.skininc.com">skininc.com</a></p>
-			<p>Uses the Clickability Platform as its CMS and Velocity as its template language. All four sites run on the same codebase.</p>
+			<p>These four sites were completely re-imagined from the ground up. A Usability/Information Archtecture expert was brought it to conduce usability tests and help form a content strategy that lead to wireframes. I then implemented these wireframes producing template code that could run all four magazine sites in one code base.</p>
 		</div>
 	</div>
 </article>
