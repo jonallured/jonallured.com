@@ -1,0 +1,54 @@
+aside {
+	display: none;
+}
+
+p.callout {
+	display: none;
+}
+
+footer {
+	display: none;
+}
+
+article {
+	width: 790px;
+}
+
+article p, article ul {
+	font-size: 16px;
+}
+
+article h2#objectiveHeading {
+	margin-top: 0;
+}
+
+div#contactDetails {
+	border: 1px solid #000;
+	display: block;
+	float: right;
+	margin: 0 0 10px 10px;
+	padding: 10px;
+	width: 180px;
+}
+
+div#contactDetails p {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+article h1 {
+	display: none;
+}
+
+article h2 {
+	font-size: 30px;
+}
+
+p#screenNote {
+	display: none;
+}
+
+p#printNote {
+	display: block;
+}
