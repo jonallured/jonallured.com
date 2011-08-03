@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finding the Mouse Position When an Event Fires
+title: Finding the Mouse Position When an Event Fires | Jon Allured
 ---
 
 {{ page.title }}

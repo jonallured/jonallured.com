@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Devise for Admin Accounts
+title: Using Devise for Admin Accounts | Jon Allured
 ---
 
 {{ page.title }}
