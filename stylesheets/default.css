@@ -61,22 +61,7 @@ form#contactForm p#jsNote { color: #900; }
 form#contactForm label.error { color: #900; display: block; float: none; font-size: 12px; margin-left: 100px; text-align: center; width: 200px; }
 form#contactForm div.textarea label.error { color: #900; display: block; float: none; font-size: 12px; margin-left: 0; text-align: center; width: 312px; }
 
-p.callout {
-	background-color: #666;
-	border: 3px solid #000;
-	float: right;
-	margin: 0;
-	padding: 4px 7px;
-}
-
-p.callout a {
-	color: #fff;
-}
-
-div#contactDetails {
-	display: none;
-}
-
-p#printNote {
-	display: none;
-}
+p.callout { background-color: #666; border: 3px solid #000; float: right; margin: 0; padding: 4px 7px; }
+p.callout a { color: #fff; }
+div#contactDetails { display: none; }
+p#printNote { display: none; }
