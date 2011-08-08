@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quicksilver on Snow Leopard | Jon Allured
+title: Quicksilver on Snow Leopard
 ---
 
 {{ page.title }}
