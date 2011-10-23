@@ -27,7 +27,7 @@ article .weak { color: #666; font-size: .85em; }
 article .listHeading { margin-bottom: -10px; }
 article p#articleDate { font-family: 'times new roman',times,serif; font-size: 15px; font-style: italic; margin: 8px 0 -5px; }
 
-aside { font-family: 'times new roman',times,serif; font-size: 14px; float: right; margin: 30px 0; text-align: center; width: 180px; }
+aside { font-family: 'times new roman',times,serif; font-size: 14px; float: right; line-height: 20px; margin: 30px 0; text-align: center; width: 180px; }
 aside h2 { font-size: 14px; letter-spacing: 2px; margin: 5px 0; text-transform: uppercase; }
 aside p { margin: 0 0 20px; }
 aside ul { list-style: none; margin: 0; padding: 0; }
@@ -65,3 +65,15 @@ p.callout { background-color: #666; border: 3px solid #000; float: right; margin
 p.callout a { color: #fff; }
 div#contactDetails { display: none; }
 p#printNote { display: none; }
+
+ul.feeds li {
+  float: left;
+  width: 200px;
+}
+
+ul.feeds {
+  line-height: 22px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  width: 600px;
+}
