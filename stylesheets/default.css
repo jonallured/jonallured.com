@@ -1,8 +1,11 @@
+body { background-color: #fafafa; }
+
 header, footer { font-family: 'times new roman', times, serif; letter-spacing: 3px; margin: 0px auto; text-align: center; text-transform: uppercase; width: 800px; }
 header h1 { font-size: 50px; font-weight: normal; line-height: 65px; margin: 10px 0 5px; }
 header h1 a { color: #000; text-decoration: none; }
 header h1 a:hover { text-decoration: underline; }
 header p { border-bottom: 2px solid #000; border-top: 1px solid #000; font-size: 13px; line-height: 26px; margin: 0 5px; padding: 0; }
+footer { margin-bottom: 20px; }
 footer p { border-bottom: 2px solid #000; border-top: 1px solid #000; font-size: 10px; letter-spacing: 1px; margin: 0 5px; padding: 5px 0; }
 footer a:link { color: #000; }
 footer a:visited { color: #777; }
@@ -19,13 +22,14 @@ article h1 { font-size: 30px; margin: 0; }
 article h2 { font-size: 20px; }
 article p, article ul { font-family: arial; font-size: 14px; line-height: 20px; }
 
+article blockquote { font-style: italic; }
 article code { background-color: #eee; font-family: "courier new",courier,monospace; padding: 2px 4px; }
 article pre { background-color: #eee; line-height: 16px; overflow-x: auto; padding: 10px; }
 article pre code { background: none; }
 
 article .weak { color: #666; font-size: .85em; }
 article .listHeading { margin-bottom: -10px; }
-article p#articleDate { font-family: 'times new roman',times,serif; font-size: 15px; font-style: italic; margin: 8px 0 -5px; }
+article p#articleDate { font-family: 'times new roman',times,serif; font-size: 15px; font-style: italic; margin: 6px 0 -3px; }
 
 aside { font-family: 'times new roman',times,serif; font-size: 14px; float: right; line-height: 20px; margin: 30px 0; text-align: center; width: 180px; }
 aside h2 { font-size: 14px; letter-spacing: 2px; margin: 5px 0; text-transform: uppercase; }
@@ -66,14 +70,5 @@ p.callout a { color: #fff; }
 div#contactDetails { display: none; }
 p#printNote { display: none; }
 
-ul.feeds li {
-  float: left;
-  width: 200px;
-}
-
-ul.feeds {
-  line-height: 22px;
-  margin-bottom: 15px;
-  overflow: hidden;
-  width: 600px;
-}
+ul.feeds li { float: left; width: 200px; }
+ul.feeds { line-height: 22px; margin-bottom: 15px; overflow: hidden; width: 600px; }
