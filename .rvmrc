@@ -1,1 +1,1 @@
-rvm 1.9.2-p180@jon-github
+rvm --create 1.9.2-p180@jon-github
