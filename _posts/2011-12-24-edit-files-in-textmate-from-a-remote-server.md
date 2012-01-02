@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Edit Files in TextMate from a Remote Server (notes)
+title: Edit Files in TextMate from a Remote Server
 ---
 
 {{ page.title }}
