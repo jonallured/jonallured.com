@@ -1,4 +1,4 @@
-body { background-color: #fafafa; }
+body { background-color: #fdfdfd; }
 
 header, footer { font-family: 'times new roman', times, serif; letter-spacing: 3px; margin: 0px auto; text-align: center; text-transform: uppercase; width: 800px; }
 header h1 { font-size: 50px; font-weight: normal; line-height: 65px; margin: 10px 0 5px; }
@@ -26,6 +26,7 @@ article blockquote { font-style: italic; }
 article code { background-color: #eee; font-family: "courier new",courier,monospace; padding: 2px 4px; }
 article pre { background-color: #eee; line-height: 16px; overflow-x: auto; padding: 10px; }
 article pre code { background: none; }
+article hr { background-color: #888; border: 0; height: 1px; margin: 25px auto; width: 100px; }
 
 article .weak { color: #666; font-size: .85em; }
 article .listHeading { margin-bottom: -10px; }
