@@ -6,7 +6,7 @@ title: Multiple Carets in TextMate 2.0; Default Scope
 {{ page.title }}
 ================
 
-<p id="articleDate">published Sunday, December 19, 2011</p>
+<p id="articleDate">published Monday, December 19, 2011</p>
 
 Don't get me wrong, I'm quickly learning to love VIM since that's all we use at Hashrocket, but TextMate will always be the first text editor that I loved. I haven't been following the Alpha that closely, but I did read about the new [Multiple Caret features](http://blog.macromates.com/2011/multiple-carets/) and I'm really excited about it, I think it looks pretty great.
 
