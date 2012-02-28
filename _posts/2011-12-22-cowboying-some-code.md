@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Cowboying Some Code
+published_at: Thursday, December 22, 2011
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Thursday, December 22, 2011</p>
 
 Just watched [Destroy All Software 23: Spiking and Continuous Spiking](BAMF), or as I'll now refer to it, The One About Cowboying.
 

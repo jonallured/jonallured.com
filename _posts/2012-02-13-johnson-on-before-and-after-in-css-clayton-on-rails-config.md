@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Johnson on :before and :after in CSS; Clayton on Rails Config
+published_at: Monday, February 13, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, February 13, 2012</p>
 
 Joshua Johnson writing for Design Shack [explains](http://designshack.net/articles/css/the-lowdown-on-before-and-after-in-css/) how the `:before` and `:after` CSS pseudo-elements work. I was confused about why he was calling them pseudo-elements and not a pseudo-class like `:hover` or `:active`, so it was nice that he anticipated this confusion and started out by addressing it. The difference between these two parts of CSS turns out to be pretty simple:
 

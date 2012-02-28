@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Shaughnessy Explores Strings; Klabnik on What's Wrong With MVC
+published_at: Monday, January 9, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, January 9, 2012</p>
 
 Pat Shaughnessy spent some time exploring how MRI actually processes strings and [wrote up those results](http://patshaughnessy.net/2012/1/4/never-create-ruby-strings-longer-than-23-characters). He found that under the hood there are actually three types of Strings used:
 

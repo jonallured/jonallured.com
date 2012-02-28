@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Making URLs Pretty; Uncle Bob on SRP; Grimm on ActiveRecord Associations; Heilmann on classList
+published_at: Tuesday, February 7, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Tuesday, February 7, 2012</p>
 
 Watched [RailsCasts 314: Pretty URLs with FriendlyId](http://railscasts.com/episodes/314-pretty-urls-with-friendlyid) and learned that Rails uses a method on its Models called `#to_param` to decide what to put in a show path. This means you can override it and use something besides an id:
 

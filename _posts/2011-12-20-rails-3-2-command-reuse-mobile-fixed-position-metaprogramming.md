@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Rails 3.2; Command Reuse; Fixed Position on Mobile; Ruby Metaprogramming
+published_at: Tuesday, December 20, 2011
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Tuesday, December 20, 2011</p>
 
 DHH [announced Rails 3.2, RC1](http://weblog.rubyonrails.org/2011/12/20/rails-3-2-rc1-faster-dev-mode-routing-explain-queries-tagged-logger-store) and highlighted a few of the cool new things that landed. What stood out to me was the bit about Active Record Store. More details please!
 

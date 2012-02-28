@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Brown on Creational Design Patterns in Ruby
+published_at: Monday, January 30, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, January 30, 2012</p>
 
 I've read Gregory Brown's post on [structural design patterns](http://jonallured.com/2012/01/20/brown-on-structural-design-patterns-in-ruby.html) in Ruby and I've also spent some time with a couple of his write ups focusing on just [the Singleton pattern](http://jonallured.com/2012/01/27/brown-on-the-singleton-in-ruby.html). Next I wanted to finish the rest of the [creational patterns](http://blog.rubybestpractices.com/posts/gregory/059-issue-25-creational-design-patterns.html) - as in the post on structural patterns, his aim is not to explain each pattern as much as it is to show some examples of the patterns in real Ruby code.
 

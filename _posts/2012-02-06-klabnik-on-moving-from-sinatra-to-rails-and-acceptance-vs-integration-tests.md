@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Klabnik on Moving from Sinatra to Rails and Acceptance vs. Integration Tests
+published_at: Monday, February 6, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, February 6, 2012</p>
 
 I recently had a conversation with fellow Rocketeer [Brian Dunn](https://twitter.com/higgaion) about the difference between Acceptance and Integration testing. I've always been a little fuzzy about what the two terms meant, but Steve Klabnik's post about [moving from Sinatra to Rails](http://blog.steveklabnik.com/posts/2012-01-17-moving-from-sinatra-to-rails) prompted me to finally bring it up.
 

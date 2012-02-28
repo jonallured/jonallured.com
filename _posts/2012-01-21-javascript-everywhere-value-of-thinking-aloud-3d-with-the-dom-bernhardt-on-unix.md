@@ -1,12 +1,8 @@
 ---
 layout: post
 title: JavaScript Everywhere; The Value of Thinking Aloud; 3D With Just the DOM; Bernhardt on Unix
+published_at: Saturday, January 21, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Saturday, January 21, 2012</p>
 
 Luke Wroblewski does a great job [articulating why JavaScript is so hot right now](http://www.lukew.com/ff/entry.asp?1482). It didn't occur to me that MongoDB is really just JavaScript, but that's the "J" in JSON, right? Reading this really makes me want to work on something with Node.
 

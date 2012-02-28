@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Kellum on Pixels; Shaughnessy on Shared Strings
+published_at: Monday, January 23, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, January 23, 2012</p>
 
 Scott Kellum [explores](http://www.alistapart.com/articles/a-pixel-identity-crisis/) how devices where a pixel is not always a pixel are making the lives of designers even harder than they already were. He starts out by establishing some vocabulary:
 

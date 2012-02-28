@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Brown on the Singleton in Ruby
+published_at: Friday, January 27, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Friday, January 27, 2012</p>
 
 [I read the second post](http://jonallured.com/2012/01/20/brown-on-structural-design-patterns-in-ruby.html) Gregory Brown did on design patterns in Ruby first, but I wanted to go back and read [the first one on creational patterns](http://blog.rubybestpractices.com/posts/gregory/059-issue-25-creational-design-patterns.html). I ended up spending a lot of time working through just the Singleton pattern because he updated his thoughts there with [another write up](http://practicingruby.com/articles/shared/jleygxejeopq) that was equally insightful and thorough.
 

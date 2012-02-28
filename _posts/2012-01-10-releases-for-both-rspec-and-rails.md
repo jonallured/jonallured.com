@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Releases for Both Rspec and Rails
+published_at: Tuesday, January 10, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Tuesday, January 10, 2012</p>
 
 Rspec recently got [bumped to 2.8](http://blog.davidchelimsky.net/2012/01/04/rspec-28-is-released/), a minor version release with some cool stuff.
 

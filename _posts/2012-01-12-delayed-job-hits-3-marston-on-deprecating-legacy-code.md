@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Delayed Job hits 3.0; Marston on Deprecating Legacy Code
+published_at: Thursday, January 12, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Thursday, January 12, 2012</p>
 
 Delayed Job [went 3.0 recently](http://collectiveidea.com/blog/archives/2012/01/04/the-big-three-oh/) with two major changes: named queues and callbacks on the lifecycle of a job. They also changed it so that the ActiveRecord backend is provided by a gem, which means one could provide another backend if they were so inclined.
 

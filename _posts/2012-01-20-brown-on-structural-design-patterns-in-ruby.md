@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Brown on Structural Design Patterns in Ruby
+published_at: Friday, January 20, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Friday, January 20, 2012</p>
 
 Gregory Brown considers [how the classic design patterns pertain to Ruby](http://blog.rubybestpractices.com/posts/gregory/060-issue-26-structural-design-patterns.html) and explores how one could interpret them by giving some examples. This is the second part of a two-part series, this time focusing on the structural patterns. I've heard of the [Design Patterns](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) book, we have a copy at the office, but I've not read it. And I've read a little about the patterns, but I took this post as an opportunity to get a little better acquainted with them.
 

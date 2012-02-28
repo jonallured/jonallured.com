@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Keeping a Live Website in Sync with a Local Version, Part Two
+published_at: Monday, August 8, 2011
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, August 8, 2011</p>
 
 *This part covers the technical aspects of a project I worked on to keep a live website in sync with a local version, [the first part](/2011/08/08/keeping-a-live-website-in-sync-with-a-local-version-part-one.html) covers it from a business-level perspective.*
 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Marston on Sinatra's Halt; Jones on Sinatra vs. Rails; Bernhardt on Learning Vim
+published_at: Wednesday, February 8, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Wednesday, February 8, 2012</p>
 
 Myron Marston did a quick write up on [why `halt` is so awesome in Sinatra](http://myronmars.to/n/dev-blog/2012/01/why-sinatras-halt-is-awesome). I've actually used it before, but its been a while, so this was a good reminder. Also, the way he demonstrated it with the different status codes depending on the error that happened was pretty sweet.
 

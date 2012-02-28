@@ -1,12 +1,8 @@
 ---
 layout: post
 title: The Simpleton Pattern; When to Include, When to Extend
+published_at: Monday, January 30, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, January 30, 2012</p>
 
 After [my post on the Singleton pattern](http://jonallured.com/2012/01/27/brown-on-the-singleton-in-ruby.html), fellow Rocketeer [Stephen Caudill](http://twitter.com/voxdolo) directed me towards Steve Yegge's post on the [Simpleton Pattern](https://sites.google.com/site/steveyegge2/singleton-considered-stupid). Its a fairly snarky post, but there's real insight to be had. I think his main point is that the Singleton pattern is overused and that its usually bad design to use it because of its global nature.
 

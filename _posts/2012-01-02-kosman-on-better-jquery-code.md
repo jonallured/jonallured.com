@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Kosman on Better jQuery Code
+published_at: Monday, January 2, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, January 2, 2012</p>
 
 24 Ways had one on [writing less sucky jQuery](http://24ways.org/2011/your-jquery-now-with-less-suck) and in the intro Scott Kosman talks about how its really easy to use jQuery to write spaghetti code. I've heard this term before, but never really knew what it meant other than the obvious implication that its something to avoid.
 

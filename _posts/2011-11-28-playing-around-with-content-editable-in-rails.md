@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Playing Around with Content Editable in Rails
+published_at: Monday, November 28, 2011
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Monday, November 28, 2011</p>
 
 I recently tried working with the `contenteditable` attribute on an internal project at [Hashrocket](http://hashrocket.com) with my pair [Dave Lyon](http://twitter.com/daveisonthego) and wanted to share what I thought about the experience. Our use case was simple:
 

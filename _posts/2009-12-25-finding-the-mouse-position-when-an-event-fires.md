@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Finding the Mouse Position When an Event Fires
+published_at: Friday, December 25, 2009
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Friday, December 25, 2009</p>
 
 We recently had a project where we needed to find out where the mouse was (its coordinates) when an event fired (hover). I wanted to create a little [example page](http://files.jonallured.com/examples/mouse_position.html) that I could play around with to see how this worked.
 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Using Devise for Admin Accounts
+published_at: Saturday, April 30, 2011
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Saturday, April 30, 2011</p>
 
 I use [Devise](https://github.com/plataformatec/devise) on almost every Rails project I work on and wanted to share some things I've learned about using it - specifically, how I use it for Admin accounts. Devise is a gem that creates user models and handles all the authentication that goes along with them. It also does things like password retrieval and account confirmations and it does all this in a very friendly, modular way where you can pick which parts your app needs. The team working on it has done a fabulous job with not only the code but also the documentation. I can't recommend it highly enough or thank them enough for what they've contributed to the Rails community.
 

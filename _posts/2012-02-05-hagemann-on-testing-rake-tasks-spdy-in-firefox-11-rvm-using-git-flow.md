@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Hagemann on Testing Rake Tasks; SPDY in FireFox 11; RVM Using Git Flow
+published_at: Sunday, February 5, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Sunday, February 5, 2012</p>
 
 Stephan Hagemann had a good [post on testing Rake tasks](http://pivotallabs.com/users/shagemann/blog/articles/1967-test-your-rake-tasks-). What I liked about it was the "before/after" structure of the post -- first he shows the anti-pattern and then he describes the approach he prefers. This is a good model for technical posts of this nature and I will try to remember it for my own writing.
 

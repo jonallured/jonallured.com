@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Rails 4.0 Will Drop Ruby 1.8.7; Croak Evaluates Decorators
+published_at: Tuesday, January 3, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Tuesday, January 3, 2012</p>
 
 Rails will stop supporting Ruby 1.8.7 with [the 4.0 series](http://weblog.rubyonrails.org/2011/12/20/rails-master-is-now-4-0-0-beta). DHH notes, however, that they intend to keep to a 2-year release cycle, thus don't look for 4.0 any time soon.
 

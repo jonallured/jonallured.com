@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Helms on Imprecise Floats; Carroll on Services
+published_at: Tuesday, January 24, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Tuesday, January 24, 2012</p>
 
 I've heard about Floating point numbers being flaky and I knew there was a perfectly logical reason for it, but I've never really groked it until reading [Clemens Helms' write up](http://www.rails-troubles.com/2011/12/ruby-float-quirks.html) on the topic. I really like how he articulates this concept: Float numbers are a binary format, implemented right on the processor of your computer, this is why they're so fast. When you use this format with a decimal number, its going to be converted from base 10 to base 2. This conversion can produce imprecise numbers in the same way that some decimal numbers aren't precise.
 

@@ -4,5 +4,7 @@ title: Home
 ---
 {% assign first_post = site.posts.first %}
 <article>
-{{ first_post.content }}
+	<h1>{{ first_post.title }}</h1>
+	<p id="articleDate">published {{ first_post.published_at }}</p>
+	{{ first_post.content }}
 </article>

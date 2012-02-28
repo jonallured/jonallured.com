@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Preston-Werner at RubyConf 2011 on GitHub Flavored Ruby
+published_at: Friday, January 6, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Friday, January 6, 2012</p>
 
 I just watched the video of Tom Preston-Werner at [RubyConf 2011](http://confreaks.net/events/rubyconf2011). His video was called "GitHub Flavored Ruby" and it was broken down into five parts that I took notes on individually.
 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Blocks in JavaScript; HATEOAS in Rails; Davey's turbux; watchr for Ruby Koans; Using a Single Ampersand
+published_at: Wednesday, January 11, 2012
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Wednesday, January 11, 2012</p>
 
 If Yehuda Katz has it his way, [JavaScript would get blocks](http://yehudakatz.com/2012/01/10/javascript-needs-blocks) and he supports his position with some examples.
 

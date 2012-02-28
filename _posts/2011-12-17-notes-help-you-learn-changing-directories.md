@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Notes Help You Learn; Changing Directories
+published_at: Saturday, December 17, 2011
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Saturday, December 17, 2011</p>
 
 I read about [the value of taking notes](http://swombat.com/2011/12/11/taking-notes) and was inspired to try taking notes while I read. This topic reminded me of that part of Junior High where we were taught note taking styles. One thing I remember was folding a paper in half and then writing stuff on one side or the other.
 

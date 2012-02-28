@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Bigg on Debugging; Shaughnessy on Rails Commits; OmniAuth 1.0; Videos from Windy City Rails 2011
+published_at: Sunday, December 18, 2011
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Sunday, December 18, 2011</p>
 
 Watched this great [screencast from Ryan Bigg on debugging](http://ryanbigg.com/2011/11/screencast-wrong-argument-type/). He goes through his steps to find the source of a `TypeError: wrong argument type Module (expected Class)` error and I really enjoyed watching it.
 

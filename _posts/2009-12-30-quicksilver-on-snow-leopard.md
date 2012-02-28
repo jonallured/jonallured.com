@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Quicksilver on Snow Leopard
+published_at: Wednesday, December 30, 2009
 ---
-
-{{ page.title }}
-================
-
-<p id="articleDate">published Wednesday, December 30, 2009</p>
 
 I've been lost and sad ever since I upgraded to Snow Leopard and couldn't run [Quicksilver](http://docs.blacktree.com/quicksilver/what_is_quicksilver), so I spent a little time today poking around and found [this post](http://groups.google.com/group/blacktree-quicksilver/browse_thread/thread/8432fc6538d2d778) in Quicksilver's Google Group that talks about how you can get it to work. Looks like all you have to do is run a beta version and the post identifies a particular preference file that you should delete - I had to actually delete the entire Quicksilver folder (~/Library/Application Support/Quicksilver) in order to even get it to open. This was the trick for me. I had installed this version before, but when I fired it up, nothing would happen. I had to actually delete this entire folder before it would do anything.
 
