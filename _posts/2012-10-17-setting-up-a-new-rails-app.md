@@ -53,7 +53,7 @@ The Rails help is pretty good, but I'll quickly describe the flags I'm using her
 Rails Template
 --------------
 
-I think Rails templates are pretty cool--they are just Ruby files that are run at the end of the Rails new process. You can pretty much do anything you can do in Ruby there, so they offer a lot of freedom. If you take a peek at [my Rails template](https://github.com/jonallured/rails_template/blob/master/template.rb), you'll see the following going on:
+I think Rails templates are pretty cool--they are just Ruby files that are run at the end of the Rails new process. Anything you can do in Ruby you can pretty much do in a template, so they offer a lot of freedom. If you take a peek at [my Rails template](https://github.com/jonallured/rails_template/blob/master/template.rb), you'll see the following going on:
 
 * setup an `.rvmrc` file for the project, there's an extra line here setting an environment variable, but we'll come back to this later.
 
@@ -144,7 +144,7 @@ Depending on what I'm working on, I'd probably also create a staging environment
 
 	$ heroku apps:create myapp-staging -r staging --addons pgbackups:plus,sendgrid:starter
 
-I used to need to specify a few addons that I'm always using but at this point both [Logging](https://devcenter.heroku.com/changelog-items/11) and [Release Management](https://devcenter.heroku.com/changelog-items/9) are both platform features, so its just the [PG Backups](https://addons.heroku.com/pgbackups) addon that I need. But most apps are going to work with Email, so I tend to throw [Sendgrid](https://addons.heroku.com/sendgrid) in there too.
+Heroku has changed a lot over the years--one place where they've really impressed me is by pulling in optional addons as automatic platform features. In the past, I needed to specify addons for logging and release management but both are platform features now. That makes creating a new app pretty easy, I've only been pulling in the [PG Backups](https://addons.heroku.com/pgbackups) and [Sendgrid](https://addons.heroku.com/sendgrid) ones lately.
 
 If you've never worked with two Heroku apps on the same Rails application, you'll quickly learn that in order for the Heroku gem to know which one you want to run a given command for, you have to specify it. There are two ways to do this, say we wanted to review the config for our staging application, we could do this by specifying the remote or the app name:
 
@@ -158,9 +158,9 @@ GitHub Repo
 
 At this point I think its time to push things out, so I like to setup a GitHub repo and add a remote for it. Once that's done lets get our initial commit pushed out:
 
-	$ git push origin
-	$ git push staging
-	$ git push production
+	$ git push origin master
+	$ git push staging master
+	$ git push production master
 
 That'll update both GitHub and the Heroku applications and our code is now out in the wild.
 
