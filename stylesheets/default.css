@@ -36,7 +36,7 @@ article p#articleDate { font-family: 'times new roman',times,serif; font-size: 1
 aside { font-family: 'times new roman',times,serif; font-size: 14px; float: right; line-height: 20px; margin: 30px 0; text-align: center; width: 180px; }
 aside h2 { font-size: 14px; letter-spacing: 2px; margin: 5px 0; text-transform: uppercase; }
 aside p { margin: 0 0 20px; }
-aside ul { list-style: none; margin: 0; padding: 0; }
+aside ul { list-style: none; margin: 0 0 20px; padding: 0; }
 
 div.project { border-bottom: 1px solid #000; margin: 15px 0; overflow: hidden; }
 div.project:last-child { border-bottom: none; }
