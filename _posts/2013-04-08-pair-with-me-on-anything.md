@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pair With Me on Anything!
-published_at: Monday, April 13, 2013
+published_at: Monday, April 8, 2013
 ---
 
 Last week I saw [Avdi Grimm](http://devblog.avdi.org/) give an excellent talk
