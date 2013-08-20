@@ -1,0 +1,12 @@
+header, footer { width: 100%; }
+header h1 { font-size: 36px; line-height: 44px; }
+header p, footer p { font-size: 16px; line-height: 22px; }
+section { margin: 0px; overflow: visible; width: 100%; }
+article { float: none; padding: 0; width: 100%; }
+article p, article ol, article ul { font-size: 16px; line-height: 24px; }
+aside { float: none; font-size: 14px; line-height: 20px; margin: 30px 0; width: 100%; }
+article h1 { font-size: 28px; margin: 0; }
+article h2 { font-size: 20px; }
+aside h2 { font-size: 22px; }
+aside p { font-size: 18px; }
+aside ul { font-size: 18px; line-height: 26px; }
