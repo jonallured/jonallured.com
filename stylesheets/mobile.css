@@ -10,3 +10,13 @@ article h2 { font-size: 20px; }
 aside h2 { font-size: 22px; }
 aside p { font-size: 18px; }
 aside ul { font-size: 18px; line-height: 26px; }
+.posts { padding: 0 0 0 20px; }
+form#contactForm div.wrapper { overflow: visible; width: auto; }
+form#contactForm div.field { overflow: visible; width: auto; }
+form#contactForm div.text input { float: none; width: 95%; }
+form#contactForm label { clear: none; float: none; width: auto; }
+form#contactForm textarea { clear: none; float: none; height: 200px; margin-top: 5px; padding: 5px; width: 95%; }
+form#contactForm div.action { overflow: visible; width: auto; }
+form#contactForm div.action input { clear: none; float: none; }
+ul.feeds li { float: none; width: auto; }
+ul.feeds { line-height: 26px; margin-bottom: 15px; overflow: hidden; padding: 0 0 0 20px; width: auto; }
