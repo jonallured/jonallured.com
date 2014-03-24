@@ -1,0 +1,28 @@
+---
+title: Contact
+---
+%article
+  %h1 Contact
+  %p Use the form below to send me a note.
+  %form#contactForm(method='post' action='/' style='display: none;')
+    %input(type='hidden' name='return_url' value='http://jonallured.com/contact/thanks.html')
+    %p#jsNote You must have JavaScript enabled to use this form.
+    .wrapper
+      .field.text
+        %label(for='name') Name:
+        %input#name.required(type='text' name='message[name]')
+      .field.text
+        %label(for='email') Email:
+        %input#email.required.email(type='text' name='message[email]')
+      .field.text
+        %label(for='subject') Subject:
+        %input#subject(type='text' name='message[subject]')
+      .field.textarea
+        %label(for='name') Message:
+        %textarea#body.required(name='message[body]')
+      .action
+        %input(type='submit' value='Submit')
+:javascript
+  $('#jsNote').hide();
+  $('form#contactForm').attr('action', 'http://contact.jonallured.com/');
+  $('form#contactForm').show();

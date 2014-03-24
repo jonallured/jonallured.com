@@ -1,0 +1,10 @@
+---
+title: All Posts
+---
+%article
+  %h1 All Posts
+  %ul.posts
+    - for article in blog.articles do
+      %li
+        = link_to article.title, article.url
+        %span.weak published #{article.date.strftime('%b %e, %Y')}

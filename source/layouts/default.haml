@@ -1,0 +1,49 @@
+!!!
+%html
+  %head
+    %meta(charset='utf-8')
+    %meta(http-equiv='X-UA-Compatible' content='IE=edge;chrome=1')
+    %meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0')
+    %meta(name='google-site-verification' content='KwvOLKa0ukD2SblVu5rN7aR_sGt4bTWMpVw-xBmWd5U')
+    %title #{current_page.data.title} | Jon Allured
+    = favicon_tag '/images/favicon.gif'
+    = feed_tag :atom, 'atom.xml', title: 'Atom Feed'
+    = stylesheet_link_tag :default
+    = stylesheet_link_tag :mobile, media: 'only screen and (max-device-width: 480px)'
+    = stylesheet_link_tag :print, media: :print
+    = javascript_include_tag :jquery, :validate, :behavior
+  %body
+    %header
+      %h1= link_to 'Jon Allured', '/'
+      %p Builder of Websites, Lover of Whiskey, Reader of Comic Books
+    %section
+      = yield
+      %aside
+        %h2 All Posts
+        %p= link_to 'View Complete List', '/all-posts.html'
+        %h2 RSS Feed
+        %ul
+          %li= link_to 'My Feed', '/atom.xml'
+          %li= link_to 'Feeds I Read', '/feeds-i-read.html'
+        %h2 Contact Me
+        %ul
+          %li= link_to 'Send Me a Note', '/contact-me.html'
+          %li= link_to 'Pair with Me', '/pair-with-me.html'
+        %h2 Projects
+        %ul
+          %li= link_to 'Feedjira', "https://github.com/feedjira/feedjira"
+          %li= link_to 'Fewer Onion', "http://feweronion.jonallured.com"
+          %li= link_to 'OpenHack Naperville', "http://www.meetup.com/OpenHack-Naperville/"
+          %li= link_to 'RubyConferences.org', "http://rubyconferences.org"
+          %li= link_to 'Vim Chicago', "http://www.meetup.com/Vim-Chicago/"
+        %h2 Elsewhere
+        %ul
+          %li= link_to 'Twitter', "https://twitter.com/jonallured"
+          %li= link_to 'GitHub', "https://github.com/jonallured"
+          %li= link_to 'Hashrocket', "http://hashrocket.com/team/jon-allured"
+          %li= link_to 'Facebook', "https://www.facebook.com/jonallured"
+    %footer
+      %p
+        &copy; Jon Allured,
+        = link_to 'view source', 'https://github.com/jonallured/jonallured.github.com'
+    = google_analytics_tag

@@ -1,0 +1,5 @@
+- wrap_layout :default do
+  %article
+    %h1= current_article.title
+    %p#articleDate published #{current_article.date.strftime('%A, %B %e, %Y')}
+    = yield
