@@ -19,31 +19,13 @@
     %section
       = yield
       %aside
-        %h2 All Posts
-        %p= link_to 'View Complete List', '/all-posts.html'
-        %h2 RSS Feed
-        %ul
-          %li= link_to 'My Feed', '/atom.xml'
-          %li= link_to 'Feeds I Read', '/feeds-i-read.html'
-        %h2 Contact Me
-        %ul
-          %li= link_to 'Send Me a Note', '/contact-me.html'
-          %li= link_to 'Pair with Me', '/pair-with-me.html'
-        %h2 Projects
-        %ul
-          %li= link_to 'Feedjira', "https://github.com/feedjira/feedjira"
-          %li= link_to 'Fewer Onion', "http://feweronion.jonallured.com"
-          %li= link_to 'OpenHack Naperville', "http://www.meetup.com/OpenHack-Naperville/"
-          %li= link_to 'RubyConferences.org', "http://rubyconferences.org"
-          %li= link_to 'Vim Chicago', "http://www.meetup.com/Vim-Chicago/"
-        %h2 Elsewhere
-        %ul
-          %li= link_to 'Twitter', "https://twitter.com/jonallured"
-          %li= link_to 'GitHub', "https://github.com/jonallured"
-          %li= link_to 'Hashrocket', "http://hashrocket.com/team/jon-allured"
-          %li= link_to 'Facebook', "https://www.facebook.com/jonallured"
+        - for section in data.sidebar do
+          %h2= section.title
+          %ul
+            - for link in section.links do
+              %li= link_to link.text, link.url
     %footer
       %p
         &copy; Jon Allured,
-        = link_to 'view source', 'https://github.com/jonallured/jonallured.github.com'
+        = link_to 'view source', 'https://github.com/jonallured/jonallured.com'
     = google_analytics_tag

@@ -1,0 +1,42 @@
+- title: All Posts
+  links:
+    - text: View Complete List
+      url: /all-posts.html
+
+- title: RSS Feed
+  links:
+    - text: My Feed
+      url: /atom.xml
+    - text: Feeds I Read
+      url: /feeds-i-read.html
+
+- title: Contact Me
+  links:
+    - text: Send Me A Note
+      url: /contact-me.html
+    - text: Pair With Me
+      url: /pair-with-me.html
+
+- title: Projects
+  links:
+    - text: Feedjira
+      url: https://github.com/feedjira/feedjira
+    - text: Fewer Onion
+      url: http://feweronion.jonallured.com
+    - text: OpenHack Naperville
+      url: http://www.meetup.com/OpenHack-Naperville/
+    - text: RubyConferences.org
+      url: http://rubyconferences.org
+    - text: Vim Chicago
+      url: http://www.meetup.com/Vim-Chicago/
+
+- title: Elsewhere
+  links:
+    - text: Twitter
+      url: https://twitter.com/jonallured
+    - text: GitHub
+      url: https://github.com/jonallured
+    - text: Hashrocket
+      url: http://hashrocket.com/team/jon-allured
+    - text: Facebook
+      url: https://www.facebook.com/jonallured
