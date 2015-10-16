@@ -1,6 +1,7 @@
 page '*', layout: :default
 page '/posts/*', layout: :post
 page 'atom.xml', layout: false
+page '/jack/*', layout: false
 
 activate :blog do |blog|
   blog.sources = 'posts/{year}-{month}-{day}-{title}.html'
