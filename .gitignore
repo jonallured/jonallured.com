@@ -2,3 +2,4 @@
 .env
 build
 source/jack/images/*-large.png
+.sass-cache
