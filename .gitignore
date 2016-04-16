@@ -1,3 +1,4 @@
 .cache
 .env
 build
+source/jack/images/*-large.png
