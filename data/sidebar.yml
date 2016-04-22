@@ -23,12 +23,8 @@
       url: https://github.com/feedjira/feedjira
     - text: Fewer Onion
       url: http://feweronion.jonallured.com
-    - text: OpenHack Naperville
-      url: http://www.meetup.com/OpenHack-Naperville/
     - text: RubyConferences.org
       url: http://rubyconferences.org
-    - text: Vim Chicago
-      url: http://www.meetup.com/Vim-Chicago/
 
 - title: Elsewhere
   links:
