@@ -1,4 +1,5 @@
 {
-  "source/posts/*.md": { "type": "posts" },
-  "source/layouts/*.html.haml": { "type": "layout" }
+  "data/*.yml": { "type": "data" },
+  "source/layouts/*.html.haml": { "type": "layout" },
+  "source/posts/*.md": { "type": "posts" }
 }
