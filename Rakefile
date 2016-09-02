@@ -1,7 +1,28 @@
 require 'date'
 require 'active_support'
+require 'nokogiri'
+require 'yaml'
 require 'dotenv'
 Dotenv.load
+
+class Feed
+  include Comparable
+
+  attr_reader :name, :url
+
+  def initialize(name, url)
+    @name = name
+    @url = url
+  end
+
+  def <=>(other)
+    self.name.upcase <=> other.name.upcase
+  end
+
+  def to_hash
+    { name: name, url: url }
+  end
+end
 
 desc 'Build Middleman site'
 task :build do
@@ -17,6 +38,26 @@ desc 'Deploy site'
 task :deploy do
   system 'middleman build --clean'
   system "rsync -av -e ssh --delete build/ #{ENV['DEPLOY_TARGET']}"
+end
+
+desc 'Parse Feedbin Subscription File'
+task :parse_subs do
+  unless File.exists? './subscriptions.xml'
+    puts "can't find subscriptions.xml file!"
+    exit 1
+  end
+
+  doc = File.open('subscriptions.xml') { |file| Nokogiri::XML file }
+
+  feeds = doc.css('outline').map do |node|
+    name = node.attributes['title'].value
+    url = node.attributes['xmlUrl'].value
+
+    Feed.new name, url
+  end
+
+  yaml = feeds.sort.map(&:to_hash).to_yaml
+  File.write 'data/feeds.yml', yaml
 end
 
 task default: [:build, :verify_html]
