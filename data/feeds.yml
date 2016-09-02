@@ -1,197 +1,71 @@
-- name: A List Apart
-  url: http://www.alistapart.com/site/rss
-
-- name: Aaron Patterson
-  url: http://tenderlovemaking.com/feed/
-
-- name: Adam Wiggins
-  url: http://adam.heroku.com/feed
-
-- name: Agile Bits
-  url: http://feeds.feedburner.com/AgileBits
-
-- name: Avdi Grimm
-  url: http://avdi.org/devblog/feed/
-
-- name: Campaign Monitor
-  url: http://feeds.feedburner.com/CampaignMonitorBlog
-
-- name: Chargify Changelog
-  url: http://changelog.chargify.com/rss
-
-- name: Chris Powers
-  url: http://containerdiv.wordpress.com/feed/
-
-- name: Dan Benjamin
-  url: http://feeds.feedburner.com/hivelogic
+- name: Ben Orenstein
+  url: http://feeds.feedburner.com/Codeulate
 
 - name: Daring Fireball
   url: http://daringfireball.net/index.xml
 
-- name: David Chelimsky
-  url: http://blog.davidchelimsky.net/feed/
+- name: dotmatrix commits
+  url: https://github.com/hashrocket/dotmatrix/commits/master.atom
 
-- name: DHH
-  url: http://feeds.feedburner.com/LoudThinking
+- name: Figure
+  url: http://www.figure.ink/blog?format=RSS
 
-- name: Engine Yard
-  url: http://feeds.feedburner.com/engineyard
+- name: FiveThirtyEight
+  url: http://fivethirtyeight.com/features/feed/
 
-- name: Eric Meyer
-  url: http://meyerweb.com/eric/thoughts/feed/
+- name: GitHub Engineering
+  url: http://githubengineering.com/atom.xml
 
-- name: FireBug
-  url: http://blog.getfirebug.com/feed/
+- name: GitHub Jobs
+  url: https://jobs.github.com/positions.atom
 
 - name: GitHub
   url: http://github.com/blog.atom
 
-- name: GitHub
-  url: http://feeds.feedburner.com/github
+- name: Hashrocket
+  url: http://hashrocket.com/blog/posts.rss
 
-- name: Google Chrome
-  url: http://feeds2.feedburner.com/blogspot/Egta
+- name: hr commits
+  url: https://github.com/hashrocket/hr/commits/master.atom
 
-- name: Gregory Moeck
-  url: http://feeds.feedburner.com/gmoeck
-
-- name: Hashrocket Articles
-  url: http://feeds.feedburner.com/Hashrocket
-
-- name: Heroku
-  url: http://feeds2.feedburner.com/heroku
-
-- name: IE
-  url: http://blogs.msdn.com/ie/rss.xml
-
-- name: Interface Guru
-  url: http://www.interfaceguru.com/feed/
-
-- name: Isaac Z. Schlueter
-  url: http://blog.izs.me/rss
-
-- name: Jamis Buck
-  url: http://feeds.feedburner.com/buckblog
-
-- name: Joe Hewitt
-  url: http://joehewitt.com/index.xml
-
-- name: John Resig
-  url: http://feeds.feedburner.com/JohnResig
+- name: Jon Allured
+  url: http://jonallured.com/atom.xml
 
 - name: Josh Davey
-  url: http://joshuadavey.com/rss
+  url: http://joshuadavey.com/atom.xml
 
-- name: jQuery
-  url: http://feeds.feedburner.com/jquery/
+- name: NSHipster
+  url: http://nshipster.com/feed.xml
 
-- name: Kyle Neath
-  url: http://feeds.feedburner.com/warpspire
-
-- name: Luke Wroblewski
-  url: http://feeds.feedburner.com/FunctioningForm
-
-- name: MailChimp
-  url: http://www.mailchimp.com/blog/feed/
-
-- name: Marco Arment
-  url: http://www.marco.org/rss
-
-- name: Mike Burns
-  url: http://mikeburnscoder.wordpress.com/feed/
-
-- name: Mozilla Hacks
-  url: http://hacks.mozilla.org/feed/
-
-- name: New Relic
-  url: http://blog.newrelic.com/feed/
-
-- name: Obie Fernandez
-  url: http://feeds.feedburner.com/obie
-
-- name: OCTOCATS!
-  url: http://feeds.feedburner.com/Octocats
-
-- name: Paul Irish
-  url: http://paulirish.com/feed/
-
-- name: PeepCode
-  url: http://blog.peepcode.com/articles.xml
-
-- name: PPK
-  url: http://www.quirksmode.org/blog/atom.xml
-
-- name: Rails Dispatch
-  url: http://www.railsdispatch.com/posts/feed.rss
-
-- name: Railscasts
-  url: http://feeds.feedburner.com/railscasts
-
-- name: Rebecca Murphey
-  url: http://rmurphey.com/atom.xml
-
-- name: Rick Olsen
-  url: http://feeds.feedburner.com/TechnoWeenie
-
-- name: RoR
-  url: http://feeds.feedburner.com/RidingRails
-
-- name: Ruby Inside
-  url: http://feeds.feedburner.com/RubyInside
-
-- name: Ryan Singer
-  url: http://feeds.feedburner.com/feltpresence
-
-- name: Short logic
-  url: http://shortlogic.tumblr.com/rss
-
-- name: Signal vs. Noise
-  url: http://feeds.feedburner.com/37signals/beMH
-
-- name: Sinatra
-  url: http://www.sinatrarb.com/feed.xml
-
-- name: Steve Klabnik
-  url: http://feeds.feedburner.com/steveklabnik
-
-- name: TextMate
-  url: http://blog.macromates.com/feed/
-
-- name: Thomas Fuchs
-  url: http://feeds.feedburner.com/miraculous
-
-- name: Thoughtbot
-  url: http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots
-
-- name: Tom Dale
-  url: http://tomdale.net/feed/
-
-- name: Webkit
-  url: http://webkit.org/blog/feed/
-
-- name: Will's Web Miscellany
-  url: https://willj.net/feed/
-
-- name: yayQuery
-  url: http://feeds.feedburner.com/yayQuery
-
-- name: Yehuda Katz
-  url: http://feeds.feedburner.com/KatzGotYourTongue
-
-- name: Zach Holman
-  url: http://feeds.feedburner.com/holman
-
-- name: Zeldman
-  url: http://www.zeldman.com/feed/
-
-- name: Laura Allured
-  url: http://www.lauraallured.com/feed
-
-- name: Meghan Poepping
-  url: http://www.megpoe.com/?feed=rss2
+- name: objc.io
+  url: http://www.objc.io/feed.xml
 
 - name: Penny Arcade
   url: http://penny-arcade.com/feed
+
+- name: Rails Blog
+  url: http://weblog.rubyonrails.org/feed/atom.xml
+
+- name: Ruby News
+  url: https://www.ruby-lang.org/en/feeds/news.rss
+
+- name: RubyGems
+  url: http://blog.rubygems.org/atom.xml
+
+- name: Swift Blog
+  url: https://developer.apple.com/swift/blog/news.rss
+
+- name: Swift.org
+  url: https://swift.org/atom.xml
+
+- name: Tenderlove
+  url: http://tenderlovemaking.com/atom.xml
+
+- name: The Oatmeal
+  url: http://feeds.feedburner.com/oatmealfeed
+
+- name: What If?
+  url: http://what-if.xkcd.com/feed.atom
 
 - name: xkcd
   url: http://xkcd.com/rss.xml
