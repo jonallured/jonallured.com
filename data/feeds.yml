@@ -1,71 +1,49 @@
-- name: Ben Orenstein
-  url: http://feeds.feedburner.com/Codeulate
-
-- name: Daring Fireball
-  url: http://daringfireball.net/index.xml
-
-- name: dotmatrix commits
-  url: https://github.com/hashrocket/dotmatrix/commits/master.atom
-
-- name: Figure
-  url: http://www.figure.ink/blog?format=RSS
-
-- name: FiveThirtyEight
-  url: http://fivethirtyeight.com/features/feed/
-
-- name: GitHub Engineering
-  url: http://githubengineering.com/atom.xml
-
-- name: GitHub Jobs
-  url: https://jobs.github.com/positions.atom
-
-- name: GitHub
-  url: http://github.com/blog.atom
-
-- name: Hashrocket
-  url: http://hashrocket.com/blog/posts.rss
-
-- name: hr commits
-  url: https://github.com/hashrocket/hr/commits/master.atom
-
-- name: Jon Allured
-  url: http://jonallured.com/atom.xml
-
-- name: Josh Davey
-  url: http://joshuadavey.com/atom.xml
-
-- name: NSHipster
-  url: http://nshipster.com/feed.xml
-
-- name: objc.io
-  url: http://www.objc.io/feed.xml
-
-- name: Penny Arcade
-  url: http://penny-arcade.com/feed
-
-- name: Rails Blog
-  url: http://weblog.rubyonrails.org/feed/atom.xml
-
-- name: Ruby News
-  url: https://www.ruby-lang.org/en/feeds/news.rss
-
-- name: RubyGems
-  url: http://blog.rubygems.org/atom.xml
-
-- name: Swift Blog
-  url: https://developer.apple.com/swift/blog/news.rss
-
-- name: Swift.org
-  url: https://swift.org/atom.xml
-
-- name: Tenderlove
-  url: http://tenderlovemaking.com/atom.xml
-
-- name: The Oatmeal
-  url: http://feeds.feedburner.com/oatmealfeed
-
-- name: What If?
-  url: http://what-if.xkcd.com/feed.atom
-
-- name: xkcd
-  url: http://xkcd.com/rss.xml
+---
+- :name: Ben Orenstein
+  :url: http://feeds.feedburner.com/Codeulate
+- :name: Daring Fireball
+  :url: http://daringfireball.net/index.xml
+- :name: dotmatrix commits
+  :url: https://github.com/hashrocket/dotmatrix/commits/master.atom
+- :name: Figure
+  :url: http://www.figure.ink/blog?format=RSS
+- :name: FiveThirtyEight
+  :url: http://fivethirtyeight.com/features/feed/
+- :name: GitHub
+  :url: http://github.com/blog.atom
+- :name: GitHub Engineering
+  :url: http://githubengineering.com/atom.xml
+- :name: GitHub Jobs
+  :url: https://jobs.github.com/positions.atom
+- :name: Hashrocket
+  :url: http://hashrocket.com/blog/posts.rss
+- :name: hr commits
+  :url: https://github.com/hashrocket/hr/commits/master.atom
+- :name: Jon Allured
+  :url: http://jonallured.com/atom.xml
+- :name: Josh Davey
+  :url: http://joshuadavey.com/atom.xml
+- :name: NSHipster
+  :url: http://nshipster.com/feed.xml
+- :name: objc.io
+  :url: http://www.objc.io/feed.xml
+- :name: Penny Arcade
+  :url: http://penny-arcade.com/feed
+- :name: Rails Blog
+  :url: http://weblog.rubyonrails.org/feed/atom.xml
+- :name: Ruby News
+  :url: https://www.ruby-lang.org/en/feeds/news.rss
+- :name: RubyGems
+  :url: http://blog.rubygems.org/atom.xml
+- :name: Swift Blog
+  :url: https://developer.apple.com/swift/blog/news.rss
+- :name: Swift.org
+  :url: https://swift.org/atom.xml
+- :name: Tenderlove
+  :url: http://tenderlovemaking.com/atom.xml
+- :name: The Oatmeal
+  :url: http://feeds.feedburner.com/oatmealfeed
+- :name: What If?
+  :url: http://what-if.xkcd.com/feed.atom
+- :name: xkcd
+  :url: http://xkcd.com/rss.xml
