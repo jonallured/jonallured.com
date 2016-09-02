@@ -1,0 +1,4 @@
+{
+  "source/posts/*.md": { "type": "posts" },
+  "source/layouts/*.html.haml": { "type": "layout" }
+}
