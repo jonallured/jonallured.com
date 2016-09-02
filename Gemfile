@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'builder', '~> 3.0'
+gem 'builder'
 gem 'dotenv'
-gem 'middleman', '3.4.0'
+gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-google-analytics'
 gem 'redcarpet'
