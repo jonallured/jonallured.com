@@ -1,4 +1,5 @@
-page '*', layout: :default
+set :layout, :default
+
 page '/posts/*', layout: :post
 page 'atom.xml', layout: false
 page '/jack/*', layout: false
