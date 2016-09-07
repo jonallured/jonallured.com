@@ -46,7 +46,7 @@ I had never seen `Object#singleton_methods` before and I got curious what else
 was out there, so I jumped over to `irb` and ran:
 
 ```ruby
-Object.methods.select {|method| method.to_s =~ /single/}
+Object.methods.select { |method| method.to_s =~ /single/ }
 # => [:singleton_class, :singleton_methods, :define_singleton_method]
 ```
 
