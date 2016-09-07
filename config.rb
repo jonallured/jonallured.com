@@ -10,9 +10,7 @@ set :images_dir, 'images'
 set :markdown_engine, :redcarpet
 
 activate :blog do |blog|
-  blog.sources = '{year}-{month}-{day}-{title}'
   blog.prefix = 'posts'
-  blog.default_extension = '.md'
 end
 
 activate :google_analytics do |ga|
