@@ -1,6 +1,5 @@
 set :layout, :default
 
-page '/posts/*', layout: :post
 page 'atom.xml', layout: false
 page '/jack/*', layout: false
 
@@ -12,6 +11,7 @@ set :markdown_engine, :redcarpet
 
 activate :blog do |blog|
   blog.prefix = 'posts'
+  blog.layout = 'post'
 end
 
 activate :google_analytics do |ga|
