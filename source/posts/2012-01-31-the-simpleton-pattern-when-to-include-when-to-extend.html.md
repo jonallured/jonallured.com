@@ -69,7 +69,7 @@ Eigenclass is just another name for the Singleton class that's created when you
 define methods on an object and the relationship between Module instance methods
 and class methods with the thing that's getting them mixed in.
 
-[singleton]: http://jonallured.com/2012/01/27/brown-on-the-singleton-in-ruby.html
+[singleton]: /posts/2012/01/27/brown-on-the-singleton-in-ruby.html
 [voxdolo]: http://twitter.com/voxdolo
 [simpleton]: https://sites.google.com/site/steveyegge2/singleton-considered-stupid
 [include_extend]: http://ficate.com/explaining-include-and-extend

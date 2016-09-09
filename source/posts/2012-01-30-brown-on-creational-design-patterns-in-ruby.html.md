@@ -120,5 +120,5 @@ conversation with other developers, we have the same vocabulary with which to
 discuss design and Brown seems to agree with this.
 
 
-[structural]: http://jonallured.com/2012/01/20/brown-on-structural-design-patterns-in-ruby.html
-[singleton]: http://jonallured.com/2012/01/27/brown-on-the-singleton-in-ruby.html
+[structural]: /posts/2012/01/20/brown-on-structural-design-patterns-in-ruby.html
+[singleton]: /posts/2012/01/27/brown-on-the-singleton-in-ruby.html

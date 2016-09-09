@@ -110,7 +110,7 @@ Module with extend self approach and see how far that gets me.
 Oh and he describes modules like `Math` module as "Function bags", which
 actually made me laugh out loud.
 
-[structural]: http://jonallured.com/2012/01/20/brown-on-structural-design-patterns-in-ruby.html
+[structural]: /posts/2012/01/20/brown-on-structural-design-patterns-in-ruby.html
 [shared]: http://practicingruby.com/articles/shared/jleygxejeopq
 [singleton_module]: http://ruby-doc.org/stdlib-1.9.3/libdoc/singleton/rdoc/Singleton.html
 [updated_thoughts]: http://practicingruby.com/articles/shared/jleygxejeopq
