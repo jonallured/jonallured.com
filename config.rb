@@ -8,6 +8,7 @@ set :js_dir, 'js'
 set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true
 
 activate :blog do |blog|
   blog.prefix = 'posts'
