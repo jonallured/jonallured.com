@@ -37,39 +37,5 @@ aside h2 { font-size: 14px; letter-spacing: 2px; margin: 5px 0; text-transform: 
 aside p { margin: 0 0 20px; }
 aside ul { list-style: none; margin: 0 0 20px; padding: 0; }
 
-div.project { border-bottom: 1px solid #000; margin: 15px 0; overflow: hidden; }
-div.project:last-child { border-bottom: none; }
-
-div.project h2 { margin-top: 0; }
-div.project img { border: 2px solid #555; float: left; margin: 12px 10px 10px 0; width: 250px; }
-div.project img:hover { border: 2px solid #00f; }
-
-div.project div.description { clear: both; }
-div.project div.details { margin-left: 264px; }
-
-form#contactForm div.wrapper { font-family: arial; overflow: hidden; width: 400px; }
-form#contactForm div.field { margin: 10px 0; overflow: hidden; width: 400px; }
-
-form#contactForm div.text input { border: 1px solid #333; font-size: 14px; float: left; margin: 0; padding: 5px; width: 200px; }
-form#contactForm div.text input.error { border: 1px solid #900; }
-form#contactForm label { clear: left; float: left; margin: 4px 0; width: 100px; }
-form#contactForm textarea { border: 1px solid #333; clear: left; float: left; height: 200px; margin-top: 5px; padding: 5px; width: 300px; }
-form#contactForm textarea.error { border: 1px solid #900; }
-
-form#contactForm div#subjectField { display: none; }
-
-form#contactForm div.action { overflow: hidden; width: 310px; }
-form#contactForm div.action input { background-color: #aaa; border: 1px solid #333; clear: left; color: #fff; float: right; font-size: 14px; font-weight: bold; margin: 5px 0 20px; padding: 5px 7px; }
-form#contactForm div.action input:hover { cursor: pointer; text-decoration: underline; }
-
-form#contactForm p#jsNote { color: #900; }
-form#contactForm label.error { color: #900; display: block; float: none; font-size: 12px; margin-left: 100px; text-align: center; width: 200px; }
-form#contactForm div.textarea label.error { color: #900; display: block; float: none; font-size: 12px; margin-left: 0; text-align: center; width: 312px; }
-
-p.callout { background-color: #666; border: 3px solid #000; float: right; margin: 0; padding: 4px 7px; }
-p.callout a { color: #fff; }
-div#contactDetails { display: none; }
-p#printNote { display: none; }
-
 ul.feeds li { float: left; width: 200px; }
 ul.feeds { line-height: 22px; margin-bottom: 15px; overflow: hidden; width: 600px; }
