@@ -1,6 +1,6 @@
-- title: All Posts
+- title: Blog Posts
   links:
-    - text: View Complete List
+    - text: Complete List
       url: /all-posts.html
 
 - title: RSS Feed
