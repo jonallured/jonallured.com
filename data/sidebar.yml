@@ -10,13 +10,6 @@
     - text: Feeds I Read
       url: /feeds-i-read.html
 
-- title: Contact Me
-  links:
-    - text: Send Me A Note
-      url: /contact-me.html
-    - text: Pair With Me
-      url: /pair-with-me.html
-
 - title: Projects
   links:
     - text: Feedjira
