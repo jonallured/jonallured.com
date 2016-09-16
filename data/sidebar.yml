@@ -1,5 +1,7 @@
 - title: Blog Posts
   links:
+    - text: Favorites
+      url: /favorite-posts.html
     - text: Complete List
       url: /all-posts.html
 

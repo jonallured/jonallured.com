@@ -1,5 +1,6 @@
 ---
 title: Setting Up a New Rails Application
+favorite: true
 ---
 
 When I'm starting a new Rails project I have a particular way I like to set

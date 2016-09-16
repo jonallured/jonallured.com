@@ -1,5 +1,6 @@
 ---
 title: Pair With Me on Anything!
+favorite: true
 ---
 
 Last week I saw [Avdi Grimm][avdi] give an excellent talk at [Ancient City
