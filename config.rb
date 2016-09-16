@@ -4,7 +4,6 @@ page 'atom.xml', layout: false
 page '/jack/*', layout: false
 
 set :css_dir, 'css'
-set :js_dir, 'js'
 set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
