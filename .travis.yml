@@ -7,3 +7,8 @@ rvm:
   - 2.3.1
 script:
   - bundle exec danger
+notifications:
+  email: false
+  webhooks:
+    urls:
+      - https://uplink-app.herokuapp.com/travis_hooks
