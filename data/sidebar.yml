@@ -14,6 +14,8 @@
 
 - title: Projects
   links:
+    - text: Commit Lint
+      url: https://github.com/jonallured/danger-commit_lint
     - text: Feedjira
       url: https://github.com/feedjira/feedjira
     - text: Fewer Onion
