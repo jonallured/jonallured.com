@@ -11,4 +11,4 @@ notifications:
   email: false
   webhooks:
     urls:
-      - https://uplink-app.herokuapp.com/travis_hooks
+      secure: FxlcbpXSzpcwtXEakZiyz1y5uBkIrgcwDiM+pWUrGtNzj6Zf8tOwMxDQyioOFAnpgiI2g49kFiUP8z0wuEocPV2rjlniq4Hwc9Grh25chshSx9b6UygbYZXyXUx+rqIvqn4japwBu0JhJoMgPmyb3lSqtVsvnqRgX/MSk3vhc8U=
