@@ -1,6 +1,13 @@
 body
   background-color: #fdfdfd
 
+a:link
+  color: #000
+a:visited
+  color: #777
+a:hover, a:active
+  color: #00F
+
 header, footer
   font-family: 'georgia', times, serif
   letter-spacing: 3px
@@ -15,7 +22,7 @@ header
     font-weight: normal
     line-height: 65px
     margin: 10px 0 5px
-    a
+    a:link, a:visited, a:hover, a:active
       color: #000
       text-decoration: none
   p
@@ -35,23 +42,11 @@ footer
     letter-spacing: 1px
     margin: 0 5px
     padding: 5px 0
-  a:link
-    color: #000
-  a:visited
-    color: #777
-  a:hover, a:active
-    color: #00F
 
 section
   margin: 0px auto
   overflow: hidden
   width: 800px
-  a:link
-    color: #000
-  a:visited
-    color: #777
-  a:hover, a:active
-    color: #00F
 
 article
   float: left
