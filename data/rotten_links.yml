@@ -40,3 +40,7 @@
   url: http://beginrescueend.com/workflow/rvmrc/
 - name: 21
   url: http://domaindrivendesign.org/books/evans_2003
+- name: 22
+  url: http://www.rails-troubles.com/2011/12/ruby-float-quirks.html
+- name: 23
+  url: http://ficate.com/explaining-include-and-extend

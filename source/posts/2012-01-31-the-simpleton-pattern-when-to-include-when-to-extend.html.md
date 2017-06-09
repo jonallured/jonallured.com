@@ -18,7 +18,7 @@ to read criticism like this, helps me have a more well-rounded view of things.
 
 I haven't had much experience with writing Modules in Ruby and so I've always
 been a little confused about the difference between `include` and `extend`, but
-Aaron Lasseigne's [write up on the topic][include_extend] was really helpful. He
+Aaron Lasseigne's [write up on the topic](/rotten.html#23) was really helpful. He
 starts out by giving us the common definition of when you use one or the other:
 
 > You **include** a module to add instance methods to a class and **extend** to
@@ -72,5 +72,4 @@ and class methods with the thing that's getting them mixed in.
 [singleton]: /posts/2012/01/27/brown-on-the-singleton-in-ruby.html
 [voxdolo]: http://twitter.com/voxdolo
 [simpleton]: https://sites.google.com/site/steveyegge2/singleton-considered-stupid
-[include_extend]: http://ficate.com/explaining-include-and-extend
 [brian]: http://twitter.com/higgaion

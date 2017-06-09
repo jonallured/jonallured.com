@@ -4,7 +4,7 @@ title: Helms on Imprecise Floats; Carroll on Services
 
 I've heard about Floating point numbers being flaky and I knew there was a
 perfectly logical reason for it, but I've never really groked it until reading
-[Clemens Helms' write up][float_quirks] on the topic. I really like how he
+[Clemens Helms' write up](/rotten.html#22) on the topic. I really like how he
 articulates this concept: Float numbers are a binary format, implemented right
 on the processor of your computer, this is why they're so fast. When you use
 this format with a decimal number, its going to be converted from base 10 to
@@ -82,7 +82,6 @@ that unless you need some other method of communication, you really don't need a
 service layer. I know I was having a hard time thinking of a case where you'd
 need another method, so I'm just going to believe him.
 
-[float_quirks]: http://www.rails-troubles.com/2011/12/ruby-float-quirks.html
 [big_decimal]: http://www.ruby-doc.org/stdlib-1.9.3/libdoc/bigdecimal/rdoc/BigDecimal.html
 [service_layer]: http://blog.carbonfive.com/2012/01/10/does-my-rails-app-need-a-service-layer/
 [action_mailer]: http://guides.rubyonrails.org/action_mailer_basics.html
