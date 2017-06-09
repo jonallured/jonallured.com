@@ -9,8 +9,6 @@ set :images_dir, 'images'
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true
 
-set :haml, { ugly: true }
-
 activate :blog do |blog|
   blog.prefix = 'posts'
   blog.layout = 'post'
