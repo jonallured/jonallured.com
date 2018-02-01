@@ -10,23 +10,19 @@
 - :name: CircleCI
   :url: https://circleci.com/blog/feed.xml
 - :name: Daring Fireball
-  :url: http://daringfireball.net/index.xml
+  :url: https://faring-direball.herokuapp.com/
 - :name: dotmatrix commits
   :url: https://github.com/hashrocket/dotmatrix/commits/master.atom
 - :name: Felix Krause
-  :url: https://krausefx.com/blog?format=RSS
+  :url: https://krausefx.com/feed.xml
 - :name: Figure
   :url: http://www.figure.ink/blog?format=RSS
 - :name: FiveThirtyEight
   :url: http://fivethirtyeight.com/features/feed/
-- :name: Giant Robots Smashing Into Other Giant Robots
-  :url: http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots
 - :name: GitHub
   :url: http://github.com/blog.atom
 - :name: GitHub Engineering
   :url: http://githubengineering.com/atom.xml
-- :name: GitHub Jobs
-  :url: https://jobs.github.com/positions.atom
 - :name: Hashrocket
   :url: http://hashrocket.com/blog/posts.rss
 - :name: Heroku
@@ -47,6 +43,8 @@
   :url: http://penny-arcade.com/feed
 - :name: Rails Blog
   :url: http://weblog.rubyonrails.org/feed/atom.xml
+- :name: React Blog
+  :url: https://reactjs.org/feed.xml
 - :name: Ruby News
   :url: https://www.ruby-lang.org/en/feeds/news.rss
 - :name: RubyGems
@@ -57,10 +55,14 @@
   :url: https://swift.org/atom.xml
 - :name: Tenderlove
   :url: http://tenderlovemaking.com/atom.xml
+- :name: Test Double
+  :url: http://blog.testdouble.com/index.xml
 - :name: The Oatmeal
   :url: http://feeds.feedburner.com/oatmealfeed
 - :name: The Travis CI Blog
   :url: https://blog.travis-ci.com/blog.xml
+- :name: thoughtbot
+  :url: http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots
 - :name: What If?
   :url: http://what-if.xkcd.com/feed.atom
 - :name: xkcd
