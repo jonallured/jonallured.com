@@ -34,8 +34,8 @@ something to watch.
 ---
 
 The RVM team switched to using the [Git Flow][git_flow] approach to structuring
-their project and have [finished the transition][rvm_stable], so now you can
-run:
+their project and have [finished the transition](/rotten.html#24), so now you
+can run:
 
 ```
 $ rvm get stable
@@ -55,6 +55,5 @@ workflow and would be interested in trying this system in a future project.
 [spdy_firefox]: http://hacks.mozilla.org/2012/02/spdy-brings-responsive-and-scalable-transport-to-firefox-11/
 [hypercritical]: http://5by5.tv/hypercritical/36
 [git_flow]: http://nvie.com/posts/a-successful-git-branching-model/
-[rvm_stable]: http://www.engineyard.com/blog/2012/rvm-stable-and-more
 [why_git_flow]: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/
 [git_extensions]: https://github.com/nvie/gitflow
