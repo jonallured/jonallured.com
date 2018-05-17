@@ -10,7 +10,7 @@
 - :name: CircleCI
   :url: https://circleci.com/blog/feed.xml
 - :name: Daring Fireball
-  :url: https://faring-direball.herokuapp.com/
+  :url: https://app.jonallured.com/faring_direball.json
 - :name: dotmatrix commits
   :url: https://github.com/hashrocket/dotmatrix/commits/master.atom
 - :name: Felix Krause
@@ -26,7 +26,7 @@
 - :name: Hashrocket
   :url: http://hashrocket.com/blog/posts.rss
 - :name: Heroku
-  :url: http://feeds2.feedburner.com/heroku
+  :url: https://blog.heroku.com/feed
 - :name: hr commits
   :url: https://github.com/hashrocket/hr/commits/master.atom
 - :name: Jon Allured
@@ -45,8 +45,12 @@
   :url: http://weblog.rubyonrails.org/feed/atom.xml
 - :name: React Blog
   :url: https://reactjs.org/feed.xml
+- :name: RSpec
+  :url: http://rspec.info/blog/feed.xml
 - :name: Ruby News
   :url: https://www.ruby-lang.org/en/feeds/news.rss
+- :name: Ruby Together
+  :url: https://rubytogether.org/news.xml
 - :name: RubyGems
   :url: http://blog.rubygems.org/atom.xml
 - :name: Swift Blog
@@ -63,6 +67,8 @@
   :url: https://blog.travis-ci.com/blog.xml
 - :name: thoughtbot
   :url: http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots
+- :name: Vimcasts
+  :url: http://vimcasts.org/feeds/ogg.rss
 - :name: What If?
   :url: http://what-if.xkcd.com/feed.atom
 - :name: xkcd
