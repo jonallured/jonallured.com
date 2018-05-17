@@ -31,8 +31,6 @@
   :url: https://github.com/hashrocket/hr/commits/master.atom
 - :name: Jon Allured
   :url: http://jonallured.com/atom.xml
-- :name: Josh Branchaud
-  :url: http://joshbranchaud.com/rss/
 - :name: Josh Davey
   :url: http://joshuadavey.com/atom.xml
 - :name: NSHipster
@@ -40,7 +38,7 @@
 - :name: objc.io
   :url: http://www.objc.io/feed.xml
 - :name: Penny Arcade
-  :url: http://penny-arcade.com/feed
+  :url: https://www.penny-arcade.com/feed
 - :name: Rails Blog
   :url: http://weblog.rubyonrails.org/feed/atom.xml
 - :name: React Blog
