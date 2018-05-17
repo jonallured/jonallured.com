@@ -5,6 +5,9 @@ branches:
 language: ruby
 rvm:
   - 2.5.1
+before_script:
+  - gem update --system
+  - gem install bundler
 script:
   - bundle exec danger
 notifications:
