@@ -1,17 +1,3 @@
-branches:
-  only:
-    - master
-    - travis
 language: ruby
 rvm:
-  - 2.5.1
-before_script:
-  - gem update --system
-  - gem install bundler
-script:
-  - bundle exec danger
-notifications:
-  email: false
-  webhooks:
-    urls:
-      secure: FxlcbpXSzpcwtXEakZiyz1y5uBkIrgcwDiM+pWUrGtNzj6Zf8tOwMxDQyioOFAnpgiI2g49kFiUP8z0wuEocPV2rjlniq4Hwc9Grh25chshSx9b6UygbYZXyXUx+rqIvqn4japwBu0JhJoMgPmyb3lSqtVsvnqRgX/MSk3vhc8U=
+  - 2.7.1
