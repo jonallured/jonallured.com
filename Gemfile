@@ -1,15 +1,14 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
-#ruby-gemset=jonallured.com
+ruby File.read('.tool-versions').split[1]
 
 gem 'builder'
+gem 'danger'
+gem 'danger-commit_lint'
 gem 'dotenv'
+gem 'html-proofer'
 gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-google-analytics'
-gem 'redcarpet'
-gem 'html-proofer'
 gem 'rake'
-gem 'danger'
-gem 'danger-commit_lint'
+gem 'redcarpet'
