@@ -8,6 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    ast (2.4.1)
     backports (3.18.2)
     builder (3.2.4)
     claide (1.0.3)
@@ -140,6 +141,8 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.19.2)
+    parser (2.7.1.5)
+      ast (~> 2.4.1)
     public_suffix (4.0.6)
     rack (2.2.3)
     rainbow (3.0.0)
@@ -149,7 +152,20 @@ GEM
       ffi (~> 1.0)
     rchardet (1.8.0)
     redcarpet (3.5.0)
+    regexp_parser (1.8.1)
     rexml (3.2.4)
+    rubocop (0.92.0)
+      parallel (~> 1.10)
+      parser (>= 2.7.1.5)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.7)
+      rexml
+      rubocop-ast (>= 0.5.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (0.7.1)
+      parser (>= 2.7.1.5)
+    ruby-progressbar (1.10.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     sawyer (0.8.2)
@@ -185,6 +201,7 @@ DEPENDENCIES
   middleman-google-analytics
   rake
   redcarpet
+  rubocop
 
 RUBY VERSION
    ruby 2.7.1p83
