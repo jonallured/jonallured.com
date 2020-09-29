@@ -6,6 +6,7 @@ require 'nokogiri'
 require 'yaml'
 require 'dotenv'
 require 'rubocop/rake_task'
+require 'html-proofer'
 
 require './lib/feed'
 
@@ -18,7 +19,8 @@ end
 
 desc 'Verify generated HTML'
 task :verify_html do
-  exit 2 unless system 'bundle exec htmlproofer ./build'
+  options = { assume_extension: true }
+  HTMLProofer.check_directory('build', options).run
 end
 
 desc 'Deploy site'
