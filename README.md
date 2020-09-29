@@ -2,6 +2,6 @@
 
 This is the source of [jonallured.com][site].
 
-[badge]: https://travis-ci.com/jonallured/jonallured.com.svg?branch=master
+[badge]: https://travis-ci.com/jonallured/jonallured.com.svg?branch=main
 [travisci]: https://travis-ci.com/github/jonallured/jonallured.com
-[site]: http://jonallured.com
+[site]: https://jonallured.com
