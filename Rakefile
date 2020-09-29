@@ -1,8 +1,11 @@
+# frozen_string_literal: true
+
 require 'date'
 require 'active_support'
 require 'nokogiri'
 require 'yaml'
 require 'dotenv'
+require 'rubocop/rake_task'
 
 require './lib/feed'
 
@@ -26,7 +29,7 @@ end
 
 desc 'Parse Feedbin Subscription File'
 task :parse_subs do
-  unless File.exists? './subscriptions.xml'
+  unless File.exist? './subscriptions.xml'
     puts "can't find subscriptions.xml file!"
     exit 1
   end
@@ -44,4 +47,7 @@ task :parse_subs do
   File.write 'data/feeds.yml', yaml
 end
 
-task default: [:build, :verify_html]
+desc 'Run RuboCop'
+RuboCop::RakeTask.new(:rubocop)
+
+task default: %i[rubocop build verify_html]

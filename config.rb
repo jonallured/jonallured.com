@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 set :layout, :default
 
 page 'atom.xml', layout: false
