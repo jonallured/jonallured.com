@@ -3,26 +3,10 @@ require 'active_support'
 require 'nokogiri'
 require 'yaml'
 require 'dotenv'
+
+require './lib/feed'
+
 Dotenv.load
-
-class Feed
-  include Comparable
-
-  attr_reader :name, :url
-
-  def initialize(name, url)
-    @name = name
-    @url = url
-  end
-
-  def <=>(other)
-    self.name.upcase <=> other.name.upcase
-  end
-
-  def to_hash
-    { name: name, url: url }
-  end
-end
 
 desc 'Build Middleman site'
 task :build do
