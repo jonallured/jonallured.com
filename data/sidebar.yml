@@ -14,14 +14,12 @@
 
 - title: Projects
   links:
-    - text: Commit Lint
-      url: https://github.com/jonallured/danger-commit_lint
-    - text: Fewer Onion
-      url: http://feweronion.jonallured.com
+    - text: Forty
+      url: https://www.fortyeven.com/
+    - text: pear
+      url: https://github.com/jonallured/pear
     - text: RubyConferences.org
       url: http://rubyconferences.org
-    - text: Tremendous Pixels
-      url: http://tremendouspixels.com/
 
 - title: Elsewhere
   links:
