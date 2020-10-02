@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 14
 title: Rails 4.0 Will Drop Ruby 1.8.7; Croak Evaluates Decorators
 ---
 

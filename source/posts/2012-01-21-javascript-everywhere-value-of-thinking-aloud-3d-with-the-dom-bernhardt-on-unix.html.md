@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 21
 title: JavaScript Everywhere; The Value of Thinking Aloud; 3D With Just the DOM; Bernhardt on Unix
 ---
 

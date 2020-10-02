@@ -1,6 +1,7 @@
 ---
-title: Commit Lint for Danger
 favorite: true
+id: 38
+title: Commit Lint for Danger
 ---
 
 I love using [Danger][danger] to automate routine Pull Request feedback and so I

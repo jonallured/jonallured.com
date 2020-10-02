@@ -1,6 +1,7 @@
 ---
-title: Notes Help You Learn; Changing Directories
 favorite: true
+id: 7
+title: Notes Help You Learn; Changing Directories
 ---
 
 I read about [the value of taking notes][notes] and was inspired to try taking

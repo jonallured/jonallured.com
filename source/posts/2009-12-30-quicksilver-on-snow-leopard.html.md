@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 2
 title: Quicksilver on Snow Leopard
 ---
 

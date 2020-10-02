@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 11
 title: Cowboying Some Code
 ---
 
