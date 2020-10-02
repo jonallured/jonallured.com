@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 25
 title: Brown on Creational Design Patterns in Ruby
 ---
 

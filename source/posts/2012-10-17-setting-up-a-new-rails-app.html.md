@@ -1,6 +1,7 @@
 ---
-title: Setting Up a New Rails Application
 favorite: true
+id: 35
+title: Setting Up a New Rails Application
 ---
 
 When I'm starting a new Rails project I have a particular way I like to set

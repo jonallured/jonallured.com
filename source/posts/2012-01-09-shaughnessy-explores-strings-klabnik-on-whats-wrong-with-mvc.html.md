@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 16
 title: Shaughnessy Explores Strings; Klabnik on What's Wrong With MVC
 ---
 

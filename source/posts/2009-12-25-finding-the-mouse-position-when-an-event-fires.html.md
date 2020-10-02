@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 1
 title: Finding the Mouse Position When an Event Fires
 ---
 

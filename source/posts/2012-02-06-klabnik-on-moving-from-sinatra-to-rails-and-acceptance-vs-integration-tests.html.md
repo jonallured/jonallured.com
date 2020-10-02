@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 28
 title: Klabnik on Moving from Sinatra to Rails and Acceptance vs. Integration Tests
 ---
 

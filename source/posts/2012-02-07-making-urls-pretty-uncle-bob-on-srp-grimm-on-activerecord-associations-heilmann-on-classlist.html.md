@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 29
 title: Making URLs Pretty; Uncle Bob on SRP; Grimm on ActiveRecord Associations; Heilmann on classList
 ---
 

@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 3
 title: Using Devise for Admin Accounts
 ---
 

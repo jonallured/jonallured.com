@@ -1,4 +1,6 @@
 ---
+favorite: false
+id: 22
 title: Kellum on Pixels; Shaughnessy on Shared Strings
 ---
 
