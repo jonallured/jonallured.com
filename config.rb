@@ -22,3 +22,5 @@ end
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-3137727-1'
 end
+
+activate :livereload
