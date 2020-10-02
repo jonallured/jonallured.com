@@ -1,42 +1,36 @@
 ---
 - :name: Artsy Engineering
   :url: http://artsy.github.io/feed
-- :name: Ash Furrow
+- :name: Ash Furrow's Blog
   :url: https://feed.ashfurrow.com/feed.xml
-- :name: Ben Orenstein
-  :url: http://feeds.feedburner.com/Codeulate
 - :name: Bundler Blog
   :url: http://bundler.io/blog/feed.xml
 - :name: CircleCI
   :url: https://circleci.com/blog/feed.xml
 - :name: Daring Fireball
   :url: https://app.jonallured.com/faring_direball.json
+- :name: dB
+  :url: https://code.dblock.org/feed.xml
 - :name: dotmatrix commits
   :url: https://github.com/hashrocket/dotmatrix/commits/master.atom
+- :name: Engineering – The GitHub Blog
+  :url: http://githubengineering.com/atom.xml
 - :name: Felix Krause
   :url: https://krausefx.com/feed.xml
 - :name: Figure
   :url: http://www.figure.ink/blog?format=RSS
-- :name: FiveThirtyEight
-  :url: http://fivethirtyeight.com/features/feed/
 - :name: GitHub
-  :url: http://github.com/blog.atom
-- :name: GitHub Engineering
-  :url: http://githubengineering.com/atom.xml
+  :url: https://blog.github.com/all.atom
 - :name: Hashrocket
   :url: http://hashrocket.com/blog/posts.rss
 - :name: Heroku
   :url: https://blog.heroku.com/feed
-- :name: hr commits
-  :url: https://github.com/hashrocket/hr/commits/master.atom
+- :name: Homebrew
+  :url: https://brew.sh/atom.xml
 - :name: Jon Allured
   :url: http://jonallured.com/atom.xml
 - :name: Josh Davey
   :url: http://joshuadavey.com/atom.xml
-- :name: NSHipster
-  :url: http://nshipster.com/feed.xml
-- :name: objc.io
-  :url: http://www.objc.io/feed.xml
 - :name: Penny Arcade
   :url: https://www.penny-arcade.com/feed
 - :name: Rails Blog
@@ -51,10 +45,8 @@
   :url: https://rubytogether.org/news.xml
 - :name: RubyGems
   :url: http://blog.rubygems.org/atom.xml
-- :name: Swift Blog
-  :url: https://developer.apple.com/swift/blog/news.rss
-- :name: Swift.org
-  :url: https://swift.org/atom.xml
+- :name: Steven Hicks
+  :url: https://www.stevenhicks.me/atom.xml
 - :name: Tenderlove
   :url: http://tenderlovemaking.com/atom.xml
 - :name: Test Double
@@ -71,3 +63,5 @@
   :url: http://what-if.xkcd.com/feed.atom
 - :name: xkcd
   :url: http://xkcd.com/rss.xml
+- :name: Yehuda Katz
+  :url: https://yehudakatz.com/rss/
