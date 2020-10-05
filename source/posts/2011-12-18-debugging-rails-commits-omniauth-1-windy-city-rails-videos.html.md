@@ -100,7 +100,7 @@ interesting to consider: developers that test are used to failure and have, in
 fact, embraced it as a means to write good code. There's something poetic about
 that.
 
-[screencast]: http://ryanbigg.com/2011/11/screencast-wrong-argument-type/
+[screencast]: https://ryanbigg.com/2011/11/screencast-wrong-argument-type
 [bundler]: http://gembundler.com/
 [fav_commits]: http://patshaughnessy.net/2011/12/6/learning-from-the-masters-some-of-my-favorite-rails-commits
 [omni]: https://github.com/omniauth/omniauth
