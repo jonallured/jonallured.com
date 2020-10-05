@@ -4,8 +4,8 @@ id: 17
 title: Releases for Both Rspec and Rails
 ---
 
-Rspec recently got [bumped to 2.8](/rotten.html#9), a minor version release with some
-cool stuff.
+Rspec recently got [bumped to 2.8](/rotten.html#9), a minor version release with
+some cool stuff.
 
 `rspec-core` now has an option where you can run things in a random order:
 
