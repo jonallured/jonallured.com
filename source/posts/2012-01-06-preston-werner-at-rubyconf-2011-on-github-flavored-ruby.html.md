@@ -98,6 +98,6 @@ your code wouldn't break because any minor change should be backwards compatible
 and not change the methods you rely on. Those types of changes would be major
 and thus require a bump that your Gemfile wouldn't allow.
 
-[rubyconf_videos]: http://confreaks.net/events/rubyconf2011
+[rubyconf_videos]: https://confreaks.tv/events/rubyconf2011
 [rdd]: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 [semver]: http://semver.org
