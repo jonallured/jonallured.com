@@ -147,7 +147,7 @@ even just the problem in front of us at the moment.
 [hot_js]: http://www.lukew.com/ff/entry.asp?1482
 [think_aloud]: http://www.useit.com/alertbox/thinking-aloud-tests.html
 [parallax]: http://en.wikipedia.org/wiki/Parallax
-[chainsaw]: http://confreaks.net/videos/615-cascadiaruby2011-the-unix-chainsaw
+[chainsaw]: https://confreaks.tv/videos/cascadiaruby2011-the-unix-chainsaw
 [shell_func]: http://tldp.org/LDP/abs/html/functions.html
 [das]: https://www.destroyallsoftware.com/screencasts
 [craftmanship]: http://manifesto.softwarecraftsmanship.org/

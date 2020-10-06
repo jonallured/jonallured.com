@@ -34,5 +34,5 @@ repeating myself, I usually do press "j" over and over to move down a page, so I
 need to work on that.
 
 [halt]: http://myronmars.to/n/dev-blog/2012/01/why-sinatras-halt-is-awesome
-[best]: http://rubysource.com/rails-or-sinatra-the-best-of-both-worlds
+[best]: https://www.sitepoint.com/rails-or-sinatra-the-best-of-both-worlds/
 [vim_tips]: https://www.destroyallsoftware.com/screencasts/catalog/some-vim-tips
