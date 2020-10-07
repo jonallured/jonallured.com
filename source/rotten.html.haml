@@ -23,5 +23,5 @@ title: Rotten Links
   %ol
     - for link in data.rotten_links do
       %li
-        %a{name: link.name}
+        %a{name: link.id}
         = link.url
