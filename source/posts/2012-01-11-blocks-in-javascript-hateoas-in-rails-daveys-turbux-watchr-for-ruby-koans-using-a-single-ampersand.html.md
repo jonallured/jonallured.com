@@ -77,7 +77,7 @@ that object.
 [hateoas]: http://blog.steveklabnik.com/posts/2012-01-06-implementing-hateoas-with-presenters
 [josh]: https://twitter.com/joshuadavey
 [turbux]: https://github.com/jgdavey/vim-turbux
-[announcement]: http://joshuadavey.com/post/15619414829/faster-tdd-feedback-with-tmux-tslime-vim-and
+[announcement]: https://joshuadavey.com/2012/01/10/faster-tdd-feedback-with-tmux-tslime-vim-and-turbux/
 [adam]: https://twitter.com/adam_lowe
 [watchr]: https://github.com/mynyml/watchr
 [koans]: https://github.com/edgecase/ruby_koans
