@@ -1,7 +1,7 @@
-# jonallured.com [![TravisCI][badge]][travisci]
+# jonallured.com [![CircleCI][badge]][circleci]
 
 This is the source of [jonallured.com][site].
 
-[badge]: https://travis-ci.com/jonallured/jonallured.com.svg?branch=main
-[travisci]: https://travis-ci.com/github/jonallured/jonallured.com
+[badge]: https://circleci.com/gh/jonallured/jonallured.com.svg?style=svg
+[circleci]: https://circleci.com/gh/jonallured/jonallured.com
 [site]: https://jonallured.com
