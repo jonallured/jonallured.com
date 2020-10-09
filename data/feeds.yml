@@ -31,6 +31,10 @@
   :url: http://jonallured.com/atom.xml
 - :name: Josh Davey
   :url: http://joshuadavey.com/atom.xml
+- :name: McSweeney’s
+  :url: https://feeds.feedburner.com/mcsweeneys
+- :name: Orta's Blog
+  :url: https://orta.io/blog.atom
 - :name: Penny Arcade
   :url: https://www.penny-arcade.com/feed
 - :name: Rails Blog
