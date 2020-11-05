@@ -17,6 +17,7 @@ activate :blog do |blog|
   blog.prefix = 'posts'
   blog.layout = 'post'
   blog.default_extension = '.md'
+  blog.new_article_template = File.expand_path('new_article_template.erb', File.dirname(__FILE__))
 end
 
 activate :google_analytics do |ga|
