@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+next_article_id=$(bundle exec rake next_article_id)
+
+title=$@
+future_date="7000-01-01"
+output=$(bundle exec middleman article "$title" --date $future_date)
+article_path=$(echo $output | tr -s ' ' | cut -d ' ' -f2)
+
+sed -i '' "s/REPLACE/$next_article_id/" $article_path
