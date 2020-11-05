@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -e
+
+post_folder="source/posts"
+future_date="7070-07-07"
+future_post=$(ls $post_folder | grep $future_date)
+future_title=$(echo $future_post | cut -c12-)
+today_date=$(date +%F)
+
+target_path="$post_folder/$future_post"
+new_path="$post_folder/$today_date-$future_title"
+
+mv $target_path $new_path
+
+future_id=$(cat $new_path | grep id | cut -f 2 -d ":")
+
+commit_message="Publish post$future_id"
+git commit -am "$commit_message"
+git push
+
+gh pr create --fill --label automerge
