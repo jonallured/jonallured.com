@@ -5,7 +5,7 @@ require './lib/rotten_list'
 desc 'Fix rotten link'
 task :fix_rot, [:url] do |_t, args|
   url = args[:url]
-  error_message = "Run like this: 'rake fix_rot[http://www.example.com/path/to/file.html]'"
+  error_message = "Run like this: 'rake fix_rot[http://www.example.com/path/to/page.html]'"
 
   unless url
     puts error_message
