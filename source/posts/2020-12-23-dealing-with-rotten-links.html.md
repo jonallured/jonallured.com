@@ -64,7 +64,7 @@ There's a Rake task that I wrote to automate the above process, it takes the URL
 that has gone stale:
 
 ```
-$ rake fix_rot http://example.com/path/to/page.html
+$ rake fix_rot[http://www.example.com/path/to/page.html]
 ```
 
 This task will:
