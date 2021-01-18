@@ -4,6 +4,10 @@ $light-gray: #eeeeee
 $gray: #777777
 $black: #000000
 
+$title-family: georgia, times, serif
+$body-family: arial
+$code-family: courier new, courier, monospace
+
 body
   background-color: $white
 
@@ -15,7 +19,7 @@ a:hover, a:active
   color: $blue
 
 header, footer, aside
-  font-family: 'georgia', times, serif
+  font-family: $title-family
   text-align: center
 
 header, section, footer
@@ -61,7 +65,7 @@ article
   padding: 0 5px
   width: 600px
   h1, h2, h3, h4, h5, h6
-    font-family: 'georgia', times, serif
+    font-family: $title-family
     font-weight: 400
     margin-bottom: -6px
   h1
@@ -70,14 +74,14 @@ article
   h2
     font-size: 20px
   p, ol, ul
-    font-family: arial
+    font-family: $body-family
     font-size: 14px
     line-height: 20px
   blockquote
     font-style: italic
   code
     background-color: $light-gray
-    font-family: 'courier new', courier, monospace
+    font-family: $code-family
   p
     code
       padding: 2px 4px
@@ -98,7 +102,7 @@ article
   .listHeading
     margin-bottom: -10px
   p#articleDate
-    font-family: 'georgia', times, serif
+    font-family: $title-family
     font-size: 15px
     font-style: italic
     margin: 6px 0 -3px
