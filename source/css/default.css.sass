@@ -1,12 +1,18 @@
+$white: #ffffff
+$blue: #0000FF
+$light-gray: #eeeeee
+$gray: #777777
+$black: #000000
+
 body
-  background-color: #fdfdfd
+  background-color: $white
 
 a:link
-  color: #000
+  color: $black
 a:visited
-  color: #777
+  color: $gray
 a:hover, a:active
-  color: #00F
+  color: $blue
 
 header, footer, aside
   font-family: 'georgia', times, serif
@@ -27,11 +33,11 @@ header
     line-height: 65px
     margin: 10px 0 5px
     a:link, a:visited, a:hover, a:active
-      color: #000
+      color: $black
       text-decoration: none
   p
-    border-bottom: 2px solid #000
-    border-top: 1px solid #000
+    border-bottom: 2px solid $black
+    border-top: 1px solid $black
     font-size: 13px
     line-height: 26px
     margin: 0 5px
@@ -40,8 +46,8 @@ header
 footer
   margin-bottom: 20px
   p
-    border-bottom: 2px solid #000
-    border-top: 1px solid #000
+    border-bottom: 2px solid $black
+    border-top: 1px solid $black
     font-size: 10px
     letter-spacing: 1px
     margin: 0 5px
@@ -70,24 +76,24 @@ article
   blockquote
     font-style: italic
   code
-    background-color: #eee
+    background-color: $light-gray
     font-family: 'courier new', courier, monospace
   p
     code
       padding: 2px 4px
   pre
-    background-color: #eee
+    background-color: $light-gray
     line-height: 16px
     overflow-x: auto
     padding: 10px
   hr
-    background-color: #888
+    background-color: $gray
     border: 0
     height: 1px
     margin: 25px auto
     width: 100px
   .weak
-    color: #666
+    color: $gray
     font-size: .85em
   .listHeading
     margin-bottom: -10px
