@@ -2,26 +2,25 @@
 title: Rotten Links
 ---
 
-%article
-  :markdown
-    # Rotten Links
+:markdown
+  # Rotten Links
 
-    You've reached this page because you clicked a link on this site that goes
-    to a page that is no longer available. This is called [link rot][wikipedia]
-    and it sucks. I don't want to have invalid links on my site, but I also
-    don't want to lose the context that the link was trying to provide.
+  You've reached this page because you clicked a link on this site that goes
+  to a page that is no longer available. This is called [link rot][wikipedia]
+  and it sucks. I don't want to have invalid links on my site, but I also
+  don't want to lose the context that the link was trying to provide.
 
-    [wikipedia]: https://en.wikipedia.org/wiki/Link_rot
+  [wikipedia]: https://en.wikipedia.org/wiki/Link_rot
 
-    The best I can do for you is to preserve the original destination of the
-    link here, un-hyperlinked. It's possible you'll be able to find another
-    page on the site where the content has been moved, or maybe you can find a
-    similar page on another site. Good luck, internet friend!! :D
+  The best I can do for you is to preserve the original destination of the
+  link here, un-hyperlinked. It's possible you'll be able to find another
+  page on the site where the content has been moved, or maybe you can find a
+  similar page on another site. Good luck, internet friend!! :D
 
-    Note: Check the anchor in the URL if you haven't been scrolled down.
+  Note: Check the anchor in the URL if you haven't been scrolled down.
 
-  %ol
-    - for link in data.rotten_links do
-      %li
-        %a{name: link.id}
-        = link.url
+%ol
+  - for link in data.rotten_links do
+    %li
+      %a{name: link.id}
+      = link.url

@@ -1,8 +1,7 @@
 ---
 title: Feeds I Read
 ---
-%article
-  %h1 Feeds I Read
-  %ul.feeds
-    - for feed in data.feeds do
-      %li= link_to feed.name, feed.url
+%h1 Feeds I Read
+%ul.feeds
+  - for feed in data.feeds do
+    %li= link_to feed.name, feed.url

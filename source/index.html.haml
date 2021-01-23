@@ -2,7 +2,6 @@
 title: Home
 ---
 - first_post = blog.articles.first
-%article
-  %h1= first_post.title
-  %p#articleDate published #{first_post.date.strftime('%A, %B %e, %Y')}
-  = first_post.body
+%h1= first_post.title
+%p#articleDate published #{first_post.date.strftime('%m/%d/%y')}
+= first_post.body

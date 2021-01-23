@@ -1,7 +1,6 @@
 ---
 title: Favorite Posts
 ---
-%article
-  %h1 Favorite Posts
-  - articles = blog.articles.select { |a| a.data.favorite }
-  = partial :articles, locals: { articles: articles }
+%h1 Favorite Posts
+- articles = blog.articles.select { |a| a.data.favorite }
+= partial :articles, locals: { articles: articles }
