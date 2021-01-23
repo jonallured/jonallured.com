@@ -16,7 +16,7 @@
       %h1= link_to 'Jon Allured', '/'
       %p Computer&nbsp;Programmer, Whiskey&nbsp;Drinker, Comic&nbsp;Book&nbsp;Reader
     %section
-      = yield
+      %article= yield
       %aside
         - for section in data.sidebar do
           %h2= section.title

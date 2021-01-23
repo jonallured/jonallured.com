@@ -34,7 +34,6 @@ versions so there aren't any surprises. Do your best to have what you run in
 production installed and in use on your development machine.
 
 ## Document What It Takes to Get the App Started
----------------------------------------------
 
 When you new up a Rails app, you are given a README file with some boilerplate
 and many projects never even change this. I think this is a missed opportunity
