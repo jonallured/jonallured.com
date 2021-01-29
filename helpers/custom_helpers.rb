@@ -2,6 +2,6 @@
 
 module CustomHelpers
   def clean_summary(article)
-    article.summary.gsub(%r{</?[^>]*>}, '')
+    article.summary.gsub(%r{</?[^>]*>}, '').gsub("\n", ' ')
   end
 end
