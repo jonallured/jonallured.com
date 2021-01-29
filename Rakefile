@@ -1,12 +1,13 @@
 # frozen_string_literal: true
 
-require 'date'
 require 'active_support'
-require 'nokogiri'
-require 'yaml'
+require 'date'
 require 'dotenv'
-require 'rubocop/rake_task'
 require 'html-proofer'
+require 'nokogiri'
+require 'rspec/core/rake_task'
+require 'rubocop/rake_task'
+require 'yaml'
 
 Rake.add_rakelib 'lib/tasks'
 Dotenv.load
@@ -34,7 +35,7 @@ task :deploy do
   system "rsync -av -e ssh --delete build/ #{ENV['DEPLOY_TARGET']}"
 end
 
-desc 'Run RuboCop'
 RuboCop::RakeTask.new(:rubocop)
+RSpec::Core::RakeTask.new(:spec)
 
-task default: %i[rubocop build check_html]
+task default: %i[rubocop spec build check_html]
