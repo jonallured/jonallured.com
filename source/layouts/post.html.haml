@@ -1,3 +1,8 @@
+- content_for :head do
+  %meta{ property: "og:image", content: "/images/headshot.png" }
+  %meta{ property: "og:title", content: current_article.title }
+  %meta{ property: "og:url", content: current_article.url }
+
 = wrap_layout :default do
   %h1= current_article.title
   %p#articleDate published #{current_article.date.strftime('%m/%d/%y')}

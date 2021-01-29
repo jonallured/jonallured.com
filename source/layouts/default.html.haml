@@ -11,6 +11,7 @@
     = stylesheet_link_tag :default
     = stylesheet_link_tag :mobile, media: 'only screen and (max-width: 800px)'
     = stylesheet_link_tag :print, media: :print
+    = yield_content :head
   %body
     %header
       %h1= link_to 'Jon Allured', '/'
