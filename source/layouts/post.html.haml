@@ -1,7 +1,7 @@
 - content_for :head do
   %meta{ name: "twitter:card", content: 'summary_large_image' }
   %meta{ property: "og:description", content: clean_summary(current_article) }
-  %meta{ property: "og:image", content: "/images/headshot.png" }
+  %meta{ property: "og:image", content: social_share_url(current_article) }
   %meta{ property: "og:title", content: current_article.title }
   %meta{ property: "og:url", content: current_article.url }
 
