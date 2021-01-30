@@ -1,7 +1,7 @@
 ---
 favorite: false
 id: 41
-title: Dealing with rotten links
+title: Dealing With Rotten Links
 ---
 
 In a perfect world hyperlinks would always work. We'd go through our lives
@@ -22,7 +22,7 @@ for these [Rotten Links][rotten] and then link to that page rather than the
 broken link. I run the un-hyperlinked URL on that page hoping that the reader
 can find something useful from this context.
 
-## Finding rotten links
+## Finding Rotten Links
 
 In order to find these broken external links on this site, I use a Ruby Gem
 called [HTMLProofer][htmlproofer] and have [a Rake task][rake_task] setup for
@@ -48,7 +48,7 @@ the freshest HTML to check and then the second one focuses HTMLProofer on
 external links. It'll usually take 10 seconds or more and then spit back a list
 of broken links and which page in the build folder contained the link.
 
-## Fixing rotten links
+## Fixing Rotten Links
 
 When I have found a broken link, I start by visiting it in a browser to ensure
 it's broken and to do some due diligence to see if I can find a replacement URL.
@@ -58,7 +58,7 @@ If I can't find a replacement, then I need to move this link to the Rotten Links
 page and replace the link with an anchor to that plain text URL. You can see
 [this PR for an example][pr].
 
-## Automating fixing broken links
+## Automating Fixing Broken Links
 
 There's a Rake task that I wrote to automate the above process, it takes the URL
 that has gone stale:

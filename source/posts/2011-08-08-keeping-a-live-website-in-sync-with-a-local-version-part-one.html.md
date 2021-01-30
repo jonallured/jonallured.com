@@ -1,7 +1,7 @@
 ---
 favorite: false
 id: 4
-title: Keeping a Live Website in Sync with a Local Version, Part One
+title: Keeping a Live Website in Sync With a Local Version, Part One
 ---
 
 *This part covers a project I worked on to keep a live website in sync with a

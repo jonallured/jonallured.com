@@ -1,7 +1,7 @@
 ---
 favorite: false
 id: 19
-title: Delayed Job hits 3.0; Marston on Deprecating Legacy Code
+title: Delayed Job Hits 3.0; Marston on Deprecating Legacy Code
 ---
 
 Delayed Job [went 3.0 recently][dj_post] with two major changes: named queues

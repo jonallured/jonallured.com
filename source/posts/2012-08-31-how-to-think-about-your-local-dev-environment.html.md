@@ -24,7 +24,7 @@ RVM to pick and stick with a particular version of Ruby, then create a
 from another application. Then I have Bundler so that I can keep development and
 production consistent.
 
-## Match Production As Much As Possible
+## Match Production as Much as Possible
 
 I've been bitten too many times by differences between my development and
 production environments to allow significant differences between the two

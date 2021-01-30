@@ -35,7 +35,7 @@ root@servername:~# adduser dev
 
 Use 1Password to set a really long password.
 
-## Add Dev User To Sudo Group
+## Add Dev User to Sudo Group
 
 ```
 root@servername:~# gpasswd -a dev sudo
@@ -105,7 +105,7 @@ With those settings, you can now SSH into the machine like this:
 $ ssh servername
 ```
 
-## Generating SSH Keys For Dev User
+## Generating SSH Keys for Dev User
 
 ```
 dev@servername:~$ ssh-keygen -t rsa -b 4096 -C "user@example.com"
@@ -144,7 +144,7 @@ dev@servername:~$ curl -sSL https://get.rvm.io | bash
 dev@servername:~$ rvm install 2.3.1
 ```
 
-## Change Dev User to use ZSH
+## Change Dev User to Use ZSH
 
 ```
 dev@servername:~$ chsh -s /bin/zsh
@@ -158,7 +158,7 @@ You'll need to log out and back in for this to take affect.
 dev@servername:~% mkdir code
 ```
 
-## Install dotfiles
+## Install Dotfiles
 
 I'd be lost without the Hashrocket dotfiles and commands, so I have to have them
 on the servers I setup:
