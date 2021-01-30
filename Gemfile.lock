@@ -129,6 +129,7 @@ GEM
     redcarpet (3.5.0)
     regexp_parser (1.8.2)
     rexml (3.2.4)
+    rmagick (4.1.2)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -184,6 +185,7 @@ DEPENDENCIES
   pry
   rake
   redcarpet
+  rmagick
   rspec
   rubocop
 
