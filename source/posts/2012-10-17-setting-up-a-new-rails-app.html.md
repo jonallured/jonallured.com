@@ -327,7 +327,7 @@ and off you go.
 You'll also get tasks to send data from production to staging and from staging
 down to your local.
 
-## This is Just a Start
+## This Is Just a Start
 
 At this point I've probably committed a few times but now I'd be ready to start
 putting in stuff that's specific to the application and know that the

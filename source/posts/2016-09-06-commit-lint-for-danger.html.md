@@ -18,7 +18,7 @@ rules:
 * Message subject should not end in a period
 * Message subject and body should be separated by an empty line
 
-## Using the plugin
+## Using the Plugin
 
 After having [setup Danger][setup], simply add this line to your Dangerfile:
 
