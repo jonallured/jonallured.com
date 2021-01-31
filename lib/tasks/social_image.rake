@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative '../post_parser'
-require_relative '../social_image'
+require './lib/post_parser'
+require './lib/social_image'
 
 desc 'Generate social image'
 task :social_image, [:path] do |_task, args|
