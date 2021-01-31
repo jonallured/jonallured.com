@@ -2,7 +2,7 @@
 
 xml.instruct!
 xml.feed 'xmlns' => 'http://www.w3.org/2005/Atom' do
-  site_url = 'http://jonallured.com'
+  site_url = 'https://www.jonallured.com'
   xml.title 'Jon Allured'
   xml.id URI.join(site_url, blog.options.prefix.to_s)
   xml.link 'href' => URI.join(site_url, blog.options.prefix.to_s)
