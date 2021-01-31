@@ -5,7 +5,7 @@
     - text: Complete List
       url: /all-posts.html
 
-- title: RSS Feed
+- title: RSS
   links:
     - text: My Feed
       url: /atom.xml
