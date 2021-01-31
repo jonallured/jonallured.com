@@ -78,8 +78,13 @@ class SocialImage
 
   private
 
+  def two_line_title?
+    options[:title_parts].size == 2
+  end
+
   def create_image
-    @social_image = Magick::Image.new(WIDTH, HEIGHT) do |image|
+    image_height = two_line_title? ? HEIGHT : HEIGHT - 80
+    @social_image = Magick::Image.new(WIDTH, image_height) do |image|
       image.background_color = WHITE
       image.format = 'png'
     end
@@ -112,7 +117,8 @@ class SocialImage
 
   def draw_bottom_line
     header_line = HeaderLine.create(6)
-    header_line.line(50, 220, WIDTH - 50, 220)
+    y_offset = two_line_title? ? 220 : 150
+    header_line.line(50, y_offset, WIDTH - 50, y_offset)
     header_line.draw(social_image)
   end
 
@@ -128,9 +134,10 @@ class SocialImage
   def draw_meta
     meta_lines = compute_meta
     pointsize = MetaText::POINTSIZE
+    y_offset = two_line_title? ? 260 : 190
 
     meta_lines.each_with_index do |line, i|
-      offset = (pointsize * i * 1.2) + 260
+      offset = (pointsize * i * 1.2) + y_offset
       MetaText.generate.annotate(social_image, WIDTH / 2, pointsize, 50, offset, line)
     end
   end
@@ -138,18 +145,19 @@ class SocialImage
   def draw_headshot
     headshot_size = HEIGHT / 4
     append_image = Magick::Image.read('source/images/headshot.png').first.resize_to_fit(headshot_size)
-    y_offset = 260
+    y_offset = two_line_title? ? 260 : 190
     social_image.composite!(append_image, (WIDTH - headshot_size - 50), y_offset, Magick::OverCompositeOp)
   end
 
   def draw_author
     author = 'Jon Allured'.upcase
-    AuthorText.generate.annotate(social_image, WIDTH, AuthorText::POINTSIZE, 50, 400, author)
+    y_offset = two_line_title? ? 400 : 330
+    AuthorText.generate.annotate(social_image, WIDTH, AuthorText::POINTSIZE, 50, y_offset, author)
   end
 
   def write_image
     path = options[:output_path]
-    FileUtils.mkdir(File.dirname(path))
+    FileUtils.mkdir_p(File.dirname(path))
     social_image.write(path)
   end
 end
