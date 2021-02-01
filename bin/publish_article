@@ -13,6 +13,8 @@ new_path="$post_folder/$today_date-$future_title"
 
 mv $target_path $new_path
 
+bundle exec rake social_image[$new_path]
+
 future_id=$(cat $new_path | grep id | cut -f 2 -d ":")
 
 commit_message="Publish post$future_id"
