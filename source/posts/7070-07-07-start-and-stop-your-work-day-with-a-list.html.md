@@ -27,11 +27,11 @@ find it, I click on it and see a bunch of subtasks:
 * review pulls
 * review Jira
 
-This list is what I follow to begin my day and it goes from least distracting to
-more distracting. By the time I finish this list I'm ready to dive into whatever
-I want to work on but have also ensured that I'm aware of whatever might need my
-attention. I've also taken care of myself by doing things that set me up for an
-effective day.
+This list is what I follow to begin my day and it goes from quick, routine tasks
+to ones that are more complicated. By the time I finish this list I'm ready to
+dive into deep work. I have ensured that I'm aware of whatever might need to
+interrupt me and need my attention right away. I've also taken care of myself by
+doing things that set me up for an effective day.
 
 ## I Don't Know What Some of These Items Mean
 
@@ -88,17 +88,17 @@ Start List
 Stop List
 
 * quit chat app and email: begin winding down by quitting the most distracting
-  things in your life. Don't let them be the first thing you see when you sit
+  things in ones life. Don't let them be the first thing you see when you sit
   down tomorrow morning.
-* check time of first meeting tomorrow: avoid being surprised by first-thing
-  meetings by checking for the time of your first meeting the next day.
+* check time of first meeting tomorrow: avoid being surprised by checking
+  tomorrow's agenda for the time of your first meeting.
 
 ## What Else Should I Add?
 
-My lists have evolved over time to include hints, prompts, and nudges that I
-find useful - you should be on the look out for these too! An item on these
-lists can be anything but incorporating this basic flow into your life is what
-sets you up to build upon it and that's where the real power comes from.
+My start and stop lists have evolved over time to include hints, prompts, and
+nudges that I find useful - you should be on the look out for these too! An item
+on these lists can be anything but incorporating this basic flow into your life
+is what sets you up to build upon it and that's where the real power comes from.
 
-[Todoist]: https://todoist.com/r/jonathan_allured_mzkvzo
+[Todoist]: https://todoist.com/
 [Forty]: https://www.fortyeven.com/
