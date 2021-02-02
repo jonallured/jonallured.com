@@ -54,8 +54,8 @@ class SocialImage
   WIDTH = 1024
   HEIGHT = 512
 
-  WHITE = '#ffffff'
-  BLACK = '#000000'
+  WHITE = '#FFFFFF'
+  BLACK = '#333333'
 
   GEORGIA_PATH = '/System/Library/Fonts/Supplemental/Georgia.ttf'
   VERDANA_PATH = '/System/Library/Fonts/Supplemental/Verdana.ttf'
