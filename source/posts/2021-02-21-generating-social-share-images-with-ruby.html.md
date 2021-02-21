@@ -14,8 +14,8 @@ than I should have!
 I think they turned out pretty great:
 
 <div class="imageWrapper">
-  <a href="https://www.jonallured.com/images/post-42/social-share.png">
-    <img alt="Social Share Image for Post 42: Start and Stop Your Work Day With a List." src="https://www.jonallured.com/images/post-42/social-share.png" width="512" height="256" />
+  <a href="/images/post-42/social-share.png">
+    <img alt="Social Share Image for Post 42: Start and Stop Your Work Day With a List." src="/images/post-42/social-share.png" width="512" height="256" />
   </a>
   <p><em>click for bigger</em></p>
 </div>
@@ -170,8 +170,8 @@ work the way I expected at first but here's an example of how it looks:
 And here's how it looks on Twitter in all it's unfurled glory:
 
 <div class="imageWrapper">
-  <a href="images/post-45/unfurled.png">
-    <img alt="Unfurled social share image as seen on Twitter." src="images/post-45/unfurled.png" width="500" />
+  <a href="/images/post-45/unfurled.png">
+    <img alt="Unfurled social share image as seen on Twitter." src="/images/post-45/unfurled.png" width="500" />
   </a>
   <p><em>click for bigger</em></p>
 </div>
@@ -181,8 +181,8 @@ And here's how it looks on Twitter in all it's unfurled glory:
 I also did this for the [Forty blog][forty-blog]:
 
 <div class="imageWrapper">
-  <a href="images/post-45/forty-unfurled.png">
-    <img alt="Unfurled Forty social share image as seen on Twitter." src="images/post-45/forty-unfurled.png" width="500" />
+  <a href="/images/post-45/forty-unfurled.png">
+    <img alt="Unfurled Forty social share image as seen on Twitter." src="/images/post-45/forty-unfurled.png" width="500" />
   </a>
   <p><em>click for bigger</em></p>
 </div>
