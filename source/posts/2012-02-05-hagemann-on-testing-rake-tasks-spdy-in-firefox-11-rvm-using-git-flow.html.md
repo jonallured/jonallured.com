@@ -53,7 +53,7 @@ much][why_git_flow]. He talks about using the [git extensions][git_extensions]
 and how he uses them in various situations. I enjoyed thinking about another
 workflow and would be interested in trying this system in a future project.
 
-[test_rake]: http://pivotallabs.com/users/shagemann/blog/articles/1967-test-your-rake-tasks-
+[test_rake]: /rotten.html#26
 [spdy_firefox]: http://hacks.mozilla.org/2012/02/spdy-brings-responsive-and-scalable-transport-to-firefox-11/
 [hypercritical]: http://5by5.tv/hypercritical/36
 [git_flow]: http://nvie.com/posts/a-successful-git-branching-model/

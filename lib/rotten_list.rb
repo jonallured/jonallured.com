@@ -38,7 +38,7 @@ class RottenList
     end
 
     def to_hash
-      { id: id, url: url }
+      { 'id' => id, 'url' => url }
     end
   end
 end
