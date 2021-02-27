@@ -4,6 +4,8 @@
       url: /favorite-posts.html
     - text: Complete List
       url: /all-posts.html
+    - text: Work Posts
+      url: https://artsy.github.io/author/jonallured/
 
 - title: RSS
   links:
