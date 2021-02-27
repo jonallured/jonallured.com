@@ -21,6 +21,6 @@ task :fix_rot, [:url] do |_t, args|
   yaml = rotten_list.links.sort.map(&:to_hash).to_yaml
   File.write(path, yaml)
 
-  replace_command = "replace #{url} rotten.html##{next_link.name} ./source/posts/"
-  system replace_command
+  replace_command = "replace #{url} /rotten.html##{next_link.id} ./source/posts/"
+  puts replace_command
 end

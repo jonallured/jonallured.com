@@ -1,3 +1,4 @@
+---
 - id: 1
   url: http://files.jonallured.com/examples/mouse_position.html
 - id: 2
@@ -46,3 +47,7 @@
   url: http://ficate.com/explaining-include-and-extend
 - id: 24
   url: http://www.engineyard.com/blog/2012/rvm-stable-and-more
+- id: 25
+  url: http://ancientcityruby.com
+- id: 26
+  url: http://pivotallabs.com/users/shagemann/blog/articles/1967-test-your-rake-tasks-

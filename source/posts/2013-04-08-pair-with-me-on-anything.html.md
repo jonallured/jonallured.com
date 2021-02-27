@@ -20,7 +20,7 @@ I was inspired to set aside some time to do more remote pairing.
 So, if you have something you'd like to pair on, please [hit me up on
 Twitter][twitter] and let's figure out a time to work together!
 
-[avdi]: http://devblog.avdi.org/
-[acr]: http://ancientcityruby.com/
-[site]: http://www.pairprogramwith.me/
+[avdi]: http://devblog.avdi.org
+[acr]: /rotten.html#25
+[site]: http://www.pairprogramwith.me
 [twitter]: http://twitter.com/jonallured
