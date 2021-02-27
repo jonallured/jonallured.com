@@ -1,0 +1,7 @@
+---
+title: Podcasts
+---
+%h1 Podcasts
+%ul.podcasts
+  - for podcast in data.podcasts do
+    %li= link_to podcast.name, podcast.url
