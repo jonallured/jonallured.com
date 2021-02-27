@@ -13,6 +13,8 @@
       url: /atom.xml
     - text: Feeds I Read
       url: /feeds-i-read.html
+    - text: Podcasts
+      url: /podcasts.html
 
 - title: Projects
   links:
