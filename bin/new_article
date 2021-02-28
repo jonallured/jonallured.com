@@ -11,3 +11,5 @@ output=$(bundle exec middleman article "$clean_title" --date $future_date)
 article_path=$(echo $output | tr -s ' ' | cut -d ' ' -f2)
 
 sed -i '' "s/REPLACE/$next_article_id/" $article_path
+
+git checkout -b post-$next_article_id
