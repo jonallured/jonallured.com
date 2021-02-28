@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+week_number=$(date +"%-V")
+year=$(date +"%Y")
+title="Week in Review: Week ${week_number}, ${year}"
+
+cp week_review_template.erb new_article_template.erb
+./bin/new_article $title
+git checkout new_article_template.erb
