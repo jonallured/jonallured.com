@@ -6,6 +6,6 @@ week_number=$(date +"%-V")
 year=$(date +"%Y")
 title="Week in Review: Week ${week_number}, ${year}"
 
-cp week_review_template.erb new_article_template.erb
+cp article_templates/week_review.erb article_templates/default.erb
 ./bin/new_article $title
-git checkout new_article_template.erb
+git checkout article_templates/default.erb
