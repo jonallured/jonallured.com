@@ -6,27 +6,55 @@ title: "My Lab Notebook"
 
 I keep a lab notebook with notes from doing my work, personal or professional.
 This habit has evolved over time, but I'm still inspired by [a blog post Nelson
-Elhage did][inspiration] to write things down and then save them to refer back
-to later! My lab notebook is built using [Middleman][] and a few tricks.
+Elhage wrote][inspiration] where he proposes that Engineers should keep a lab
+notebook. My lab notebook is built using [Middleman][] and a few tricks and I
+want to tell you all about it!
 
 [inspiration]: https://blog.nelhage.com/2010/05/software-and-lab-notebooks/
 [Middleman]: https://middlemanapp.com/
 
-## How is a Lab Notebook Different?
+## What Makes a Lab Notebook Different?
 
-For me, keeping a lab notebook is a state of mind: whatever I'm working on is
-worth documenting because you never know when you'll want to refer to notes
-later. Everything from keeping some notes about the commands I'm running to
-accomplish a task to notes where I'm listing candidates for a variable name.
+For me, keeping a lab notebook is a state of mind: what I'm working on is worth
+documenting and you can never have too many notes. One never knows when or what
+part of your notes you'll want to refer to later so make it easy on yourself and
+write everything down and keep it all. I keep all kinds of notes - ones about
+the commands I'm running to accomplish a task or even one where I'm
+brainstorming the name of a class. Scraps of SQL litter my notebook along with
+the occasional note about how I fixed a Rails upgrade.
+
+## Making New Notes
+
+Making a new note looks like this:
+
+```
+# create a new general note file
+$ ./bin/new_note
+source/notes/general/2021/04/twenty-four.html.md
+
+# create a new general note file with custom title
+$ ./bin/new_note "some great title"
+source/notes/general/2021/04/some-great-title.html.md
+
+# create a new general note file and copy the path to clipboard
+$ ./bin/new_note | pbcopy
+```
+
+This script wraps the `middleman article "title goes here"` command with some
+goodies:
+
+* generate the next id number for the new note
+* if a title is provided ensure the casing is correct
+* if no title is provided convert the id number to words and use that for title
+* spit back the path so that I can copy it and start editing
 
 ## General Notes vs Structured Notes
 
-One pattern I've landed on that has helped keep me organized is having a place
-for general notes, but then also adding in some structure for a couple types of
-notes. These structured notes come in two flavors: notes about the current
-sprint I'm working on and notes for the One-on-one meetings I take.
+I've got a folder of general notes as described above but then I also have a
+couple types of notes that I've broken out into their own folders: notes about
+the current sprint I'm working on and notes for the one-on-one meetings I take.
 
-## Sprint Notes
+### Sprint Notes
 
 At Artsy we work in two-week long sprints and during that time we'll have
 various meetings:
@@ -37,11 +65,20 @@ various meetings:
 * ticket grooming
 * sprint planning
 
-So in my lab notebook I generate a skelleton of notes for each sprint that looks
+I use these recurring meetings to guide the organization of my sprint notes. In
+my lab notebook I generate a skeleton of notes for each sprint that looks
 something like this:
 
 ```
+# create a new skeleton of notes file for the 7th sprint of 2021
+$ ./bin/new_sprint 2021-07
+
+# the resulting skeleton structure
 source/notes/sprints/2021-07/
+  grooming.html.md
+  planning.html.md
+  props.html.md
+  retro.html.md
   week-1/
     1-monday.html.md
     2-tuesday.html.md
@@ -56,68 +93,128 @@ source/notes/sprints/2021-07/
     4-thursday.html.md
     5-friday.html.md
     knowledge-share.html.md
-  grooming.html.md
-  planning.html.md
-  props.html.md
-  retro.html.md
 ```
 
-This gives me a notes file for each day of the sprint where I can add my standup
-notes. Then I also have a spot for any notes resulting from our knowledge share
-meetings or I can drop an idea there ahead of time.
+This gives me a notes file for each of the sprint meetings and I start it out
+with just a `Prep` section and a spot for `Notes`. I can drop ideas ahead of
+time in that `Prep` section and then when the meeting occurs I jot things down
+under the `Notes` header.
 
-Same goes for the grooming, planning and retro documents: I can use these files
-to jot down things I want to bring up at these meetings and then also record any
-notes that surface during the meetings.
+Also generated is a folder for each week of the sprint with a file for each day
+and this is where I put my standup notes.
 
-Finally I keep a props file going so I can brag on my fabulous coworkers!
+I also keep a props file going so I can brag on my fabulous coworkers!
 
-## One-on-one Notes
+### One-on-one Notes
 
-This one is simple - when I start by day I look at my calendar to see what
-meetings I have for the day and I create a notes file for every One-on-one
-meeting. Those notes files have a section for prep and another for notes. In the
-prep section I can quickly record anything that I know I want to bring up with
-the person. Then when we have the meeting I can record anything that comes up.
-
-## The Scripts
-
-I wrote a set of bash scripts to generate these files for me and then I run them
-like this:
+When I start my day I look at my calendar to see what meetings I have for the
+day and I create a notes file for every one-on-one meeting:
 
 ```
-# create a new general note file
-$ ./bin/new_note
-# create a new One-on-one note file for Erik with today's date
-$ ./bin/new_ooo erik-krietsch
 # create a new skeleton of notes file for the 7th sprint of 2021
 $ ./bin/new_sprint 2021-07
 ```
 
+Those notes files
+have a section for prep and another for notes. In the prep section I can quickly
+record anything that I know I want to bring up with the person. Then when we
+have the meeting I can record anything that comes up.
+
 ## The Repos
 
-My lab notebook infrastructure is all open source but the notes are encrypted
-and not public. I achieved this by separating the code of the blog from the
-content. The code is available at https://github.com/jonallured/lab_notebook but
-the notes themselves are in a separate repo hosted by Keybase at
-keybase://private/jonallured/notebook-data.
+Ok let's get into the technical details. My lab notebook infrastructure is all
+open source but the notes are not. I achieved this by separating the code of the
+blog from the content. The code is available on GitHub in [my `lab_notebook`
+repo][repo] but the note data is in an [encrypted repo hosted by Keybase][key].
 
-## The Servers
+[repo]: https://github.com/jonallured/lab_notebook
+[key]: https://book.keybase.io/git
 
-So how do I actually look at my lab notebook? I'm glad you asked because I'm
-pretty proud of the setup! First I'll tackle how I monitor the notes being added
-and get them committed to the Keybase repo.
+This separation means I can share my overall approach but not share the notes
+themselves. I like this because it frees me to write whatever I want in that
+notebook including sensitive tokens but also private thoughts.
 
-My approach here is to run a Guardfile that watches for files being added to
-`/source/notes` and then run git commands to add files and changes as they
-occur. This looks something like this:
+## The Three Processes
+
+After the notes are written, how do I actually look at my lab notebook? I'm glad
+you asked because I'm pretty proud of the setup! I'm using three processes to
+serve my lab notebook:
+
+1. A Guard process that rebuilds the static HTML for the site
+2. A Ruby process that boots a custom Rack app to serve this static HTML
+3. Another Guard process that adds note data to the Keybase repo
+
+You might be wondering why I'm not using the build-in Middleman server and it's
+because it's too slow. I didn't want to pay the penalty of that process having
+to be dynamic - I wanted something dumber!
+
+### Rebuilding The Site As Things Change
+
+My first goal was to write a Guard that would listen for changes and run
+`middleman build` to rebuild the site locally. There was already a
+[guard-middleman][] gem so I grabbed that and did some quick setup:
+
+[guard-middleman]: https://github.com/matt-hh/guard-middleman
+
+```ruby
+group 'middleman' do
+  guard 'middleman' do
+    files = %w[config.rb]
+    watch(/^(#{files.join("|")})$/)
+
+    directories = %w[article_templates data helpers lib source]
+    watch(%r{^(#{directories.join("|")})/.*$})
+  end
+end
+```
+
+And I can run this like so:
 
 ```
-watch(%r{^source/notes/.*$}) do
-  message = 'Auto-adding this diff from Guard'
-  command = "cd source/notes && git add . && git commit -m '#{message}'"
-  system command
+$ bundle exec guard --clear --group middleman
+```
+
+With this in place I have a process listening to a set of files and building the
+static HTML as things change.
+
+### Making A Static Server
+
+Through a bunch of trial and error what I decided to do was create a small Rack
+app that would serve the static HTML built by that Guard process. I wanted it to
+support serving index.html files for directories but it's mostly a pass-through.
+
+I did this by writing a class called `StaticApp` in a `config.ru` file. It uses
+[`Rack::Directory`][rack-dir] and [`Rack::Static`][rack-static] to respond to
+requests extremely quickly.
+
+[rack-dir]: https://www.rubydoc.info/gems/rack/Rack/Directory
+[rack-static]: https://www.rubydoc.info/gems/rack/Rack/Static
+
+### Automating Adding Note Data to Keybase
+
+Next up is how I automated the process of adding notes to the Keybase repo. My
+approach was to run a Guard that watches for files being added to notes folder
+and then runs a git command to add files and changes as they occur. It looks
+something like this:
+
+```
+group 'watch_notes' do
+  guard 'shell' do
+    ignore(%r{^source/notes/\.git})
+
+    watch(%r{^source/notes/.*$}) do
+      message = 'Auto-adding this diff from Guard'
+      command = "cd source/notes && git add . && git commit -m '#{message}'"
+      system command
+    end
+  end
 end
+```
+
+And I run it like so:
+
+```
+$ bundle exec guard --clear --group watch_notes
 ```
 
 And that gives me a history on that Keybase repo that looks something like this:
@@ -134,18 +231,39 @@ jon@juggernaut:~/code/lab_notebook/source/notes(main)% git tree
 * a412607 Auto-adding this diff from Guard
 * 0964f71 Auto-adding this diff from Guard
 * 5ff953d Auto-adding this diff from Guard
-* 116b8b5 Auto-adding this diff from Guard
-* fa6fa58 Auto-adding this diff from Guard
-* 340208e Auto-adding this diff from Guard
-* 9139f91 Auto-adding this diff from Guard
-* 65f97e1 Auto-adding this diff from Guard
-* 10f0056 Auto-adding this diff from Guard
-* 5ffd8bc Auto-adding this diff from Guard
-* 70c3be6 Auto-adding this diff from Guard
-* 949a449 Auto-adding this diff from Guard
-* 7bb18fd Auto-adding this diff from Guard
 ...
 ```
 
-Just a fire-hose of commits that add/update the notes files being added to the
-Keybase encrypted repo.
+Just a fire-hose of commits that add/update the notes files as I'm working.
+
+## Customizing the URL
+
+I wanted to be able to use a normal-looking URL to access my lab notebook so I
+did some research and found [puma-dev][] which allows one to route local servers
+using particular TLDs.
+
+[puma-dev]: https://github.com/puma/puma-dev
+
+I installed it with brew and then configured it to listen on `.notebook`. Then I
+added an entry for `lab` and pointed it at my local static server. This allows
+me to access my lab notebook with `https://lab.notebook` which is pretty cool
+looking please agree with me!
+
+<div class="imageWrapper">
+  <a href="/images/post-50/lab-notebook.png">
+    <img alt="Work in progress screenshot of my lab notebook." src="/images/post-50/lab-notebook.png" width="512" />
+  </a>
+  <p><em>click for bigger</em></p>
+</div>
+
+## Next Steps
+
+I have lots of ideas about what I'd like to do next:
+
+* add support for labeling notes with tags
+* get a site search going to that finding notes is easier
+* setup vim such that creating a new note can be done without leaving vim
+
+And there are more! Still I'm using this setup right now and it's working great.
+There's lots of little details here that work for me, but I hope you'll take
+away the larger message that taking notes is good.
