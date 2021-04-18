@@ -111,14 +111,13 @@ When I start my day I look at my calendar to see what meetings I have for the
 day and I create a notes file for every one-on-one meeting:
 
 ```
-# create a new skeleton of notes file for the 7th sprint of 2021
-$ ./bin/new_sprint 2021-07
+# create a new one-on-one note file for Erik with today's date
+$ ./bin/new_ooo erik-krietsch
 ```
 
-Those notes files
-have a section for prep and another for notes. In the prep section I can quickly
-record anything that I know I want to bring up with the person. Then when we
-have the meeting I can record anything that comes up.
+Those notes files have a section for prep and another for notes. In the prep
+section I can quickly record anything that I know I want to bring up with the
+person. Then when we have the meeting I can record anything that comes up.
 
 ## The Repos
 
