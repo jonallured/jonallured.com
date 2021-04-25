@@ -56,7 +56,7 @@ jobs:
 
       - run:
           name: Scan server keys
-          command: touch ~/.ssh/known_hosts && ssh-keyscan jonallured.com >> ~/.ssh/known_hosts
+          command: touch ~/.ssh/known_hosts && ssh-keyscan www.jonallured.com >> ~/.ssh/known_hosts
 
       - checkout
 
