@@ -20,6 +20,6 @@ future_id=$(cat $new_path | grep "id:" | cut -f 2 -d ":")
 commit_message="Publish post$future_id"
 git add .
 git commit -am "$commit_message"
-git push
+git push --set-upstream origin post-$future_id
 
 gh pr create --fill --label automerge
