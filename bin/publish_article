@@ -15,9 +15,9 @@ mv $target_path $new_path
 
 bundle exec rake social_image[$new_path]
 
-future_id=$(cat $new_path | grep "id:" | cut -f 2 -d ":")
+future_id=$(cat $new_path | grep "id:" | cut -f 2 -d ":" | tr -d '[:space:]')
 
-commit_message="Publish post$future_id"
+commit_message="Publish post $future_id"
 git add .
 git commit -am "$commit_message"
 git push --set-upstream origin post-$future_id
