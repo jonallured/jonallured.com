@@ -6,7 +6,7 @@ module CustomHelpers
   end
 
   def headshot_url
-    '/images/headshot.png'
+    'https://www.jonallured.com/images/headshot.png'
   end
 
   def social_share_url(article)
@@ -15,6 +15,10 @@ module CustomHelpers
 
     return headshot_url unless File.exist?(local_path)
 
-    "/images/post-#{id}/social-share.png"
+    "https://www.jonallured.com/images/post-#{id}/social-share.png"
+  end
+
+  def full_article_url(article)
+    "https://www.jonallured.com#{article.url}"
   end
 end
