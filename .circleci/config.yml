@@ -3,7 +3,7 @@ version: 2
 global_defaults: &global_defaults
   working_directory: ~/jonallured.com
   docker:
-    - image: circleci/ruby:2.7.2-node
+    - image: circleci/ruby:3.0.1-node
 
 jobs:
   build:
