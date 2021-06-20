@@ -20,8 +20,4 @@ activate :blog do |blog|
   blog.new_article_template = File.expand_path('article_templates/default.erb', File.dirname(__FILE__))
 end
 
-activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-3137727-1'
-end
-
 activate :livereload
