@@ -35,24 +35,32 @@ to know when to make the "boring" choice.
 
 ## Employment History
 
-Artsy, _Minneapolis, Minnesota_ (2017-present)
+Artsy, _remote_ (2017-present)
 
-* __Senior Engineer 2:__ Helped start and lead teams of all sizes across the
-  organization. Launched an engineering podcast along with many open source
-  contributions.
+* __Staff Engineer:__ (2022-present) Focused on improving Engineering-wide
+  skills with Ruby on Rails. Managed and worked on an effort to migrate from
+  Mongo to Postgres. Also shipped our first iOS Widget!
 
-Hashrocket, _Minneapolis, Minnesota_ (2016-2017)
+* __Senior Engineer 2:__ (2019-2022) Continued in Tech Lead roles by helping
+  start and lead teams of all sizes across the organization. Launched an
+  engineering podcast along with many open source contributions.
 
-* __Senior Developer:__ While working remotely, focused on iOS development to
-  help clients take their applications native. Used strong communication and
-  documentation skills to keep teams on the same page.
+* __Senior Engineer 1:__ (2017-2019) Built a service to improve Gallery data
+  coverage by layering data sources. Improved the listings tool and learned the
+  business well enough to move to a Tech Lead role.
+
+Hashrocket, _remote_ (2016-2017)
+
+* __Senior Developer:__ Focused on iOS development to help clients take their
+  applications native. Used strong communication and documentation skills to
+  keep teams on the same page and transition project over to clients.
 
 Grid Connect, _Naperville, Illinois_ (2014-2016)
 
 * __Lead Developer:__ Built a team of software developers while improving our
   product and launching new ones. Worked with embedded developers to create IoT
   products in Apple's HomeKit ecosystem. Also helped clients build out custom
-  IoT platform for new products.
+  IoT infrastructure for their own products.
 
 Hashrocket, _Chicago, Illinois_ (2011-2014)
 
