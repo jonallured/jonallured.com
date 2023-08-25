@@ -4,7 +4,7 @@ title: Resume
 
 <div id="contactDetails">
   <p>630.390.4018<br />
-    <a href="mailto:jon.allured@gmail.com">jon.allured@gmail.com</a>
+    <a href="mailto:jon@jonallured.com">jon@jonallured.com</a>
   </p>
 </div>
 
