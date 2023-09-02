@@ -12,10 +12,11 @@ title: Resume
 
 ## Professional Objective
 
-I want to work for a company that specializes in web and mobile applications and
-cares about design. I love building things and I want to work with and learn
-from other people who do too. I care about open source and I want the company I
-work for to share that feeling.
+My progress through Engineering levels has seen me do many things over the years
+but a constant has been solving problems and building things. This is what got
+me into programming computers and it's what keeps me there. I want to work for a
+company where I will have interesting problems to solve and can build cool
+things for users.
 
 ## Development Perspective
 
@@ -86,26 +87,15 @@ Probably my most well known project is a list of Ruby conferences called
 [RubyConferences.org][rc]. Averaging around 1,500 pageviews a month, the site
 helps people find events both future and past.
 
-Once the community got wind of it, the site really took on a life of it's own.
-I'm still the top contributor, but I'm proud of the 40+ people that have helped
-keep this site up-to-date over the last two years.
+My personal Rails project is called [Monolithium][] and it's where I build
+things for myself. It's got a Post Bin and an artwork viewer. I made a list of
+the books I've read. Random stuff but I've enjoyed tinkering with it over the
+years.
 
-But my first foray into maintaining open source was taking over [Feedjira][].
-The project was a successful mess - used by many, but not actively maintained.
-The Issues and PRs were out of control so I started with just getting back to
-people and merging code. I cut the first 1.0 release and then went on to cut a
-2.0 with some changes that I wanted. I'm not as involved anymore, but have been
-able to find others to take up the torch.
-
-There are other projects too - I've got a time tracking Rails app called
-[Forty][]. I wrote a CLI to help me pair program called [pear][] and I have my
-own personal Rails monolith called [Monolithium][]
-
-Did I mention that I love to build things?
+Another thing I made is a CLI tool called [pear][] that helps sign commits when
+pair programming so that everybody gets credit. It's a small thing but I like
+using it and I learned a lot by making it.
 
 [rc]: http://rubyconferences.org
-[lint]: https://github.com/jonallured/danger-commit_lint
-[Feedjira]: https://github.com/feedjira/feedjira
-[Forty]: https://github.com/verynicecode/forty-web
-[pear]: https://github.com/jonallured/pear
 [Monolithium]: https://github.com/jonallured/monolithium
+[pear]: https://github.com/jonallured/pear
