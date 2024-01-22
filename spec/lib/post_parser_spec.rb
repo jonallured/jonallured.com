@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative "../../lib/post_parser"
 
 RSpec.describe PostParser do

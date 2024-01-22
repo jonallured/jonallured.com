@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative "../../lib/title_parser"
 
 RSpec.describe TitleParser do
