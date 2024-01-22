@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 desc "Generate next article id"
 task :next_article_id do
   most_recent_post_path = Dir.glob("source/posts/*.md").max

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require "yaml"
 require "./lib/post_options"
 

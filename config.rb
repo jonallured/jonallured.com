@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Haml::TempleEngine.disable_option_validator!
 
 set :layout, :default

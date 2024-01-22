@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require "./lib/post_parser"
 require "./lib/social_image"
 
