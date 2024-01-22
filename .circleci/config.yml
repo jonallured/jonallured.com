@@ -1,9 +1,10 @@
 version: 2
+
 jobs:
-  default:
+  test:
     working_directory: ~/jonallured.com
     docker:
-      - image: circleci/ruby:3.0.1-node
+      - image: cimg/ruby:3.0.1-node
     steps:
       - checkout
       - restore_cache:
@@ -20,8 +21,9 @@ jobs:
       - run:
           name: Run tests
           command: bundle exec rake
+
 workflows:
   version: 2
   default:
     jobs:
-      - default
+      - test
