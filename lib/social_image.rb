@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'rmagick'
+require "rmagick"
 
 class HeaderLine
   def self.create(width)
@@ -54,11 +54,11 @@ class SocialImage
   WIDTH = 1024
   HEIGHT = 512
 
-  WHITE = '#FFFFFF'
-  BLACK = '#333333'
+  WHITE = "#FFFFFF"
+  BLACK = "#333333"
 
-  GEORGIA_PATH = '/System/Library/Fonts/Supplemental/Georgia.ttf'
-  VERDANA_PATH = '/System/Library/Fonts/Supplemental/Verdana.ttf'
+  GEORGIA_PATH = "/System/Library/Fonts/Supplemental/Georgia.ttf"
+  VERDANA_PATH = "/System/Library/Fonts/Supplemental/Verdana.ttf"
 
   def self.generate(options)
     new(options).generate
@@ -86,7 +86,7 @@ class SocialImage
     image_height = two_line_title? ? HEIGHT : HEIGHT - 80
     @social_image = Magick::Image.new(WIDTH, image_height) do |image|
       image.background_color = WHITE
-      image.format = 'png'
+      image.format = "png"
     end
   end
 
@@ -124,7 +124,7 @@ class SocialImage
 
   def compute_meta
     [
-      "published #{options[:published_at].strftime('%m/%d/%y')}",
+      "published #{options[:published_at].strftime("%m/%d/%y")}",
       "#{options[:word_count]} words",
       "#{options[:reading_time]} minute read",
       options[:shrt_url]
@@ -144,13 +144,13 @@ class SocialImage
 
   def draw_headshot
     headshot_size = HEIGHT / 4
-    append_image = Magick::Image.read('source/images/headshot.png').first.resize_to_fit(headshot_size)
+    append_image = Magick::Image.read("source/images/headshot.png").first.resize_to_fit(headshot_size)
     y_offset = two_line_title? ? 260 : 190
     social_image.composite!(append_image, (WIDTH - headshot_size - 50), y_offset, Magick::OverCompositeOp)
   end
 
   def draw_author
-    author = 'Jon Allured'.upcase
+    author = "Jon Allured".upcase
     y_offset = two_line_title? ? 400 : 330
     AuthorText.generate.annotate(social_image, WIDTH, AuthorText::POINTSIZE, 50, y_offset, author)
   end

@@ -15,6 +15,6 @@ class Feed
   end
 
   def to_hash
-    { name: name, url: url }
+    {name: name, url: url}
   end
 end

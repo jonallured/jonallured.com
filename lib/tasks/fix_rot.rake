@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require './lib/rotten_list'
+require "./lib/rotten_list"
 
-desc 'Fix rotten link'
+desc "Fix rotten link"
 task :fix_rot, [:url] do |_t, args|
   url = args[:url]
   error_message = "Run like this: 'rake fix_rot[http://www.example.com/path/to/page.html]'"
@@ -12,8 +12,8 @@ task :fix_rot, [:url] do |_t, args|
     exit 1
   end
 
-  path = 'data/rotten_links.yml'
-  raw_data = YAML.safe_load(File.read(path))
+  path = "data/rotten_links.yml"
+  raw_data = YAML.safe_load_file(path)
   rotten_list = RottenList.new(raw_data)
 
   next_link = rotten_list.next_link(url)

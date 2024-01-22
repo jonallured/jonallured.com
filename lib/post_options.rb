@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'date'
-require './lib/title_parser'
+require "date"
+require "./lib/title_parser"
 
 class PostOptions
   AVERAGE_WORDS_PER_MINUTE = 180
@@ -32,7 +32,7 @@ class PostOptions
   private
 
   def id
-    front_matter['id']
+    front_matter["id"]
   end
 
   def output_path
@@ -52,7 +52,7 @@ class PostOptions
   end
 
   def title_parts
-    TitleParser.parse(front_matter['title'])
+    TitleParser.parse(front_matter["title"])
   end
 
   def word_count
