@@ -1,9 +1,10 @@
-aside { display: none; }
-p.callout { display: none; }
-footer { display: none; }
-article { width: 790px; }
-article p, article ul { font-size: 16px; }
-article h1 { display: none; }
-article h2 { font-size: 30px; }
-p#screenNote { display: none; }
-p#printNote { display: block; }
+body { font-size: 16px; line-height: 20px; }
+body a:visited { color: #333; }
+body header { margin-top: 0px; }
+body header h1 { font-size: 40px; line-height: 50px; }
+body header p { font-size: 14px; }
+body section aside { display: none; }
+body section article p, body article ul { font-size: 16px; }
+body section article h1 { display: none; }
+body section article h2 { font-size: 20px; line-height: 24px; }
+body footer { display: none; }
