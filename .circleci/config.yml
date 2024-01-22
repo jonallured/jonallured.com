@@ -1,17 +1,24 @@
 version: 2
 jobs:
-  default:
+  test:
     working_directory: ~/jonallured.com
     docker:
-      - image: circleci/ruby:3.0.1-node
+      - image: cimg/ruby:3.2.3-node
+    environment:
+      BUNDLE_JOBS: "3"
+      BUNDLE_PATH: "vendor/bundle"
+      BUNDLE_RETRY: "3"
     steps:
+      - run:
+          name: Install Imagemagick
+          command: sudo apt-get update && sudo apt-get install -y libmagickcore-dev
       - checkout
       - restore_cache:
           name: Restore bundler cache
           key: bundler-v2-{{ checksum "Gemfile.lock" }}
       - run:
           name: Bundle install
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+          command: bundle install
       - save_cache:
           name: Save bundler cache
           key: bundler-v2-{{ checksum "Gemfile.lock" }}
@@ -24,4 +31,4 @@ workflows:
   version: 2
   default:
     jobs:
-      - default
+      - test
