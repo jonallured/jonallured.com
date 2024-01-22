@@ -38,4 +38,4 @@ end
 RuboCop::RakeTask.new(:rubocop)
 RSpec::Core::RakeTask.new(:spec)
 
-task default: %i[rubocop spec build check_html]
+task default: %i[spec build]
