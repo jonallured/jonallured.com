@@ -9,8 +9,8 @@ class RottenList
 
   def next_link(url)
     data = {
-      'id' => next_id,
-      'url' => url
+      "id" => next_id,
+      "url" => url
     }
     link = Link.new(data)
     links << link
@@ -29,8 +29,8 @@ class RottenList
     attr_reader :id, :url
 
     def initialize(data)
-      @id = data['id']
-      @url = data['url']
+      @id = data["id"]
+      @url = data["url"]
     end
 
     def <=>(other)
@@ -38,7 +38,7 @@ class RottenList
     end
 
     def to_hash
-      { 'id' => id, 'url' => url }
+      {"id" => id, "url" => url}
     end
   end
 end

@@ -2,11 +2,11 @@
 
 module CustomHelpers
   def clean_summary(article)
-    article.summary.gsub(%r{</?[^>]*>}, '').gsub("\n", ' ')
+    article.summary.gsub(%r{</?[^>]*>}, "").tr("\n", " ")
   end
 
   def headshot_url
-    'https://www.jonallured.com/images/headshot.png'
+    "https://www.jonallured.com/images/headshot.png"
   end
 
   def social_share_url(article)
