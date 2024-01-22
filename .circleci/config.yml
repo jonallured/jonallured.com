@@ -4,7 +4,7 @@ jobs:
   test:
     working_directory: ~/jonallured.com
     docker:
-      - image: cimg/ruby:3.0.1-node
+      - image: cimg/ruby:3.0.6-node
     steps:
       - checkout
       - restore_cache:
