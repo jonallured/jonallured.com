@@ -18,8 +18,8 @@
 
 - title: Projects
   links:
-    - text: Forty
-      url: https://www.fortyeven.com/
+    - text: 2RadDads
+      url: https://www.youtube.com/@2RadDads
     - text: pear
       url: https://github.com/jonallured/pear
     - text: Pudding Time
@@ -31,5 +31,5 @@
   links:
     - text: GitHub
       url: https://github.com/jonallured
-    - text: Twitter
-      url: https://twitter.com/jonallured
+    - text: Mastodon
+      url: https://hachyderm.io/@jonallured
