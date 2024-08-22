@@ -171,7 +171,8 @@ GEM
       ffi (~> 1.0)
     redcarpet (3.6.0)
     regexp_parser (2.9.0)
-    rexml (3.2.6)
+    rexml (3.3.6)
+      strscan
     rgl (0.6.6)
       pairing_heap (>= 0.3, < 4.0)
       rexml (~> 3.2, >= 3.2.4)
@@ -228,6 +229,7 @@ GEM
     standardrb (1.0.1)
       standard
     stream (0.5.5)
+    strscan (3.1.0)
     temple (0.10.3)
     terser (1.1.20)
       execjs (>= 0.3.0, < 3)
