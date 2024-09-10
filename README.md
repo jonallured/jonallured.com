@@ -15,5 +15,4 @@ I've got a number of handy scripts in the `bin` folder, check it:
 * `publish_article` - this one finds drafts and publishes them including
   creating the PR!
 * `server` - this one just boots middleman for local dev work on 3090.
-* `update` - this is my pretty standard dependency update script complete with
-  automerge behavior.
+* `update` - this is my pretty standard dependency update script.

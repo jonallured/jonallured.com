@@ -22,4 +22,4 @@ git add .
 git commit -am "$commit_message"
 git push --set-upstream origin post-$future_id
 
-gh pr create --fill --label automerge
+gh pr create --fill
