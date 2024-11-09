@@ -1,5 +1,0 @@
-#!/bin/bash
-
-PORT=3090
-open http://localhost:$PORT
-bundle exec middleman server --port $PORT
