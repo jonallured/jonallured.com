@@ -1,6 +1,0 @@
-%ul.posts
-  - for article in articles do
-    %li
-      = link_to article.title, article.url
-      %br
-      %span.weak published #{article.date.strftime('%m/%d/%y')}

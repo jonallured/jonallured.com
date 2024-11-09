@@ -1,5 +1,0 @@
-{
-  "data/*.yml": { "type": "data" },
-  "source/layouts/*.html.haml": { "type": "layout" },
-  "source/posts/*.md": { "type": "posts" }
-}
