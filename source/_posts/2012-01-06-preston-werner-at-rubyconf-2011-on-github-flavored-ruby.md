@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 15
+number: 15
 title: Preston-Werner at RubyConf 2011 on GitHub Flavored Ruby
 ---
 

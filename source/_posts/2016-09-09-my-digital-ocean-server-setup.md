@@ -1,6 +1,6 @@
 ---
 favorite: true
-id: 39
+number: 39
 title: My Digital Ocean Server Setup
 ---
 

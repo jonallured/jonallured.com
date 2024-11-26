@@ -1,6 +1,6 @@
 ---
 favorite: true
-id: 7
+number: 7
 title: Notes Help You Learn; Changing Directories
 ---
 

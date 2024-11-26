@@ -1,6 +1,6 @@
 ---
 favorite: true
-id: 55
+number: 55
 title: "Deploying Static Sites via CircleCI"
 ---
 

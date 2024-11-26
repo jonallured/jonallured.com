@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 34
+number: 34
 title: How to Think About Your Local Development Environment
 ---
 

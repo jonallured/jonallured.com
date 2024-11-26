@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 20
+number: 20
 title: Brown on Structural Design Patterns in Ruby
 ---
 
