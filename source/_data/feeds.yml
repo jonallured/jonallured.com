@@ -1,0 +1,72 @@
+- name: Artsy Engineering
+  url: http://artsy.github.io/feed
+- name: Ash Furrow
+  url: https://feed.ashfurrow.com/feed.xml
+- name: Bundler Blog
+  url: http://bundler.io/blog/feed.xml
+- name: CircleCI
+  url: https://circleci.com/blog/feed.xml
+- name: Daring Fireball
+  url: https://app.jonallured.com/faring_direball.json
+- name: dB
+  url: https://code.dblock.org/feed.xml
+- name: Felix Krause
+  url: https://krausefx.com/feed.xml
+- name: Figure
+  url: http://www.figure.ink/blog?format=RSS
+- name: Forty Blog
+  url: https://www.fortyeven.com/blog/atom.xml
+- name: GitHub
+  url: https://blog.github.com/all.atom
+- name: Hashrocket
+  url: http://hashrocket.com/blog/posts.rss
+- name: Heroku
+  url: https://blog.heroku.com/feed
+- name: Homebrew
+  url: https://brew.sh/atom.xml
+- name: Jake Worth
+  url: https://www.jakeworth.com/rss.xml
+- name: Jon Allured
+  url: http://jonallured.com/atom.xml
+- name: Josh Davey
+  url: http://joshuadavey.com/atom.xml
+- name: Justin Bennett
+  url: https://just-be.dev/feed
+- name: McSweeney’s
+  url: https://feeds.feedburner.com/mcsweeneys
+- name: Orta's Blog
+  url: https://orta.io/blog.atom
+- name: Penny Arcade
+  url: https://www.penny-arcade.com/feed
+- name: Rails Blog
+  url: http://weblog.rubyonrails.org/feed/atom.xml
+- name: React Blog
+  url: https://reactjs.org/feed.xml
+- name: RSpec
+  url: http://rspec.info/blog/feed.xml
+- name: Ruby News
+  url: https://www.ruby-lang.org/en/feeds/news.rss
+- name: Ruby Together
+  url: https://rubytogether.org/news.xml
+- name: RubyGems
+  url: http://blog.rubygems.org/atom.xml
+- name: Steven Hicks
+  url: https://www.stevenhicks.me/atom.xml
+- name: Tenderlove
+  url: http://tenderlovemaking.com/atom.xml
+- name: Test Double
+  url: http://blog.testdouble.com/index.xml
+- name: The Oatmeal
+  url: http://feeds.feedburner.com/oatmealfeed
+- name: thoughtbot
+  url: http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots
+- name: Travis CI
+  url: https://blog.travis-ci.com/blog.xml
+- name: Vimcasts
+  url: http://vimcasts.org/feeds/ogg.rss
+- name: What If?
+  url: http://what-if.xkcd.com/feed.atom
+- name: xkcd
+  url: http://xkcd.com/rss.xml
+- name: Yehuda Katz
+  url: https://yehudakatz.com/rss/

@@ -1,0 +1,11 @@
+---
+title: Feeds I Read
+---
+<h1>Feeds I Read</h1>
+<ul>
+  {% for feed in site.data.feeds %}
+  <li>
+    <a href="{{ feed.url }}">{{ feed.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
