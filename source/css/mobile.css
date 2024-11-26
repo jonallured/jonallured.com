@@ -1,0 +1,19 @@
+body {
+  header {
+    h1 {
+      font-size: 60px;
+      line-height: 70px;
+    }
+  }
+
+  section {
+    flex-direction: column;
+
+    aside {
+      border-top: 1px solid var(--black);
+      margin-top: 10px;
+      padding-top: 30px;
+      margin-left: 0;
+    }
+  }
+}
