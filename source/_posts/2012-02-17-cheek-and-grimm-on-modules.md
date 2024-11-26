@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 32
+number: 32
 title: Cheek and Grimm on Modules
 ---
 

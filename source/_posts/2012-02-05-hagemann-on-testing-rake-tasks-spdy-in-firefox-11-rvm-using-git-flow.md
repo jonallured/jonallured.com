@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 27
+number: 27
 title: Hagemann on Testing Rake Tasks; SPDY in FireFox 11; RVM Using Git Flow
 ---
 

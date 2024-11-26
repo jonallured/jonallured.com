@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 10
+number: 10
 title: Rails 3.2; Command Reuse; Fixed Position on Mobile; Ruby Metaprogramming
 ---
 

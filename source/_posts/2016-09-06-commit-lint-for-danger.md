@@ -1,6 +1,6 @@
 ---
 favorite: true
-id: 38
+number: 38
 title: Commit Lint for Danger
 ---
 

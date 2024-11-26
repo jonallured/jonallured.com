@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 43
+number: 43
 title: "Week in Review: Week 6, 2021"
 ---
 

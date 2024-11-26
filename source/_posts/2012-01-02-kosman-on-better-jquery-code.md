@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 13
+number: 13
 title: Kosman on Better jQuery Code
 ---
 

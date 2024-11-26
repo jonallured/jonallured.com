@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 58
+number: 58
 title: "Configure Prompt on iOS With SSH Keys"
 ---
 

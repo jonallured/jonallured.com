@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 41
+number: 41
 title: Dealing With Rotten Links
 ---
 

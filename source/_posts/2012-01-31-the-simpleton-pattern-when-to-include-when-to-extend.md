@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 26
+number: 26
 title: The Simpleton Pattern; When to Include, When to Extend
 ---
 

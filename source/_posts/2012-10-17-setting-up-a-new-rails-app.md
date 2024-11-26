@@ -1,6 +1,6 @@
 ---
 favorite: true
-id: 35
+number: 35
 title: Setting Up a New Rails Application
 ---
 

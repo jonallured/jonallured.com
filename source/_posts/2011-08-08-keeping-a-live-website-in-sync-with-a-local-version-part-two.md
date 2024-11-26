@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 5
+number: 5
 title: Keeping a Live Website in Sync With a Local Version, Part Two
 ---
 

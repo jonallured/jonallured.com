@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 12
+number: 12
 title: Edit Files in TextMate From a Remote Server
 ---
 

@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 18
+number: 18
 title: Blocks in JavaScript; HATEOAS in Rails; Davey's turbux; watchr for Ruby Koans; Using a Single Ampersand
 ---
 

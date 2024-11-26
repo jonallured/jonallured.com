@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 64
+number: 64
 title: "Migrating Away From Google Services"
 ---
 

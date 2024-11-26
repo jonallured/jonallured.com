@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 30
+number: 30
 title: Marston on Sinatra's Halt; Jones on Sinatra vs. Rails; Bernhardt on Learning Vim
 ---
 

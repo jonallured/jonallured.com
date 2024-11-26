@@ -1,6 +1,6 @@
 ---
 favorite: true
-id: 40
+number: 40
 title: Adding Additional Virtual Hosts to a Digital Ocean Server
 ---
 

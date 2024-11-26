@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 65
+number: 65
 title: "Decoding JWT Tokens"
 ---
 

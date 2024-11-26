@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 17
+number: 17
 title: Releases for Both Rspec and Rails
 ---
 

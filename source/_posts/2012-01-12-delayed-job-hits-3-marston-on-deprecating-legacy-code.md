@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 19
+number: 19
 title: Delayed Job Hits 3.0; Marston on Deprecating Legacy Code
 ---
 

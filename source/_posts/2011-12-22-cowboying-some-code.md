@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 11
+number: 11
 title: Cowboying Some Code
 ---
 
