@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal website for Jon Allured." />
+    <title>{{ page.title }} | Jon Allured</title>
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/atom.xml" />
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/mobile.css" media="only screen and (max-width: 800px)">
+    <link rel="stylesheet" href="/css/print.css" media="print">
   </head>
   <body>
-    {{ content }}
+    <header>
+      <h1><a href="/">Jon Allured</a></h1>
+      <p>Computer&nbsp;Programmer, Whiskey&nbsp;Drinker, Comic&nbsp;Book&nbsp;Reader</p>
+    </header>
+    <section>
+      <article>
+        {{ content }}
+      </article>
+      <aside>
+        <h2>Blog Posts</h2>
+        <ul>
+          <li><a href="/favorite-posts.html">Favorites</a></li>
+          <li><a href="/all-posts.html">Complete List</a></li>
+          <li><a href="https://artsy.github.io/author/jonallured/">Work Posts</a></li>
+        </ul>
+        <h2>RSS</h2>
+        <ul>
+          <li><a href="/atom.xml">My Feed</a></li>
+          <li><a href="/feeds-i-read.html">Feeds I Read</a></li>
+          <li><a href="/podcasts.html">Podcasts</a></li>
+        </ul>
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://www.youtube.com/@2RadDads">2RadDads</a></li>
+          <li><a href="https://github.com/jonallured/pear">pear</a></li>
+          <li><a href="http://www.puddingtime.show">Pudding Time</a></li>
+          <li><a href="http://rubyconferences.org">RubyConferences.org</a></li>
+        </ul>
+        <h2>Elsewhere</h2>
+        <ul>
+          <li><a href="https://bsky.app/profile/jonallured.com">Bluesky</a></li>
+          <li><a href="https://github.com/jonallured">GitHub</a></li>
+          <li><a href="https://hachyderm.io/@jonallured">Mastodon</a></li>
+        </ul>
+      </aside>
+    </section>
+    <footer>
+      <p>&copy; Jon Allured, <a href="https://github.com/jonallured/jonallured.com">view source</a></p>
+    </footer>
   </body>
 </html>
