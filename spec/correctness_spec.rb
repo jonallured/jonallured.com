@@ -1,6 +1,6 @@
 describe "correctness" do
   it "builds the same number of files" do
-    fd_command = 'fd . build --exclude "posts" --exclude "images/post*" --type file'
+    fd_command = 'fd . build --exclude "posts" --type file'
 
     mm_output = `cd ../mm-jonallured.com/ && #{fd_command}`
     mm_matches = mm_output.split("\n")
