@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 31
+number: 31
 title: Johnson on :before and :after in CSS; Clayton on Rails Config
 ---
 

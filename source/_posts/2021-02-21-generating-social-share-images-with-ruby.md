@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 45
+number: 45
 title: Generating Social Share Images With Ruby
 ---
 

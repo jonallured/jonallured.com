@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 52
+number: 52
 title: "My Lab Notebook"
 ---
 

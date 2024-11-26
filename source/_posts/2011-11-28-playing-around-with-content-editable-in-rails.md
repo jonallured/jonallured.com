@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 6
+number: 6
 title: Playing Around With Content Editable in Rails
 ---
 

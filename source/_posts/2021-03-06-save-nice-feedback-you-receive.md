@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 47
+number: 47
 title: "Save Nice Feedback You Receive"
 ---
 

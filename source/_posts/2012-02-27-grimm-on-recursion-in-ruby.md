@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 33
+number: 33
 title: Grimm on Recursion in Ruby
 ---
 

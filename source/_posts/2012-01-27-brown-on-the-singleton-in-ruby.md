@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 24
+number: 24
 title: Brown on the Singleton in Ruby
 ---
 

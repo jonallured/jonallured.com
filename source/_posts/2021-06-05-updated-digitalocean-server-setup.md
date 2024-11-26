@@ -1,6 +1,6 @@
 ---
 favorite: false
-id: 59
+number: 59
 title: "Updated DigitalOcean Server Setup"
 ---
 
