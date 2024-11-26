@@ -1,0 +1,29 @@
+---
+title: Rotten Links
+---
+<h1>Rotten Links</h1>
+
+<p>
+  You've reached this page because you clicked a link on this site that goes
+  to a page that is no longer available. This is called
+  <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a>
+  and it sucks. I don't want to have invalid links on my site, but I also
+  don't want to lose the context that the link was trying to provide.
+</p>
+<p>
+  The best I can do for you is to preserve the original destination of the
+  link here, un-hyperlinked. It's possible you'll be able to find another
+  page on the site where the content has been moved, or maybe you can find a
+  similar page on another site. Good luck, internet friend!! :D
+</p>
+
+<p>Note: Check the anchor in the URL if you haven't been scrolled down.</p>
+
+<ol>
+  {% for link in site.data.rotten_links %}
+  <li>
+    <a name="{{ link.id}}"></a>
+    {{ link.url }}
+  </li>
+  {% endfor %}
+</ol>

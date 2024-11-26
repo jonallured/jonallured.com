@@ -1,0 +1,38 @@
+---
+title: Bearden Walkthrough for RubyMN
+---
+
+# Bearden Walkthrough for RubyMN
+
+This talk was a tour of the project I recently completed at Artsy. I spoke at the 6/26 edition of RubyMN.
+
+## Slides
+
+I used the "Work" [Deckset][deckset] Theme to create the [slides][pdf] because this was about very important work topics and it's important to be professional.
+
+[deckset]: https://www.decksetapp.com/
+[pdf]: https://www.jonallured.com/slides/bearden-talk.pdf
+
+## Links
+
+* [Artsy][artsy]
+* [Two Women][two_women]
+* [Open Source By Default][open_by_default]
+* [artsy/bearden][repo]
+* [Bearden Docs][docs]
+* [Romare Bearden][artsy_bearden]
+* [Homage to Duke, Bessie and Louis, ca. ][duke]
+* [cloc][cloc]
+* [soveran/micromachine][micromachine]
+* [The Conversation][convo]
+
+[artsy]: https://www.artsy.net/
+[artsy_bearden]: https://www.artsy.net/artist/romare-bearden
+[duke]: https://www.artsy.net/artwork/romare-bearden-homage-to-duke-bessie-and-louis
+[two_women]: https://www.artsy.net/artwork/romare-bearden-two-women-1
+[open_by_default]: http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html
+[repo]: https://github.com/artsy/bearden
+[cloc]: https://github.com/AlDanial/cloc
+[micromachine]: https://github.com/soveran/micromachine
+[convo]: https://www.artsy.net/artwork/romare-bearden-the-conversation-1
+[docs]: https://github.com/artsy/bearden/tree/master/docs

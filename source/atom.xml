@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jon Allured</title>
+  <id>https://www.jonallured.com/posts</id>
+  <link href="https://www.jonallured.com/posts"/>
+  <link href="https://www.jonallured.com/atom.xml" rel="self"/>
+  <updated>{{ site.posts.first.date | date_to_xmlschema}}</updated>
+  <author>
+    <name>Jon Allured</name>
+  </author>
+  {% for post in site.posts limit:10 %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link rel="alternate" href="https://www.jonallured.com{{ post.url }}"/>
+    <id>https://www.jonallured.com{{ post.url }}</id>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Jon Allured</name>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
