@@ -3,4 +3,5 @@ source "https://rubygems.org"
 ruby file: ".tool-versions"
 
 gem "jekyll"
+gem "pry"
 gem "rspec"
