@@ -1,6 +1,10 @@
 destination: "build"
 source: "source"
 timezone: "America/Chicago"
+highlighter: none
+kramdown:
+  auto_ids: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 defaults:
   -
