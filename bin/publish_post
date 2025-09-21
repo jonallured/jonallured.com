@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -ex
+
+publish_path="_drafts/$(basename $@)"
+post_path=$(bundle exec jekyll publish $publish_path | tail -n 1 | cut -w -f6)
+echo $post_path
