@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+week_number=$(date +"%-V")
+year=$(date +"%Y")
+post_title="Week in Review: Week ${week_number}, ${year}"
+draft_path=$(bundle exec jekyll draft $post_title | tail -n 1 | cut -w -f5)
+echo $draft_path
