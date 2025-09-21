@@ -1,9 +1,19 @@
+require "yaml"
+require_relative "blarg/base_parser"
+require_relative "blarg/draft_parser"
+require_relative "blarg/post"
+require_relative "blarg/writer"
+
 class Blarg
   def self.setup_draft(path, type)
-    Dir.glob("source/_posts/*.md").count + 1
+    post = DraftParser.post_for(path, type)
+    Writer.dump(post)
+    post.number
   end
 
   def self.finalize_post(path)
-    Dir.glob("source/_posts/*.md").count + 1
+    post = BaseParser.post_for(path)
+    Writer.dump(post)
+    post.number
   end
 end
