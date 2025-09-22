@@ -4,21 +4,28 @@ require "yaml"
 
 require_relative "blarg/default_parser"
 require_relative "blarg/draft_parser"
-require_relative "blarg/social_image"
 require_relative "blarg/post"
+require_relative "blarg/rotten_list"
+require_relative "blarg/social_image"
 require_relative "blarg/writer"
 
 class Blarg
-  def self.setup_draft(path, type)
-    post = DraftParser.post_for(path, type)
-    Writer.dump(post)
-    post.number
-  end
-
   def self.finalize_post(path)
     post = DefaultParser.post_for(path)
     Writer.dump(post)
     SocialImage.generate(post)
+    post.number
+  end
+
+  def self.fix_rot(url)
+    next_link = RottenList.fix(url)
+    replace_command = "replace #{url} /rotten.html##{next_link.id} ./source/_posts/"
+    puts replace_command
+  end
+
+  def self.setup_draft(path, type)
+    post = DraftParser.post_for(path, type)
+    Writer.dump(post)
     post.number
   end
 end
