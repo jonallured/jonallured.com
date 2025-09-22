@@ -6,4 +6,4 @@ raw_title=$@
 post_title=$(echo $raw_title | titlecase)
 draft_path=$(bundle exec jekyll draft $post_title | tail -n 1 | cut -w -f5)
 post_number=$(bundle exec rake setup_draft[$draft_path,default])
-echo $post_number
+git checkout -b post-$post_number
