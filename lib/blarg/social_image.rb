@@ -1,5 +1,3 @@
-require "rmagick"
-
 class HeaderLine
   def self.create(width)
     Magick::Draw.new do |draw|
