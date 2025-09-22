@@ -1,5 +1,5 @@
 class Blarg
-  class DraftParser < BaseParser
+  class DraftParser < DefaultParser
     TYPE_TO_TEMPLATE_MAP = {
       default: "post_templates/default.md",
       wir: "post_templates/wir.md"

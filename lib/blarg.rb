@@ -2,7 +2,7 @@ require "active_support/core_ext/array/grouping"
 require "rmagick"
 require "yaml"
 
-require_relative "blarg/base_parser"
+require_relative "blarg/default_parser"
 require_relative "blarg/draft_parser"
 require_relative "blarg/social_image"
 require_relative "blarg/post"
@@ -16,7 +16,7 @@ class Blarg
   end
 
   def self.finalize_post(path)
-    post = BaseParser.post_for(path)
+    post = DefaultParser.post_for(path)
     Writer.dump(post)
     SocialImage.generate(post)
     post.number

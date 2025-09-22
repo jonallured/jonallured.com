@@ -1,5 +1,5 @@
 class Blarg
-  class BaseParser
+  class DefaultParser
     def self.post_for(path)
       parser = new(path)
       parser.run
