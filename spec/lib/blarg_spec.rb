@@ -34,6 +34,7 @@ RSpec.describe Blarg do
     before(:each) do
       system("rm -rf tmp && mkdir tmp && cp spec/fixtures/before/* tmp/")
       allow(Dir).to receive(:glob).and_return(Array.new(76))
+      expect(SocialImage).to receive(:generate)
     end
 
     context "with valid path" do

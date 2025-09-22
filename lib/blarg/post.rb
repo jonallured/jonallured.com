@@ -1,6 +1,6 @@
 class Blarg
   class Post
-    attr_reader :content, :number, :path
+    attr_reader :content, :date, :number, :path, :title_parts
 
     def initialize(attrs)
       @content = attrs[:content]
@@ -9,6 +9,7 @@ class Blarg
       @number = attrs[:number]
       @path = attrs[:path]
       @title = attrs[:title]
+      @title_parts = attrs[:title_parts]
     end
 
     def front_matter
