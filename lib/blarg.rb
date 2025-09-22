@@ -1,6 +1,7 @@
 require "yaml"
 require_relative "blarg/base_parser"
 require_relative "blarg/draft_parser"
+require_relative "blarg/social_image"
 require_relative "blarg/post"
 require_relative "blarg/writer"
 
@@ -14,6 +15,7 @@ class Blarg
   def self.finalize_post(path)
     post = BaseParser.post_for(path)
     Writer.dump(post)
+    SocialImage.generate(post)
     post.number
   end
 end
