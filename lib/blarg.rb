@@ -1,4 +1,7 @@
+require "active_support/core_ext/array/grouping"
+require "rmagick"
 require "yaml"
+
 require_relative "blarg/base_parser"
 require_relative "blarg/draft_parser"
 require_relative "blarg/social_image"

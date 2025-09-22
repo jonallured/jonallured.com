@@ -1,5 +1,3 @@
-require "active_support/core_ext/array/grouping"
-
 class Blarg
   class BaseParser
     def self.post_for(path)
