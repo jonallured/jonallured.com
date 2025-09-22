@@ -7,4 +7,4 @@ year=$(date +"%Y")
 post_title="Week in Review: Week ${week_number}, ${year}"
 draft_path=$(bundle exec jekyll draft $post_title | tail -n 1 | cut -w -f5)
 post_number=$(bundle exec rake setup_draft[$draft_path,wir])
-echo $post_number
+git checkout -b post-$post_number

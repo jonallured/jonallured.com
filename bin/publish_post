@@ -5,4 +5,7 @@ set -ex
 publish_path="_drafts/$(basename $@)"
 post_path=$(bundle exec jekyll publish $publish_path | tail -n 1 | cut -w -f6)
 post_number=$(bundle exec rake finalize_post[$post_path])
-echo $post_number
+git add .
+git commit -am "Publish post $post_number"
+git push --set-upstream origin post-$post_number
+gh pr create --fill
