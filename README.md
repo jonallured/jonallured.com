@@ -1,9 +1,9 @@
-# jonallured.com [![CircleCI][badge]][circleci]
+# jonallured.com [![CI Badge][badge]][action_page]
 
 This is the source of [jonallured.com][site].
 
-[badge]: https://circleci.com/gh/jonallured/jonallured.com.svg?style=svg
-[circleci]: https://circleci.com/gh/jonallured/jonallured.com
+[badge]: https://github.com/jonallured/jonallured.com/actions/workflows/main.yml/badge.svg
+[action_page]: https://github.com/jonallured/jonallured.com/actions/workflows/main.yml
 [site]: https://www.jonallured.com
 
 ## Workflow
