@@ -4,6 +4,7 @@ ruby file: ".tool-versions"
 
 gem "activesupport"
 gem "dotenv"
+gem "html-proofer"
 gem "jekyll"
 gem "jekyll-compose"
 gem "nokogiri"
