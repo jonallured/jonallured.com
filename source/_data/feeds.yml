@@ -1,18 +1,18 @@
 ---
 - name: Artsy Engineering
-  url: http://artsy.github.io/feed
+  url: https://artsy.github.io/feed
 - name: Artsy News
   url: https://www.artsy.net/rss/news
 - name: Ash Furrow
   url: https://feed.ashfurrow.com/feed.xml
-- name: Bundler Blog
-  url: http://bundler.io/blog/feed.xml
+- name: Bundler
+  url: https://bundler.io/blog/feed.xml
 - name: Daring Fireball
   url: https://app.jonallured.com/faring_direball.json
 - name: dB
   url: https://code.dblock.org/feed.xml
 - name: Hashrocket
-  url: http://hashrocket.com/blog/posts.rss
+  url: https://hashrocket.com/blog/posts.json
 - name: Heroku
   url: https://blog.heroku.com/feed
 - name: Homebrew
@@ -20,9 +20,9 @@
 - name: Jake Worth
   url: https://www.jakeworth.com/index.xml
 - name: Jon Allured
-  url: http://jonallured.com/atom.xml
+  url: https://www.jonallured.com/atom.xml
 - name: Josh Davey
-  url: http://joshuadavey.com/atom.xml
+  url: https://joshuadavey.com/atom.xml
 - name: McSweeney’s
   url: https://feeds.feedburner.com/mcsweeneys
 - name: Penny Arcade
@@ -34,16 +34,16 @@
 - name: Ruby News
   url: https://www.ruby-lang.org/en/feeds/news.rss
 - name: RubyGems
-  url: http://blog.rubygems.org/atom.xml
+  url: https://blog.rubygems.org/atom.xml
 - name: Steven Hicks
   url: https://www.stevenhicks.me/atom.xml
 - name: Tenderlove
-  url: http://tenderlovemaking.com/atom.xml
+  url: https://tenderlovemaking.com/atom.xml
 - name: Test Double
-  url: http://blog.testdouble.com/index.xml
+  url: https://testdouble.com/insights/rss.xml
 - name: The Oatmeal
-  url: http://feeds.feedburner.com/oatmealfeed
-- name: thoughtbot
-  url: http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots
+  url: https://theoatmeal.com/feed/rss
+- name: Thoughtbot
+  url: https://feed.thoughtbot.com/articles
 - name: xkcd
-  url: http://xkcd.com/rss.xml
+  url: https://xkcd.com/atom.xml
