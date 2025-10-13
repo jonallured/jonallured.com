@@ -34,6 +34,18 @@ create a commit and push to GitHub and even create the PR. When that PR is
 merged then the deploy process starts and when that's done then the post is
 live.
 
+## Deploying Locally
+
+I should always prefer to deploy from CI via the process of opening and merging
+a PR but if it ever comes up then deploying locally should be as easy as:
+
+```bash
+$ bundle exec rake deploy
+```
+
+This assumes that the `.env` file has the correct `DEPLOY_TARGET` so just make
+sure that is in place.
+
 ## Rake Tasks
 
 In addition to automating the posing process, I have a few Rake tasks that
