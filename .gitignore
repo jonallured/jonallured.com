@@ -1,3 +1,4 @@
+.env
 build
 source/.jekyll-cache
 tmp
