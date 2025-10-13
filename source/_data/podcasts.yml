@@ -1,32 +1,19 @@
+---
 - name: Armchair Expert with Dax Shepard
-  url: https://feeds.simplecast.com/qf4XXrnI
-- name: Artsy Engineering Radio
-  url: https://artsy.github.io/podcast.xml
-- name: Consider This from NPR
-  url: https://feeds.npr.org/510355/podcast.xml
+  url: https://rss.art19.com/armchair-expert
 - name: Fresh Air
   url: https://feeds.npr.org/381444908/podcast.xml
-- name: Invisibilia
-  url: https://feeds.npr.org/510307/podcast.xml
-- name: Nice White Parents
-  url: https://feeds.simplecast.com/Z4wHC1c2
-- name: No Compromise
-  url: https://feeds.npr.org/510356/podcast.xml
-- name: Planet Money
-  url: https://feeds.npr.org/510289/podcast.xml
+- name: Mike Birbiglia's Working It Out
+  url: https://feeds.simplecast.com/MTW0B2El
+- name: On Rails
+  url: https://feeds.buzzsprout.com/2462975.rss
+- name: On the Media
+  url: https://feeds.simplecast.com/o4jAFXaw
 - name: Pudding Time
   url: https://feeds.buzzsprout.com/1470301.rss
 - name: Radiolab
-  url: http://feeds.wnyc.org/radiolab
-- name: 'Radiolab Presents: More Perfect'
-  url: http://feeds.wnyc.org/moreperfect
-- name: Serial
-  url: https://feeds.simplecast.com/xl36XBC2
-- name: The Dollop with Dave Anthony and Gareth Reynolds
-  url: https://rss.art19.com/the-dollop
-- name: The New Yorker Radio Hour
-  url: http://feeds.wnyc.org/newyorkerradiohour
+  url: https://feeds.simplecast.com/EmVW7VGp
+- name: The Ruby Gems Podcast
+  url: https://feeds.buzzsprout.com/2509083.rss
 - name: This American Life
-  url: http://feed.thisamericanlife.org/talpodcast
-- name: Up First
-  url: https://feeds.npr.org/510318/podcast.xml
+  url: https://www.thisamericanlife.org/podcast/rss.xml
