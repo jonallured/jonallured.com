@@ -3,7 +3,7 @@ jobs:
   test:
     working_directory: ~/jonallured.com
     docker:
-      - image: cimg/ruby:3.4.5-node
+      - image: cimg/ruby:3.4.7-node
     environment:
       BUNDLE_JOBS: "3"
       BUNDLE_PATH: "vendor/bundle"
