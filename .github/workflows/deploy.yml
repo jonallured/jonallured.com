@@ -18,6 +18,7 @@ jobs:
       - name: Scan server keys
         run: ssh-keyscan www.jonallured.com >> ~/.ssh/known_hosts
       - uses: actions/checkout@v2
+      - uses: mfinelli/setup-imagemagick@v7
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
