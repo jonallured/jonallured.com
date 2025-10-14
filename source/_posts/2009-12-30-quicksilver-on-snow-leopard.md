@@ -26,4 +26,4 @@ a really nice application launcher that goes way beyond that one feature to
 change how you interact with your computer. If you prefer to keep your hands off
 the mouse and on the keyboard, you'll love Quicksilver.
 
-[post]: http://groups.google.com/group/blacktree-quicksilver/browse_thread/thread/8432fc6538d2d778
+[post]: https://groups.google.com/group/blacktree-quicksilver/browse_thread/thread/8432fc6538d2d778

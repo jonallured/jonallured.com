@@ -1,0 +1,631 @@
+Running 3 checks (Images, Links, Scripts) in ["build"] on *.html files ...
+
+
+Checking 309 external links
+Checking 111 internal links
+Checking internal link hashes in 1 file
+Ran on 77 files!
+
+
+For the Links check, the following failures were found:
+
+* At build/posts/2011/08/08/keeping-a-live-website-in-sync-with-a-local-version-part-one.html:59:
+
+  http://www.allured.com is not an HTTPS link
+
+* At build/posts/2011/08/08/keeping-a-live-website-in-sync-with-a-local-version-part-one.html:75:
+
+  http://www.clickability.com is not an HTTPS link
+
+* At build/posts/2011/08/08/keeping-a-live-website-in-sync-with-a-local-version-part-one.html:115:
+
+  http://www.dropbox.com/help/19 is not an HTTPS link
+
+* At build/posts/2011/08/08/keeping-a-live-website-in-sync-with-a-local-version-part-two.html:83:
+
+  http://www.nokogiri.org/ is not an HTTPS link
+
+* At build/posts/2011/11/28/playing-around-with-content-editable-in-rails.html:36:
+
+  http://hashrocket.com is not an HTTPS link
+
+* At build/posts/2011/11/28/playing-around-with-content-editable-in-rails.html:36:
+
+  http://twitter.com/daveisonthego is not an HTTPS link
+
+* At build/posts/2011/11/28/playing-around-with-content-editable-in-rails.html:84:
+
+  http://railscasts.com/episodes/296-mercury-editor is not an HTTPS link
+
+* At build/posts/2011/12/17/notes-help-you-learn-changing-directories.html:36:
+
+  http://swombat.com/2011/12/11/taking-notes is not an HTTPS link
+
+* At build/posts/2011/12/17/notes-help-you-learn-changing-directories.html:46:
+
+  http://www.hashrocket.com is not an HTTPS link
+
+* At build/posts/2011/12/17/notes-help-you-learn-changing-directories.html:61:
+
+  http://www.commandlinefu.com/commands/browse/sort-by-votes is not an HTTPS link
+
+* At build/posts/2011/12/18/debugging-rails-commits-omniauth-1-windy-city-rails-videos.html:53:
+
+  http://gembundler.com/ is not an HTTPS link
+
+* At build/posts/2011/12/18/debugging-rails-commits-omniauth-1-windy-city-rails-videos.html:64:
+
+  http://patshaughnessy.net/2011/12/6/learning-from-the-masters-some-of-my-favorite-rails-commits is not an HTTPS link
+
+* At build/posts/2011/12/18/debugging-rails-commits-omniauth-1-windy-city-rails-videos.html:75:
+
+  http://railscasts.com/episodes/304-omniauth-identity is not an HTTPS link
+
+* At build/posts/2011/12/18/debugging-rails-commits-omniauth-1-windy-city-rails-videos.html:87:
+
+  http://vimeo.com/channels/wcr11 is not an HTTPS link
+
+* At build/posts/2011/12/19/multiple-carets-in-textmate-2-default-scope.html:40:
+
+  http://blog.macromates.com/2011/multiple-carets is not an HTTPS link
+
+* At build/posts/2011/12/20/rails-3-2-command-reuse-mobile-fixed-position-metaprogramming.html:35:
+
+  http://weblog.rubyonrails.org/2011/12/20/rails-3-2-rc1-faster-dev-mode-routing-explain-queries-tagged-logger-store is not an HTTPS link
+
+* At build/posts/2011/12/20/rails-3-2-command-reuse-mobile-fixed-position-metaprogramming.html:42:
+
+  http://www.useit.com/alertbox/overloaded-commands.html is not an HTTPS link
+
+* At build/posts/2011/12/20/rails-3-2-command-reuse-mobile-fixed-position-metaprogramming.html:58:
+
+  http://www.quirksmode.org/blog/archives/2011/12/position_fixed.html is not an HTTPS link
+
+* At build/posts/2011/12/20/rails-3-2-command-reuse-mobile-fixed-position-metaprogramming.html:69:
+
+  http://patshaughnessy.net/2011/12/20/learning-from-the-masters-part-2-three-metaprogramming-best-practices is not an HTTPS link
+
+* At build/posts/2011/12/24/edit-files-in-textmate-from-a-remote-server.html:36:
+
+  http://blog.macromates.com/2011/mate-and-rmate/ is not an HTTPS link
+
+* At build/posts/2012/01/02/kosman-on-better-jquery-code.html:36:
+
+  http://24ways.org/2011/your-jquery-now-with-less-suck is not an HTTPS link
+
+* At build/posts/2012/01/02/kosman-on-better-jquery-code.html:41:
+
+  http://en.wikipedia.org/wiki/Spaghetti_code is not an HTTPS link
+
+* At build/posts/2012/01/03/rails-4-will-drop-ruby-187-croak-evaluates-decorators.html:35:
+
+  http://weblog.rubyonrails.org/2011/12/20/rails-master-is-now-4-0-0-beta is not an HTTPS link
+
+* At build/posts/2012/01/03/rails-4-will-drop-ruby-187-croak-evaluates-decorators.html:41:
+
+  http://vimeo.com/27361482 is not an HTTPS link
+
+* At build/posts/2012/01/03/rails-4-will-drop-ruby-187-croak-evaluates-decorators.html:42:
+
+  http://robots.thoughtbot.com/post/14825364877/evaluating-alternative-decorator-implementations-in is not an HTTPS link
+
+* At build/posts/2012/01/06/preston-werner-at-rubyconf-2011-on-github-flavored-ruby.html:56:
+
+  http://tom.preston-werner.com/2010/08/23/readme-driven-development.html is not an HTTPS link
+
+* At build/posts/2012/01/06/preston-werner-at-rubyconf-2011-on-github-flavored-ruby.html:105:
+
+  http://semver.org is not an HTTPS link
+
+* At build/posts/2012/01/09/shaughnessy-explores-strings-klabnik-on-whats-wrong-with-mvc.html:36:
+
+  http://patshaughnessy.net/2012/1/4/never-create-ruby-strings-longer-than-23-characters is not an HTTPS link
+
+* At build/posts/2012/01/09/shaughnessy-explores-strings-klabnik-on-whats-wrong-with-mvc.html:74:
+
+  http://blog.steveklabnik.com/posts/2011-12-30-active-record-considered-harmful is not an HTTPS link
+
+* At build/posts/2012/01/10/releases-for-both-rspec-and-rails.html:57:
+
+  http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released is not an HTTPS link
+
+* At build/posts/2012/01/11/blocks-in-javascript-hateoas-in-rails-daveys-turbux-watchr-for-ruby-koans-using-a-single-ampersand.html:34:
+
+  http://yehudakatz.com/2012/01/10/javascript-needs-blocks is not an HTTPS link
+
+* At build/posts/2012/01/11/blocks-in-javascript-hateoas-in-rails-daveys-turbux-watchr-for-ruby-koans-using-a-single-ampersand.html:49:
+
+  http://blog.steveklabnik.com/posts/2012-01-06-implementing-hateoas-with-presenters is not an HTTPS link
+
+* At build/posts/2012/01/12/delayed-job-hits-3-marston-on-deprecating-legacy-code.html:36:
+
+  http://collectiveidea.com/blog/archives/2012/01/04/the-big-three-oh is not an HTTPS link
+
+* At build/posts/2012/01/12/delayed-job-hits-3-marston-on-deprecating-legacy-code.html:58:
+
+  http://myronmars.to/n/dev-blog/2011/12/deprecating-a-legacy-subsystem-in-rails is not an HTTPS link
+
+* At build/posts/2012/01/20/brown-on-structural-design-patterns-in-ruby.html:42:
+
+  http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612 is not an HTTPS link
+
+* At build/posts/2012/01/20/brown-on-structural-design-patterns-in-ruby.html:101:
+
+  http://sourcemaking.com/design_patterns/bridge is not an HTTPS link
+
+* At build/posts/2012/01/20/brown-on-structural-design-patterns-in-ruby.html:158:
+
+  http://www.ruby-doc.org/stdlib-1.9.3/libdoc/delegate/rdoc/Delegator.html is not an HTTPS link
+
+* At build/posts/2012/01/21/javascript-everywhere-value-of-thinking-aloud-3d-with-the-dom-bernhardt-on-unix.html:36:
+
+  http://www.lukew.com/ff/entry.asp?1482 is not an HTTPS link
+
+* At build/posts/2012/01/21/javascript-everywhere-value-of-thinking-aloud-3d-with-the-dom-bernhardt-on-unix.html:43:
+
+  http://www.useit.com/alertbox/thinking-aloud-tests.html is not an HTTPS link
+
+* At build/posts/2012/01/21/javascript-everywhere-value-of-thinking-aloud-3d-with-the-dom-bernhardt-on-unix.html:83:
+
+  http://en.wikipedia.org/wiki/Parallax is not an HTTPS link
+
+* At build/posts/2012/01/21/javascript-everywhere-value-of-thinking-aloud-3d-with-the-dom-bernhardt-on-unix.html:145:
+
+  http://tldp.org/LDP/abs/html/functions.html is not an HTTPS link
+
+* At build/posts/2012/01/21/javascript-everywhere-value-of-thinking-aloud-3d-with-the-dom-bernhardt-on-unix.html:189:
+
+  http://manifesto.softwarecraftsmanship.org/ is not an HTTPS link
+
+* At build/posts/2012/01/21/javascript-everywhere-value-of-thinking-aloud-3d-with-the-dom-bernhardt-on-unix.html:190:
+
+  http://theleanstartup.com/ is not an HTTPS link
+
+* At build/posts/2012/01/23/kellum-on-pixels-shaughnessy-on-shared-strings.html:35:
+
+  http://www.alistapart.com/articles/a-pixel-identity-crisis/ is not an HTTPS link
+
+* At build/posts/2012/01/23/kellum-on-pixels-shaughnessy-on-shared-strings.html:70:
+
+  http://patshaughnessy.net/2012/1/18/seeing-double-how-ruby-shares-string-values is not an HTTPS link
+
+* At build/posts/2012/01/24/helms-on-imprecise-floats-carroll-on-services.html:57:
+
+  http://www.ruby-doc.org/stdlib-1.9.3/libdoc/bigdecimal/rdoc/BigDecimal.html is not an HTTPS link
+
+* At build/posts/2012/01/24/helms-on-imprecise-floats-carroll-on-services.html:68:
+
+  http://blog.carbonfive.com/2012/01/10/does-my-rails-app-need-a-service-layer/ is not an HTTPS link
+
+* At build/posts/2012/01/24/helms-on-imprecise-floats-carroll-on-services.html:109:
+
+  http://guides.rubyonrails.org/action_mailer_basics.html is not an HTTPS link
+
+* At build/posts/2012/01/27/brown-on-the-singleton-in-ruby.html:40:
+
+  http://practicingruby.com/articles/shared/jleygxejeopq is not an HTTPS link
+
+* At build/posts/2012/01/27/brown-on-the-singleton-in-ruby.html:44:
+
+  http://ruby-doc.org/stdlib-1.9.3/libdoc/singleton/rdoc/Singleton.html is not an HTTPS link
+
+* At build/posts/2012/01/27/brown-on-the-singleton-in-ruby.html:114:
+
+  http://practicingruby.com/articles/shared/jleygxejeopq is not an HTTPS link
+
+* At build/posts/2012/01/31/the-simpleton-pattern-when-to-include-when-to-extend.html:37:
+
+  http://twitter.com/voxdolo is not an HTTPS link
+
+* At build/posts/2012/01/31/the-simpleton-pattern-when-to-include-when-to-extend.html:84:
+
+  http://twitter.com/higgaion is not an HTTPS link
+
+* At build/posts/2012/02/05/hagemann-on-testing-rake-tasks-spdy-in-firefox-11-rvm-using-git-flow.html:48:
+
+  http://hacks.mozilla.org/2012/02/spdy-brings-responsive-and-scalable-transport-to-firefox-11/ is not an HTTPS link
+
+* At build/posts/2012/02/05/hagemann-on-testing-rake-tasks-spdy-in-firefox-11-rvm-using-git-flow.html:57:
+
+  http://5by5.tv/hypercritical/36 is not an HTTPS link
+
+* At build/posts/2012/02/05/hagemann-on-testing-rake-tasks-spdy-in-firefox-11-rvm-using-git-flow.html:68:
+
+  http://nvie.com/posts/a-successful-git-branching-model/ is not an HTTPS link
+
+* At build/posts/2012/02/05/hagemann-on-testing-rake-tasks-spdy-in-firefox-11-rvm-using-git-flow.html:80:
+
+  http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/ is not an HTTPS link
+
+* At build/posts/2012/02/06/klabnik-on-moving-from-sinatra-to-rails-and-acceptance-vs-integration-tests.html:39:
+
+  http://blog.steveklabnik.com/posts/2012-01-17-moving-from-sinatra-to-rails is not an HTTPS link
+
+* At build/posts/2012/02/07/making-urls-pretty-uncle-bob-on-srp-grimm-on-activerecord-associations-heilmann-on-classlist.html:24:
+
+  http://railscasts.com/episodes/314-pretty-urls-with-friendlyid is not an HTTPS link
+
+* At build/posts/2012/02/07/making-urls-pretty-uncle-bob-on-srp-grimm-on-activerecord-associations-heilmann-on-classlist.html:50:
+
+  http://blog.8thlight.com/uncle-bob/2012/02/01/Service-Oriented-Agony.html is not an HTTPS link
+
+* At build/posts/2012/02/07/making-urls-pretty-uncle-bob-on-srp-grimm-on-activerecord-associations-heilmann-on-classlist.html:61:
+
+  http://avdi.org/devblog/2012/01/19/activerecord-default-association-extensions is not an HTTPS link
+
+* At build/posts/2012/02/07/making-urls-pretty-uncle-bob-on-srp-grimm-on-activerecord-associations-heilmann-on-classlist.html:67:
+
+  http://hacks.mozilla.org/2012/01/hidden-gems-of-html5-classlist is not an HTTPS link
+
+* At build/posts/2012/02/08/marston-on-sinatras-halt-jones-on-sinatra-vs-rails-bernhardt-on-learning-vim.html:36:
+
+  http://myronmars.to/n/dev-blog/2012/01/why-sinatras-halt-is-awesome is not an HTTPS link
+
+* At build/posts/2012/02/13/johnson-on-before-and-after-in-css-clayton-on-rails-config.html:37:
+
+  http://designshack.net/articles/css/the-lowdown-on-before-and-after-in-css is not an HTTPS link
+
+* At build/posts/2012/02/17/cheek-and-grimm-on-modules.html:38:
+
+  http://blog.8thlight.com/josh-cheek/2012/02/03/modules-called-they-want-their-integrity-back.html is not an HTTPS link
+
+* At build/posts/2012/02/17/cheek-and-grimm-on-modules.html:45:
+
+  http://devblog.avdi.org/2012/02/03/on-module-integrity is not an HTTPS link
+
+* At build/posts/2012/02/27/grimm-on-recursion-in-ruby.html:37:
+
+  http://www.codebenders.com/code/preventing-recursion-in-ruby is not an HTTPS link
+
+* At build/posts/2012/02/27/grimm-on-recursion-in-ruby.html:43:
+
+  http://ruby-doc.org/core-1.9.3/Module.html#method-i-instance_method is not an HTTPS link
+
+* At build/posts/2012/02/27/grimm-on-recursion-in-ruby.html:44:
+
+  http://ruby-doc.org/core-1.9.3/UnboundMethod.html is not an HTTPS link
+
+* At build/posts/2012/02/27/grimm-on-recursion-in-ruby.html:48:
+
+  http://ruby-doc.org/core-1.9.3/Thread.html is not an HTTPS link
+
+* At build/posts/2012/08/31/how-to-think-about-your-local-dev-environment.html:51:
+
+  http://gembundler.com is not an HTTPS link
+
+* At build/posts/2012/10/17/setting-up-a-new-rails-app.html:47:
+
+  http://heroku.com/ is not an HTTPS link
+
+* At build/posts/2012/10/17/setting-up-a-new-rails-app.html:67:
+
+  http://blog.heroku.com/archives/2012/5/24/cedar_goes_ga/ is not an HTTPS link
+
+* At build/posts/2012/10/17/setting-up-a-new-rails-app.html:68:
+
+  http://blog.heroku.com/archives/2012/5/9/multiple_ruby_version_support_on_heroku/ is not an HTTPS link
+
+* At build/posts/2013/04/08/pair-with-me-on-anything.html:36:
+
+  http://devblog.avdi.org is not an HTTPS link
+
+* At build/posts/2013/04/08/pair-with-me-on-anything.html:45:
+
+  http://www.pairprogramwith.me is not an HTTPS link
+
+* At build/posts/2013/04/08/pair-with-me-on-anything.html:49:
+
+  http://twitter.com/jonallured is not an HTTPS link
+
+* At build/posts/2016/01/24/poker-3-first-impressions.html:38:
+
+  http://www.amazon.com/gp/product/B014T4O92C is not an HTTPS link
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:35:
+
+  http://danger.systems is not an HTTPS link
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:41:
+
+  http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html is not an HTTPS link
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:53:
+
+  http://danger.systems/guides/getting_started.html is not an HTTPS link
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:311:
+
+  http://mattgemmell.com/perceived-software-complexity/ is not an HTTPS link
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:312:
+
+  http://c2.com/cgi/wiki?AbcMetric is not an HTTPS link
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:329:
+
+  http://orta.io/ is not an HTTPS link
+
+* At build/resume.html:120:
+
+  http://rubyconferences.org is not an HTTPS link
+
+* At build/rotten.html:43:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:48:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:53:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:58:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:63:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:68:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:73:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:78:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:83:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:88:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:93:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:98:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:103:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:108:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:113:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:118:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:123:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:128:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:133:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:138:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:143:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:148:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:153:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:158:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:163:
+
+  'a' tag is missing a reference
+
+* At build/rotten.html:168:
+
+  'a' tag is missing a reference
+
+* At build/talks/rubymn-bearden-walkthrough.html:35:
+
+  http://code.dblock.org/2015/02/09/becoming-open-source-by-default.html is not an HTTPS link
+
+* At build/talks/vim-plugins.html:25:
+
+  http://www.vim.org/scripts/index.php is not an HTTPS link
+
+* At build/talks/vim-plugins.html:27:
+
+  http://learnvimscriptthehardway.stevelosh.com/ is not an HTTPS link
+
+For the Links > External check, the following failures were found:
+
+* At build/posts/2011/08/08/keeping-a-live-website-in-sync-with-a-local-version-part-one.html:75:
+
+  External link http://www.clickability.com failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2011/12/17/notes-help-you-learn-changing-directories.html:36:
+
+  External link http://swombat.com/2011/12/11/taking-notes failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2011/12/20/rails-3-2-command-reuse-mobile-fixed-position-metaprogramming.html:35:
+
+  External link http://weblog.rubyonrails.org/2011/12/20/rails-3-2-rc1-faster-dev-mode-routing-explain-queries-tagged-logger-store failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2012/01/03/rails-4-will-drop-ruby-187-croak-evaluates-decorators.html:35:
+
+  External link http://weblog.rubyonrails.org/2011/12/20/rails-master-is-now-4-0-0-beta failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2012/01/09/shaughnessy-explores-strings-klabnik-on-whats-wrong-with-mvc.html:74:
+
+  External link http://blog.steveklabnik.com/posts/2011-12-30-active-record-considered-harmful failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2012/01/10/releases-for-both-rspec-and-rails.html:57:
+
+  External link http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2012/01/11/blocks-in-javascript-hateoas-in-rails-daveys-turbux-watchr-for-ruby-koans-using-a-single-ampersand.html:49:
+
+  External link http://blog.steveklabnik.com/posts/2012-01-06-implementing-hateoas-with-presenters failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2012/01/12/delayed-job-hits-3-marston-on-deprecating-legacy-code.html:58:
+
+  External link http://myronmars.to/n/dev-blog/2011/12/deprecating-a-legacy-subsystem-in-rails failed: Not Found (status code 404)
+
+* At build/posts/2012/01/24/helms-on-imprecise-floats-carroll-on-services.html:68:
+
+  External link http://blog.carbonfive.com/2012/01/10/does-my-rails-app-need-a-service-layer/ failed (status code 404)
+
+* At build/posts/2012/01/27/brown-on-the-singleton-in-ruby.html:40:
+
+  External link http://practicingruby.com/articles/shared/jleygxejeopq failed (status code 404)
+
+* At build/posts/2012/01/27/brown-on-the-singleton-in-ruby.html:114:
+
+  External link http://practicingruby.com/articles/shared/jleygxejeopq failed (status code 404)
+
+* At build/posts/2012/02/06/klabnik-on-moving-from-sinatra-to-rails-and-acceptance-vs-integration-tests.html:39:
+
+  External link http://blog.steveklabnik.com/posts/2012-01-17-moving-from-sinatra-to-rails failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2012/02/08/marston-on-sinatras-halt-jones-on-sinatra-vs-rails-bernhardt-on-learning-vim.html:36:
+
+  External link http://myronmars.to/n/dev-blog/2012/01/why-sinatras-halt-is-awesome failed: Not Found (status code 404)
+
+* At build/posts/2012/02/08/marston-on-sinatras-halt-jones-on-sinatra-vs-rails-bernhardt-on-learning-vim.html:43:
+
+  External link https://www.sitepoint.com/rails-or-sinatra-the-best-of-both-worlds/ failed (status code 403)
+
+* At build/posts/2013/04/08/pair-with-me-on-anything.html:45:
+
+  External link http://www.pairprogramwith.me failed: Not Found (status code 404)
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:72:
+
+  External link https://github.com/ruby-conferences/ruby-conferences.github.io/blob/af8bc12b6c4ee027e2006b01e1f76c1d00b6cf9c/Dangerfile#L16 failed: https://github.com/ruby-conferences/ruby-conferences.github.io/blob/af8bc12b6c4ee027e2006b01e1f76c1d00b6cf9c/Dangerfile exists, but the hash 'L16' does not (status code 200)
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:307:
+
+  External link https://github.com/jonallured/danger-commit_lint/blob/master/.rubocop.yml#L4 failed: https://github.com/jonallured/danger-commit_lint/blob/master/.rubocop.yml exists, but the hash 'L4' does not (status code 200)
+
+* At build/posts/2016/09/06/commit-lint-for-danger.html:311:
+
+  External link http://mattgemmell.com/perceived-software-complexity/ failed (status code 404)
+
+* At build/posts/2016/09/09/my-digital-ocean-server-setup.html:135:
+
+  External link https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux failed: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ exists, but the hash 'platform-linux' does not (status code 200)
+
+* At build/posts/2020/12/23/dealing-with-rotten-links.html:57:
+
+  External link https://github.com/jonallured/jonallured.com/blob/04157a179a6312d83f9e1c114b500218202795c5/Rakefile#L26-L30 failed: https://github.com/jonallured/jonallured.com/blob/04157a179a6312d83f9e1c114b500218202795c5/Rakefile exists, but the hash 'L26-L30' does not (status code 200)
+
+* At build/posts/2021/02/01/start-and-stop-your-work-day-with-a-list.html:45:
+
+  External link https://www.fortyeven.com/ failed: got a time out (response code 0) (status code 0)
+
+* At build/posts/2021/02/21/generating-social-share-images-with-ruby.html:187:
+
+  External link https://unfurler.com/ failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2021/02/21/generating-social-share-images-with-ruby.html:210:
+
+  External link https://www.fortyeven.com/blog/ failed: got a time out (response code 0) (status code 0)
+
+* At build/posts/2021/02/21/week-in-review-week-7-2021.html:47:
+
+  External link https://github.com/verynicecode/forty-site/pull/23 failed (status code 404)
+
+* At build/posts/2021/02/28/week-in-review-week-8-2021.html:47:
+
+  External link https://www.fortyeven.com/blog/2021/02/27/building-forty-in-the-open.html failed: got a time out (response code 0) (status code 0)
+
+* At build/posts/2021/03/06/save-nice-feedback-you-receive.html:47:
+
+  External link https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/#Make.small..self-contained.commits failed: https://artsy.github.io/blog/2020/08/11/improve-pull-requests-by-including-valuable-context/ exists, but the hash 'Make.small..self-contained.commits' does not (status code 200)
+
+* At build/posts/2021/05/16/week-in-review-week-19-2021.html:69:
+
+  External link https://github.com/jonallured/jay/pull/45 failed (status code 404)
+
+* At build/posts/2021/06/05/updated-digitalocean-server-setup.html:139:
+
+  External link https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux failed: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ exists, but the hash 'platform-linux' does not (status code 200)
+
+* At build/posts/2021/06/06/week-in-review-week-22-2021.html:43:
+
+  External link https://www.cybertail.systems failed with something very wrong.
+It's possible libcurl couldn't connect to the server, or perhaps the request timed out.
+Sometimes, making too many requests at once also breaks things. (status code 0)
+
+* At build/posts/2021/06/06/week-in-review-week-22-2021.html:45:
+
+  External link https://github.com/verynicecode/cybertail-site/pull/4 failed (status code 404)
+
+* At build/posts/2021/06/13/week-in-review-week-23-2021.html:40:
+
+  External link https://www.fortyeven.com failed: got a time out (response code 0) (status code 0)
+
+* At build/posts/2021/06/13/week-in-review-week-23-2021.html:41:
+
+  External link https://github.com/verynicecode/forty-site/pull/28 failed (status code 404)
+
+* At build/posts/2021/06/20/week-in-review-week-24-2021.html:49:
+
+  External link https://github.com/middleman/middleman/issues/2400#issuecomment-732464743 failed: https://github.com/middleman/middleman/issues/2400 exists, but the hash 'issuecomment-732464743' does not (status code 200)
+
+* At build/posts/2021/06/20/week-in-review-week-24-2021.html:50:
+
+  External link https://github.com/middleman/middleman/issues/2422#issuecomment-819745887 failed: https://github.com/middleman/middleman/issues/2422 exists, but the hash 'issuecomment-819745887' does not (status code 200)
+
+* At build/talks/vim-plugins.html:26:
+
+  External link https://github.com/search?l=VimL&o=desc&q=vim&ref=cmdform&s=stars&type=Repositories failed (status code 429)
+
+
+HTML-Proofer found 149 failures!

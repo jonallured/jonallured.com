@@ -97,7 +97,7 @@ a single compliant - it just works.
 Two][part_two].*
 
 [part_two]: /posts/2011/08/08/keeping-a-live-website-in-sync-with-a-local-version-part-two.html
-[allured]: http://www.allured.com
+[allured]: https://www.allured.com
 [click]: http://www.clickability.com
 [dropbox_api]: https://www.dropbox.com/developers
-[shared]: http://www.dropbox.com/help/19
+[shared]: https://help.dropbox.com/share/create-and-share-link

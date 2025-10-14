@@ -57,6 +57,6 @@ remain scrolled to the bottom as its size grows. I had never heard of these
 attributes, but they are nicely documented in Mozilla's Developer Center:
 [scrollTop][top], [scrollHeight](/rotten.html#5).
 
-[hover]: http://docs.jquery.com/Events/hover
-[event_object]: http://docs.jquery.com/Events/jQuery.Event
+[hover]: https://api.jquery.com/hover/
+[event_object]: https://api.jquery.com/category/events/event-object/
 [top]: https://developer.mozilla.org/en/DOM/element.scrollTop
