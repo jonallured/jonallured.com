@@ -1,13 +1,7 @@
 ---
+layout: resume
 title: Resume
 ---
-
-<div id="contactDetails">
-  <p>630.390.4018<br />
-    <a href="mailto:jon@jonallured.com">jon@jonallured.com</a>
-  </p>
-</div>
-
 # Resume
 
 ## Professional Objective
