@@ -35,7 +35,7 @@ body {
     color: var(--blue);
   }
 
-  header, section, footer {
+  header, main, footer {
     margin: 0 auto;
     max-width: 1000px;
   }
@@ -76,7 +76,7 @@ body {
     }
   }
 
-  section {
+  main {
     display: flex;
     justify-content: space-between;
 

@@ -6,7 +6,7 @@ body {
     }
   }
 
-  section {
+  main {
     flex-direction: column;
 
     aside {
