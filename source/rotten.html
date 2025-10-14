@@ -22,7 +22,7 @@ title: Rotten Links
 <ol>
   {% for link in site.data.rotten_links %}
   <li>
-    <a name="{{ link.id}}"></a>
+    <a id="{{ link.id}}"></a>
     {{ link.url }}
   </li>
   {% endfor %}
