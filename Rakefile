@@ -1,5 +1,6 @@
 require "dotenv/tasks"
 require "rspec/core/rake_task"
+require "standard/rake"
 
 Rake.add_rakelib "lib/tasks"
 
@@ -16,4 +17,4 @@ end
 
 RSpec::Core::RakeTask.new(:spec)
 
-task default: %i[spec build]
+task default: %i[standard spec build]
