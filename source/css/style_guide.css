@@ -1,0 +1,49 @@
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+
+  p {
+    margin: 0;
+  }
+
+  .swatch {
+    border-color: var(--black);
+    border-style: solid;
+    border-width: 2px;
+    color: var(--black);
+    display: block;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .white {
+    background-color: var(--white);
+  }
+
+  .light-gray {
+    background-color: var(--light-gray);
+  }
+
+  .gray {
+    background-color: var(--gray);
+  }
+
+  .black {
+    background-color: var(--black);
+    border-color: var(--blue);
+    color: var(--white);
+  }
+
+  .highlight {
+    background-color: var(--highlight);
+  }
+
+  .blue {
+    background-color: var(--blue);
+    color: var(--white);
+  }
+}
