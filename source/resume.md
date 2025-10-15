@@ -30,9 +30,14 @@ to know when to make the "boring" choice.
 
 ## Employment History
 
-Artsy, _remote_ (2017-present)
+Shopify, _remote_ (2025-present)
 
-* __Staff Engineer:__ (2022-present) Focused on improving Engineering-wide
+* __Senior Engineer:__ (2025-present) Used AI tools to augment the army of
+  engineers with a focus on generating tests at scale.
+
+Artsy, _remote_ (2017-2025)
+
+* __Staff Engineer:__ (2022-2025) Focused on improving Engineering-wide
   skills with Ruby on Rails. Managed and worked on an effort to migrate from
   Mongo to Postgres. Also shipped our first iOS Widget!
 
