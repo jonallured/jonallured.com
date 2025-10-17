@@ -1,8 +1,10 @@
 ---
+date: 2025-10-17 10:17 -0500
 favorite: false
 number: 67
 title: "Migrating Back to Jekyll"
 ---
+
 This week I finished a migration of the blog back to [Jekyll][] and wanted to
 write up a few things about that process and the motivation.
 
