@@ -1,4 +1,5 @@
 ---
+date: 2025-10-20 13:44 -0500
 favorite: false
 number: 69
 title: "Capturing and Storing Apache Access Log Data"
