@@ -163,6 +163,24 @@ body {
           margin: 0;
         }
       }
+
+      table {
+        border-collapse: collapse;
+        text-align: left;
+        width: 100%;
+
+        tr {
+          border-bottom: 1px solid var(--gray);
+
+          th, td {
+            padding: 10px 0;
+          }
+
+          th:last-child, td:last-child {
+            text-align: right;
+          }
+        }
+      }
     }
 
     aside {
