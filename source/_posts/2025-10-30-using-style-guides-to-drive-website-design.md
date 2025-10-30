@@ -63,7 +63,9 @@ that and then iterated on the design until it looked like this:
   <p><em>click for bigger</em></p>
 </div>
 
-Then I [opened a PR][pr-155] to close the issue and deployed that change pretty quickly.
+Then I [opened a PR][pr-155] to close the issue and deployed that change pretty
+quickly. You can take a look at the actual styles - there isn't a lot there just
+some minor changes but I think they make the data look a lot nicer!
 
 [post-71]: https://www.jonallured.com/posts/2025/10/29/evaluating-apache-access-log-data.html
 [issue-153]: https://github.com/jonallured/jonallured.com/issues/153
