@@ -45,23 +45,23 @@ out the design of table styles for this site. At the end of the [Evaluating
 Apache Access Log Data][post-71] post I did a table of data that initially
 looked like this:
 
-<div class="imageWrapper">
-  <a href="/images/post-72/table-before-styling.png">
-    <img alt="Table Before Styling Screenshot" src="/images/post-72/table-before-styling.png" width="700" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Screenshot of table before styling."
+  src="/images/post-72/table-before-styling.png"
+%}
 
 I [logged an issue][issue-153] to come back to this because I didn't like how it
 looked. That was a good excuse to add a table to the style guide page so I did
 that and then iterated on the design until it looked like this:
 
-<div class="imageWrapper">
-  <a href="/images/post-72/table-after-styling.png">
-    <img alt="Table After Styling Screenshot" src="/images/post-72/table-after-styling.png" width="700" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Screenshot of table after styling."
+  src="/images/post-72/table-after-styling.png"
+%}
 
 Then I [opened a PR][pr-155] to close the issue and deployed that change pretty
 quickly. You can take a look at the actual styles - there isn't a lot there just

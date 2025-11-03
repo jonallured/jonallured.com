@@ -14,12 +14,12 @@ I used some of that recharge day to make more progress on my lab notebook
 project so that's almost ready to talk more about on here. Anyway, here's a WIP
 screenshot:
 
-<div class="imageWrapper">
-  <a href="/images/post-50/lab-notebook.png">
-    <img alt="Work in progress screenshot of my lab notebook." src="/images/post-50/lab-notebook.png" width="512" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Work in progress screenshot of my lab notebook."
+  src="/images/post-50/lab-notebook.png"
+%}
 
 ## Highlights
 
