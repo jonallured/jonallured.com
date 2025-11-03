@@ -13,12 +13,12 @@ than I should have!
 
 I think they turned out pretty great:
 
-<div class="imageWrapper">
-  <a href="/images/post-42/social-share.png">
-    <img alt="Social Share Image for Post 42: Start and Stop Your Work Day With a List." src="/images/post-42/social-share.png" width="512" height="256" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Social Share Image for Post 42: Start and Stop Your Work Day With a List."
+  src="/images/post-42/social-share.png"
+%}
 
 I've got the title of the post laid out nice and big in the center of the top
 part and then I added some meta info and a headshot plus my name.
@@ -169,23 +169,23 @@ work the way I expected at first but here's an example of how it looks:
 
 And here's how it looks on Twitter in all it's unfurled glory:
 
-<div class="imageWrapper">
-  <a href="/images/post-45/unfurled.png">
-    <img alt="Unfurled social share image as seen on Twitter." src="/images/post-45/unfurled.png" width="500" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Unfurled social share image as seen on Twitter."
+  src="/images/post-45/unfurled.png"
+%}
 
 ## Forty's Blog Got Them Too
 
 I also did this for the [Forty blog][forty-blog]:
 
-<div class="imageWrapper">
-  <a href="/images/post-45/forty-unfurled.png">
-    <img alt="Unfurled Forty social share image as seen on Twitter." src="/images/post-45/forty-unfurled.png" width="500" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Unfurled Forty social share image as seen on Twitter."
+  src="/images/post-45/forty-unfurled.png"
+%}
 
 [hicks-twitter]: https://twitter.com/pepopowitz
 [hicks-post]: https://www.stevenhicks.me/blog/2020/12/generating-social-sharing-images-in-eleventy/

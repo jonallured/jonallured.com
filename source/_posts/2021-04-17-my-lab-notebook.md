@@ -248,12 +248,12 @@ added an entry for `lab` and pointed it at my local static server. This allows
 me to access my lab notebook with `https://lab.notebook` which is pretty cool
 looking please agree with me!
 
-<div class="imageWrapper">
-  <a href="/images/post-50/lab-notebook.png">
-    <img alt="Work in progress screenshot of my lab notebook." src="/images/post-50/lab-notebook.png" width="512" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Work in progress screenshot of my lab notebook."
+  src="/images/post-50/lab-notebook.png"
+%}
 
 ## Next Steps
 

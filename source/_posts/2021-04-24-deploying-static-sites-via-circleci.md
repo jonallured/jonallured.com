@@ -77,12 +77,12 @@ $ ssh-copy-id -i keys/circleci/jonallured-com.pub psylocke -f
 
 Then upload the private key in the CircleCI interface:
 
-<div class="imageWrapper">
-  <a href="/images/post-55/circleci-ssh-key.png">
-    <img alt="Add SSH Key Screen in CircleCI Settings." src="/images/post-55/circleci-ssh-key.png" width="700" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Add SSH Key Screen in CircleCI Settings."
+  src="/images/post-55/circleci-ssh-key.png"
+%}
 
 Make sure you add the ENV var at CircleCI too:
 

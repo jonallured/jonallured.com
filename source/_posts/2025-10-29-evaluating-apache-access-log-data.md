@@ -260,12 +260,12 @@ could just normalize it:
 Unbeknownst to me I have been serving Apache Directory Listing pages this whole
 time - looks like this:
 
-<div class="imageWrapper">
-  <a href="/images/post-71/apache-directory-listing-screenshot.png">
-    <img alt="Apache Directory Listing Screenshot" src="/images/post-71/apache-directory-listing-screenshot.png" width="700" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Screenshot of Apache Directory Listing."
+  src="/images/post-71/apache-directory-listing-screenshot.png"
+%}
 
 There is [an Apache doc page][options-doc] that has the fix: `Options -Indexes`
 which can be added to my server config. With this in place this traffic will end

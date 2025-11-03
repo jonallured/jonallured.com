@@ -78,12 +78,12 @@ quickly.
 The [PR I opened][PR] has all the details but honestly there's not much there.
 This was pretty easy to do and looks like this:
 
-<div class="imageWrapper">
-  <a href="/images/post-65/decode-jwt-screenshot.png">
-    <img alt="Decode JWT Screenshot" src="/images/post-65/decode-jwt-screenshot.png" width="700" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Screenshot of form to decode JWT."
+  src="/images/post-65/decode-jwt-screenshot.png"
+%}
 
 I don't expect I'll do much more here but now I can paste in JWT tokens to
 decode without any guilt that I'm possibly doing something that's not secure.

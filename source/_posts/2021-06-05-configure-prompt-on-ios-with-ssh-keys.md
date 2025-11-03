@@ -32,12 +32,12 @@ app to add keys by picking a file from your iCloud Drive but it didn't behave as
 I expected. I had the keys there but they were greyed out and I couldn't pick
 them.
 
-<div class="imageWrapper">
-  <a href="/images/post-58/prompt-import-wtf.png">
-    <img alt="Interface in Prompt for picking SSH keys." src="/images/post-58/prompt-import-wtf.png" width="700" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Interface in Prompt for picking SSH keys."
+  src="/images/post-58/prompt-import-wtf.png"
+%}
 
 What I figured out was that they needed a file extension in order to work:
 
@@ -49,11 +49,11 @@ Then I could find and pick that file as the key in Prompt and it would add it to
 the list of known keys. Next was finishing the server settings in Prompt and
 saving them so that it could be one-tap to connect. Behold:
 
-<div class="imageWrapper">
-  <a href="/images/post-58/prompt-connected-to-domino.png">
-    <img alt="Connected to Domino in Prompt." src="/images/post-58/prompt-connected-to-domino.png" width="700" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  wrapped_image.html
+  alt="Connected to Domino in Prompt."
+  src="/images/post-58/prompt-connected-to-domino.png"
+%}
 
 [Prompt]: https://panic.com/prompt/
