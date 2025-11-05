@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 31
+tags: article
 title: "Johnson on :before and :after in CSS; Clayton on Rails Config"
 ---
 

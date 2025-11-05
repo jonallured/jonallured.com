@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 20
+tags: article
 title: "Brown on Structural Design Patterns in Ruby"
 ---
 

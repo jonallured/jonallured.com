@@ -1,6 +1,6 @@
 ---
-favorite: true
 number: 40
+tags: article favorite
 title: "Adding Additional Virtual Hosts to a Digital Ocean Server"
 ---
 

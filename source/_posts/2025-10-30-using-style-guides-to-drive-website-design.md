@@ -1,7 +1,7 @@
 ---
 date: 2025-10-30 12:35 -0500
-favorite: false
 number: 72
+tags: article
 title: "Using Style Guides to Drive Website Design"
 ---
 

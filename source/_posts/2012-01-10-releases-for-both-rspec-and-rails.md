@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 17
+tags: article
 title: "Releases for Both Rspec and Rails"
 ---
 

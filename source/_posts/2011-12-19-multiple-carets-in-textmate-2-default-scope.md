@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 9
+tags: article
 title: "Multiple Carets in TextMate 2.0; Default Scope"
 ---
 

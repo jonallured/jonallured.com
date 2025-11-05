@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 16
+tags: article
 title: "Shaughnessy Explores Strings; Klabnik on What's Wrong With MVC"
 ---
 

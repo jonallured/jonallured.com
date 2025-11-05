@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 15
+tags: article
 title: "Preston-Werner at RubyConf 2011 on GitHub Flavored Ruby"
 ---
 

@@ -1,6 +1,6 @@
 ---
-favorite: true
 number: 38
+tags: article favorite
 title: "Commit Lint for Danger"
 ---
 

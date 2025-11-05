@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 65
+tags: article
 title: "Decoding JWT Tokens"
 ---
 

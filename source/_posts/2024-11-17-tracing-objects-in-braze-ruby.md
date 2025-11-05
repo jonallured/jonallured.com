@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 66
+tags: article
 title: "Tracing Objects in Braze Ruby"
 ---
 

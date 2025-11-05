@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 48
+tags: review
 title: "Week in Review: Week 9, 2021"
 ---
 

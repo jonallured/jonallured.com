@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 8
+tags: article
 title: "Bigg on Debugging; Shaughnessy on Rails Commits; OmniAuth 1.0; Videos From Windy City Rails 2011"
 ---
 

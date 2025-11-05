@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 45
+tags: article
 title: "Generating Social Share Images With Ruby"
 ---
 

@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 32
+tags: article
 title: "Cheek and Grimm on Modules"
 ---
 

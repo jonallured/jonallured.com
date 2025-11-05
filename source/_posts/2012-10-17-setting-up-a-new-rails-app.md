@@ -1,6 +1,6 @@
 ---
-favorite: true
 number: 35
+tags: article favorite
 title: "Setting Up a New Rails Application"
 ---
 

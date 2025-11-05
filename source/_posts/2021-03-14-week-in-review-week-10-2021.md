@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 49
+tags: review
 title: "Week in Review: Week 10, 2021"
 ---
 

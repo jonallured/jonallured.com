@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 26
+tags: article
 title: "The Simpleton Pattern; When to Include, When to Extend"
 ---
 

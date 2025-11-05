@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 34
+tags: article
 title: "How to Think About Your Local Development Environment"
 ---
 

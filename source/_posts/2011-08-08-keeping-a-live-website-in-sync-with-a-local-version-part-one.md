@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 4
+tags: article
 title: "Keeping a Live Website in Sync With a Local Version, Part One"
 ---
 

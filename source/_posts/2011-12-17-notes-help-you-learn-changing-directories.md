@@ -1,6 +1,6 @@
 ---
-favorite: true
 number: 7
+tags: article favorite
 title: "Notes Help You Learn; Changing Directories"
 ---
 

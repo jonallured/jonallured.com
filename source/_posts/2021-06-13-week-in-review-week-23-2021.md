@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 61
+tags: review
 title: "Week in Review: Week 23, 2021"
 ---
 

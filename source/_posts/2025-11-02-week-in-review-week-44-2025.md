@@ -1,7 +1,7 @@
 ---
 date: 2025-11-02 21:09 -0600
-favorite: false
 number: 73
+tags: review
 title: "Week in Review: Week 44, 2025"
 ---
 

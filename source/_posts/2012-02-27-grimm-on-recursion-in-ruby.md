@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 33
+tags: article
 title: "Grimm on Recursion in Ruby"
 ---
 

@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 6
+tags: article
 title: "Playing Around With Content Editable in Rails"
 ---
 

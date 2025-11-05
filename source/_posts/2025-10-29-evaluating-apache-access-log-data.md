@@ -1,7 +1,7 @@
 ---
 date: 2025-10-29 15:29 -0500
-favorite: true
 number: 71
+tags: article favorite
 title: "Evaluating Apache Access Log Data"
 ---
 

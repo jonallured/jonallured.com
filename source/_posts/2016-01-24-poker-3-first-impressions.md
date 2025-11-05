@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 37
+tags: article
 title: "First Impressions of the Poker 3 Mechanical Keyboard"
 ---
 

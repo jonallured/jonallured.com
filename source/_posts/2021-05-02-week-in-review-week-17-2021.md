@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 56
+tags: review
 title: "Week in Review: Week 17, 2021"
 ---
 

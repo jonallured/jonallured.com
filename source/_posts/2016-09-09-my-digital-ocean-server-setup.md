@@ -1,6 +1,6 @@
 ---
-favorite: true
 number: 39
+tags: article favorite
 title: "My Digital Ocean Server Setup"
 ---
 

@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 47
+tags: article
 title: "Save Nice Feedback You Receive"
 ---
 

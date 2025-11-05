@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 51
+tags: review
 title: "Week in Review: Week 13, 2021"
 ---
 

@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 22
+tags: article
 title: "Kellum on Pixels; Shaughnessy on Shared Strings"
 ---
 
