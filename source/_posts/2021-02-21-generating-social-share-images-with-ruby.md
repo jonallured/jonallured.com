@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 45
-title: Generating Social Share Images With Ruby
+title: "Generating Social Share Images With Ruby"
 ---
 
 Inspired by my pal [Steve][hicks-twitter] and his post about [Generating Social

@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 6
-title: Playing Around With Content Editable in Rails
+title: "Playing Around With Content Editable in Rails"
 ---
 
 I recently tried working with the `contenteditable` attribute on an internal

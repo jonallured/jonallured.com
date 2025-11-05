@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 3
-title: Using Devise for Admin Accounts
+title: "Using Devise for Admin Accounts"
 ---
 
 I use [Devise][devise] on almost every Rails project I work on and wanted to

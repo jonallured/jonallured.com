@@ -1,7 +1,7 @@
 ---
 favorite: true
 number: 39
-title: My Digital Ocean Server Setup
+title: "My Digital Ocean Server Setup"
 ---
 
 I wanted to document how I like to setup my [Digital Ocean][do] servers, so here

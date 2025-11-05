@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 13
-title: Kosman on Better jQuery Code
+title: "Kosman on Better jQuery Code"
 ---
 
 24 Ways had one on [writing less sucky jQuery][less_sucky] and in the intro

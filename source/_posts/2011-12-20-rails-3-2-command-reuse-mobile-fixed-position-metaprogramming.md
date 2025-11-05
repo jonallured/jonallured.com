@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 10
-title: Rails 3.2; Command Reuse; Fixed Position on Mobile; Ruby Metaprogramming
+title: "Rails 3.2; Command Reuse; Fixed Position on Mobile; Ruby Metaprogramming"
 ---
 
 DHH [announced Rails 3.2, RC1][rails_post] and highlighted a few of the cool new

@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 30
-title: Marston on Sinatra's Halt; Jones on Sinatra vs. Rails; Bernhardt on Learning Vim
+title: "Marston on Sinatra's Halt; Jones on Sinatra vs. Rails; Bernhardt on Learning Vim"
 ---
 
 Myron Marston did a quick write up on [why `halt` is so awesome in

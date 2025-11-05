@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 27
-title: Hagemann on Testing Rake Tasks; SPDY in FireFox 11; RVM Using Git Flow
+title: "Hagemann on Testing Rake Tasks; SPDY in FireFox 11; RVM Using Git Flow"
 ---
 
 Stephan Hagemann had a good [post on testing Rake tasks][test_rake]. What I

@@ -1,7 +1,7 @@
 ---
 favorite: true
 number: 42
-title: Start and Stop Your Work Day With a List
+title: "Start and Stop Your Work Day With a List"
 ---
 
 I've developed a habit that's at the heart of my personal operating system: I

@@ -1,7 +1,7 @@
 ---
 favorite: true
 number: 36
-title: Pair With Me on Anything!
+title: "Pair With Me on Anything!"
 ---
 
 Last week I saw [Avdi Grimm][avdi] give an excellent talk at [Ancient City

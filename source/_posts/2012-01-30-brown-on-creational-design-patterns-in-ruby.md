@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 25
-title: Brown on Creational Design Patterns in Ruby
+title: "Brown on Creational Design Patterns in Ruby"
 ---
 
 I've read Gregory Brown's post on [structural design patterns][structural] in

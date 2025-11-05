@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 17
-title: Releases for Both Rspec and Rails
+title: "Releases for Both Rspec and Rails"
 ---
 
 Rspec recently got [bumped to 2.8](/rotten.html#9), a minor version release with

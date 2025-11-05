@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 14
-title: Rails 4.0 Will Drop Ruby 1.8.7; Croak Evaluates Decorators
+title: "Rails 4.0 Will Drop Ruby 1.8.7; Croak Evaluates Decorators"
 ---
 
 Rails will stop supporting Ruby 1.8.7 with [the 4.0 series][rails_post]. DHH

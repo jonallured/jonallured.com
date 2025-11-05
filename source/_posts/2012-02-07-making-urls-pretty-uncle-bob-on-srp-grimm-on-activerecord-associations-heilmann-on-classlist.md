@@ -1,7 +1,7 @@
 ---
 favorite: false
-id: 29
-title: Making URLs Pretty; Uncle Bob on SRP; Grimm on ActiveRecord Associations; Heilmann on classList
+number: 29
+title: "Making URLs Pretty; Uncle Bob on SRP; Grimm on ActiveRecord Associations; Heilmann on classList"
 ---
 
 Watched [RailsCasts 314: Pretty URLs with FriendlyId][railscasts] and learned

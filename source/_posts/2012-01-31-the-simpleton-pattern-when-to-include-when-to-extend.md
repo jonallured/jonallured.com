@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 26
-title: The Simpleton Pattern; When to Include, When to Extend
+title: "The Simpleton Pattern; When to Include, When to Extend"
 ---
 
 After [my post on the Singleton pattern][singleton], fellow Rocketeer [Stephen

@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 34
-title: How to Think About Your Local Development Environment
+title: "How to Think About Your Local Development Environment"
 ---
 
 I've found that a developer is much more likely to think about the production

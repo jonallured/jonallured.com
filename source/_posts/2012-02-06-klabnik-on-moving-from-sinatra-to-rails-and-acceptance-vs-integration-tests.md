@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 28
-title: Klabnik on Moving From Sinatra to Rails and Acceptance vs. Integration Tests
+title: "Klabnik on Moving From Sinatra to Rails and Acceptance vs. Integration Tests"
 ---
 
 I recently had a conversation with fellow Rocketeer [Brian Dunn][higgaion] about

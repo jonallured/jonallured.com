@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 23
-title: Helms on Imprecise Floats; Carroll on Services
+title: "Helms on Imprecise Floats; Carroll on Services"
 ---
 
 I've heard about Floating point numbers being flaky and I knew there was a
