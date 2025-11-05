@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 21
+tags: article
 title: "JavaScript Everywhere; The Value of Thinking Aloud; 3D With Just the DOM; Bernhardt on Unix"
 ---
 

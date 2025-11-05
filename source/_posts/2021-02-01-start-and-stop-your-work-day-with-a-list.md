@@ -1,6 +1,6 @@
 ---
-favorite: true
 number: 42
+tags: article favorite
 title: "Start and Stop Your Work Day With a List"
 ---
 

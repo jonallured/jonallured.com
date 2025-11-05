@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 2
+tags: article
 title: "Quicksilver on Snow Leopard"
 ---
 

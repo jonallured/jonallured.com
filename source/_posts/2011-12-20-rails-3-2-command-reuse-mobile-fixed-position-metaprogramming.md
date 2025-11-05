@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 10
+tags: article
 title: "Rails 3.2; Command Reuse; Fixed Position on Mobile; Ruby Metaprogramming"
 ---
 

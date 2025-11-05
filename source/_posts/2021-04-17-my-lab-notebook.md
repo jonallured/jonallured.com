@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 52
+tags: article
 title: "My Lab Notebook"
 ---
 

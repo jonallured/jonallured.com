@@ -1,6 +1,6 @@
 ---
-favorite: true
 number: 36
+tags: article favorite
 title: "Pair With Me on Anything!"
 ---
 

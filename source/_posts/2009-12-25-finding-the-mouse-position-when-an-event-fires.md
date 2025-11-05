@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 1
+tags: article
 title: "Finding the Mouse Position When an Event Fires"
 ---
 

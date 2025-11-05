@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 53
+tags: review
 title: "Week in Review: Week 14, 2021"
 ---
 

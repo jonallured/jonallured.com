@@ -1,6 +1,6 @@
 ---
-favorite: true
 number: 55
+tags: article favorite
 title: "Deploying Static Sites via CircleCI"
 ---
 

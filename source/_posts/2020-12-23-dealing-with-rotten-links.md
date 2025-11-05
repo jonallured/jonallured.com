@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 41
+tags: article
 title: "Dealing With Rotten Links"
 ---
 

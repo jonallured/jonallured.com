@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 13
+tags: article
 title: "Kosman on Better jQuery Code"
 ---
 

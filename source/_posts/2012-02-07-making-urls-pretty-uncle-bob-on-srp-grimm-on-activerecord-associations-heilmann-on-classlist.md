@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 29
+tags: article
 title: "Making URLs Pretty; Uncle Bob on SRP; Grimm on ActiveRecord Associations; Heilmann on classList"
 ---
 

@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 58
+tags: article
 title: "Configure Prompt on iOS With SSH Keys"
 ---
 

@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 3
+tags: article
 title: "Using Devise for Admin Accounts"
 ---
 

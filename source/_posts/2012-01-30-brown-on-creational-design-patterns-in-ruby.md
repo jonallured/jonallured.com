@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 25
+tags: article
 title: "Brown on Creational Design Patterns in Ruby"
 ---
 

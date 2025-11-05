@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 24
+tags: article
 title: "Brown on the Singleton in Ruby"
 ---
 

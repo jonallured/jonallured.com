@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 59
+tags: article
 title: "Updated DigitalOcean Server Setup"
 ---
 

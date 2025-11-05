@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 12
+tags: article
 title: "Edit Files in TextMate From a Remote Server"
 ---
 

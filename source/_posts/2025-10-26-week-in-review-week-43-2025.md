@@ -1,7 +1,7 @@
 ---
 date: 2025-10-26 09:10 -0500
-favorite: false
 number: 70
+tags: review
 title: "Week in Review: Week 43, 2025"
 ---
 

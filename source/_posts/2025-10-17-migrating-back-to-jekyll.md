@@ -1,7 +1,7 @@
 ---
 date: 2025-10-17 10:17 -0500
-favorite: false
 number: 67
+tags: article
 title: "Migrating Back to Jekyll"
 ---
 

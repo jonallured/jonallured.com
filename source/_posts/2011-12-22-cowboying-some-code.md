@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 11
+tags: article
 title: "Cowboying Some Code"
 ---
 

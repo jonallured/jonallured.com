@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 64
+tags: article
 title: "Migrating Away From Google Services"
 ---
 

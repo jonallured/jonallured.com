@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 19
+tags: article
 title: "Delayed Job Hits 3.0; Marston on Deprecating Legacy Code"
 ---
 

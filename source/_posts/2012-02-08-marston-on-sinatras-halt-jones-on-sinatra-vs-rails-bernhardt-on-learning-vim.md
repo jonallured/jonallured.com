@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 30
+tags: article
 title: "Marston on Sinatra's Halt; Jones on Sinatra vs. Rails; Bernhardt on Learning Vim"
 ---
 

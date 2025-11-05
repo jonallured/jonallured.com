@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 27
+tags: article
 title: "Hagemann on Testing Rake Tasks; SPDY in FireFox 11; RVM Using Git Flow"
 ---
 

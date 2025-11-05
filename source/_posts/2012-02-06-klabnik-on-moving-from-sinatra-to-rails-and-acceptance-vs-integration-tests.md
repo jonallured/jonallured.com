@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 28
+tags: article
 title: "Klabnik on Moving From Sinatra to Rails and Acceptance vs. Integration Tests"
 ---
 
