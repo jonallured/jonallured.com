@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 37
-title: First Impressions of the Poker 3 Mechanical Keyboard
+title: "First Impressions of the Poker 3 Mechanical Keyboard"
 ---
 
 I just got one of those fancy mechanical keyboards so I could look really cool

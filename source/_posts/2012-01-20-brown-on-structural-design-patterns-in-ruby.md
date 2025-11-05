@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 20
-title: Brown on Structural Design Patterns in Ruby
+title: "Brown on Structural Design Patterns in Ruby"
 ---
 
 Gregory Brown considers [how the classic design patterns pertain to

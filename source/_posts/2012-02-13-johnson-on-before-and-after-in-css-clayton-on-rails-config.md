@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 31
-title: Johnson on :before and :after in CSS; Clayton on Rails Config
+title: "Johnson on :before and :after in CSS; Clayton on Rails Config"
 ---
 
 Joshua Johnson writing for Design Shack [explains][before_after] how the

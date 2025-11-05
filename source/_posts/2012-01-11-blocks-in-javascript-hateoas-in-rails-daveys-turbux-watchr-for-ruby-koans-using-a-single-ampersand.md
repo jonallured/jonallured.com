@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 18
-title: Blocks in JavaScript; HATEOAS in Rails; Davey's turbux; watchr for Ruby Koans; Using a Single Ampersand
+title: "Blocks in JavaScript; HATEOAS in Rails; Davey's turbux; watchr for Ruby Koans; Using a Single Ampersand"
 ---
 
 If Yehuda Katz has it his way, [JavaScript would get blocks][js_blocks] and he

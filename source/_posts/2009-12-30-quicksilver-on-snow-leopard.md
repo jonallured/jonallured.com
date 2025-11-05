@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 2
-title: Quicksilver on Snow Leopard
+title: "Quicksilver on Snow Leopard"
 ---
 
 I've been lost and sad ever since I upgraded to Snow Leopard and couldn't run

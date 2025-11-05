@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 5
-title: Keeping a Live Website in Sync With a Local Version, Part Two
+title: "Keeping a Live Website in Sync With a Local Version, Part Two"
 ---
 
 *This part covers the technical aspects of a project I worked on to keep a live

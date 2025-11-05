@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 11
-title: Cowboying Some Code
+title: "Cowboying Some Code"
 ---
 
 Just watched [Destroy All Software 23: Spiking and Continuous Spiking][das], or

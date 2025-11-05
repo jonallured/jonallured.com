@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 1
-title: Finding the Mouse Position When an Event Fires
+title: "Finding the Mouse Position When an Event Fires"
 ---
 
 We recently had a project where we needed to find out where the mouse was (its

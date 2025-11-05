@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 33
-title: Grimm on Recursion in Ruby
+title: "Grimm on Recursion in Ruby"
 ---
 
 Avdi Grimm had a post on the Code Benders site about [preventing recursion in

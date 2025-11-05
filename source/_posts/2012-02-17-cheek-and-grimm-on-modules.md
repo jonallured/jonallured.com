@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 32
-title: Cheek and Grimm on Modules
+title: "Cheek and Grimm on Modules"
 ---
 
 Josh Cheek [shares some thoughts][josh_post] he's had about Module inclusion and

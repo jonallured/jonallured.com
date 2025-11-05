@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 12
-title: Edit Files in TextMate From a Remote Server
+title: "Edit Files in TextMate From a Remote Server"
 ---
 
 TextMate 2 now includes a [Ruby script][rmate] that will allow one to edit files

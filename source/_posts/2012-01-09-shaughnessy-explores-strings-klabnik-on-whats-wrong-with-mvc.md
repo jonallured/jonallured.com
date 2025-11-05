@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 16
-title: Shaughnessy Explores Strings; Klabnik on What's Wrong With MVC
+title: "Shaughnessy Explores Strings; Klabnik on What's Wrong With MVC"
 ---
 
 Pat Shaughnessy spent some time exploring how MRI actually processes strings and

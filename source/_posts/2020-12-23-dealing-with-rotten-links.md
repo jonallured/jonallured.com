@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 41
-title: Dealing With Rotten Links
+title: "Dealing With Rotten Links"
 ---
 
 In a perfect world hyperlinks would always work. We'd go through our lives

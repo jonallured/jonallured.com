@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 9
-title: Multiple Carets in TextMate 2.0; Default Scope
+title: "Multiple Carets in TextMate 2.0; Default Scope"
 ---
 
 Don't get me wrong, I'm quickly learning to love VIM since that's all we use at

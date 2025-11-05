@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 24
-title: Brown on the Singleton in Ruby
+title: "Brown on the Singleton in Ruby"
 ---
 
 [I read the second post][structural] Gregory Brown did on design patterns in

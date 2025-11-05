@@ -1,7 +1,7 @@
 ---
 favorite: true
 number: 7
-title: Notes Help You Learn; Changing Directories
+title: "Notes Help You Learn; Changing Directories"
 ---
 
 I read about [the value of taking notes][notes] and was inspired to try taking

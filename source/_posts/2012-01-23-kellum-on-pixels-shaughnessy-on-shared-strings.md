@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 22
-title: Kellum on Pixels; Shaughnessy on Shared Strings
+title: "Kellum on Pixels; Shaughnessy on Shared Strings"
 ---
 
 Scott Kellum [explores][crisis] how devices where a pixel is not always a pixel

@@ -1,7 +1,7 @@
 ---
 favorite: false
 number: 15
-title: Preston-Werner at RubyConf 2011 on GitHub Flavored Ruby
+title: "Preston-Werner at RubyConf 2011 on GitHub Flavored Ruby"
 ---
 
 I just watched the video of Tom Preston-Werner at [RubyConf

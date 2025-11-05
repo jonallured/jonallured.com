@@ -1,7 +1,7 @@
 ---
 favorite: true
 number: 40
-title: Adding Additional Virtual Hosts to a Digital Ocean Server
+title: "Adding Additional Virtual Hosts to a Digital Ocean Server"
 ---
 
 The [Apache Virtual Hosts tutorial][tutorial] for setting up your [Digital
