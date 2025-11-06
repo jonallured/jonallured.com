@@ -1,5 +1,5 @@
 ---
-favorite: false
+tags: article
 number: 11
 title: This One Goes To Eleven
 date: 2025-01-01 08:15 -0500

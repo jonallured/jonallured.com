@@ -5,9 +5,9 @@ class Blarg
     def initialize(attrs)
       @content = attrs[:content]
       @date = attrs[:date]
-      @favorite = attrs[:favorite]
       @number = attrs[:number]
       @path = attrs[:path]
+      @tags = attrs[:tags]
       @title = attrs[:title]
       @title_parts = attrs[:title_parts]
     end
@@ -15,8 +15,8 @@ class Blarg
     def front_matter
       {
         "date" => @date,
-        "favorite" => @favorite,
         "number" => @number,
+        "tags" => @tags,
         "title" => @title
       }.compact
     end

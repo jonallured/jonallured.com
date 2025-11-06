@@ -1,7 +1,7 @@
 ---
 date: 2025-01-01 08:15 -0500
-favorite: true
 number: 77
+tags: article favorite
 title: "This Is the Title"
 ---
 
