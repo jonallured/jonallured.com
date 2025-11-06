@@ -1,5 +1,10 @@
 class Blarg
   class DraftParser < DefaultParser
+    TYPE_TO_TAGS_MAP = {
+      default: "article",
+      wir: "review"
+    }
+
     TYPE_TO_TEMPLATE_MAP = {
       default: "post_templates/default.md",
       wir: "post_templates/wir.md"
@@ -26,8 +31,8 @@ class Blarg
     def to_hash
       super.merge({
         date: nil,
-        favorite: false,
-        number: next_post_number
+        number: next_post_number,
+        tags: initial_tags
       })
     end
 
@@ -35,6 +40,10 @@ class Blarg
 
     def next_post_number
       Dir.glob("source/_posts/*.md").count + 1
+    end
+
+    def initial_tags
+      TYPE_TO_TAGS_MAP[@type.to_sym]
     end
   end
 end

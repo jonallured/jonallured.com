@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 77
+tags: review
 title: "Week in Review: Week 1, 2025"
 ---
 

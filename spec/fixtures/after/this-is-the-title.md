@@ -1,6 +1,6 @@
 ---
-favorite: false
 number: 77
+tags: article
 title: "This Is the Title"
 ---
 

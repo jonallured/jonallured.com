@@ -24,9 +24,9 @@ class Blarg
       {
         content: @content,
         date: @loaded_front_matter["date"],
-        favorite: @loaded_front_matter["favorite"],
         number: @loaded_front_matter["number"],
         path: @path,
+        tags: @loaded_front_matter["tags"],
         title: @title,
         title_parts: @title_parts
       }

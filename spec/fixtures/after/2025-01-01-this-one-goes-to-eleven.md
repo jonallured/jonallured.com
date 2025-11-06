@@ -1,7 +1,7 @@
 ---
 date: 2025-01-01 08:15 -0500
-favorite: false
 number: 11
+tags: article
 title: "This One Goes To Eleven"
 ---
 

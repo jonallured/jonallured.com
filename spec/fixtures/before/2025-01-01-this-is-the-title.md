@@ -1,5 +1,5 @@
 ---
-favorite: false
+tags: article
 number: 77
 title: This Is the Title
 date: 2025-01-01 08:15 -0500
