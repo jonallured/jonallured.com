@@ -1,6 +1,6 @@
 ---
 number: 43
-favorite: review
+tags: review
 title: "Week in Review: Week 6, 2021"
 ---
 
