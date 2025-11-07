@@ -1,0 +1,10 @@
+---
+title: Crossposts
+---
+<h1>Crossposts</h1>
+{% assign crossposts = site.tags.crosspost %}
+{%
+  include
+  post_list.html
+  posts=crossposts
+%}
