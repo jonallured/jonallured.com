@@ -1,0 +1,10 @@
+---
+title: Review Posts
+---
+<h1>Review Posts</h1>
+{% assign review_posts = site.tags.review %}
+{%
+  include
+  post_list.html
+  posts=review_posts
+%}
