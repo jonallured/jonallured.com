@@ -1,6 +1,20 @@
 ---
 title: Home
 ---
-<h1>{{ site.posts.first.title }}</h1>
-<p id="articleDate">published {{ site.posts.first.date | date: "%m/%d/%y" }}</p>
-{{ site.posts.first.content }}
+<h1>Hi There, It's Me Jon!</h1>
+<p>I'm so glad you are here you found it ok? Great, great have a look around if you want or I might suggest you take a look at my <a href="/favorite-posts.html">favorite posts</a>.</p>
+<h2>Recent Posts</h2>
+{% assign recent_article_posts = site.tags.article | slice: 0, 4 %}
+{%
+  include
+  post_list.html
+  posts=recent_article_posts
+%}
+
+<h2>Weekly Reviews</h2>
+{% assign recent_review_posts = site.tags.review | slice: 0, 4 %}
+{%
+  include
+  post_list.html
+  posts=recent_review_posts
+%}

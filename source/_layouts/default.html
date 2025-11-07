@@ -1,62 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal website for Jon Allured.">
-    {% if page.number %}
-      {% include og_tags.html %}
-    {% endif %}
-    <title>{{ page.title }} | Jon Allured</title>
-    <link rel="icon" href="/images/favicon.png" type="image/png">
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/atom.xml">
-    <link rel="stylesheet" href="/css/default.css">
-    <link rel="stylesheet" href="/css/mobile.css" media="only screen and (max-width: 800px)">
-    <link rel="stylesheet" href="/css/print.css" media="print">
-    {% if page.style_guide %}
-    <link rel="stylesheet" href="/css/style_guide.css">
-    {% endif %}
-  </head>
-  <body>
-    <header>
-      <h2><a href="/">Jon Allured</a></h2>
-      <p>Computer&nbsp;Programmer, Whiskey&nbsp;Drinker, Comic&nbsp;Book&nbsp;Reader</p>
-    </header>
-    <main>
-      <article>
-        {{ content }}
-      </article>
-      <aside>
-        <h2>Writing</h2>
-        <ul>
-          <li><a href="/all-posts.html">All Posts</a></li>
-          <li><a href="/favorite-posts.html">Favorite Posts</a></li>
-          <li><a href="/review-posts.html">Review Posts</a></li>
-          <li><a href="/crossposts.html">Crossposts</a></li>
-        </ul>
-        <h2>RSS</h2>
-        <ul>
-          <li><a href="/atom.xml">My Feed</a></li>
-          <li><a href="/feeds-i-read.html">Feeds I Read</a></li>
-          <li><a href="/podcasts.html">Podcasts</a></li>
-        </ul>
-        <h2>Projects</h2>
-        <ul>
-          <li><a href="https://www.youtube.com/@2RadDads">2RadDads</a></li>
-          <li><a href="https://github.com/jonallured/pear">pear</a></li>
-          <li><a href="https://puddingtime.buzzsprout.com">Pudding Time</a></li>
-          <li><a href="https://rubyconferences.org">RubyConferences.org</a></li>
-        </ul>
-        <h2>Elsewhere</h2>
-        <ul>
-          <li><a href="https://bsky.app/profile/jonallured.com">Bluesky</a></li>
-          <li><a href="https://github.com/jonallured">GitHub</a></li>
-          <li><a href="https://hachyderm.io/@jonallured">Mastodon</a></li>
-        </ul>
-      </aside>
-    </main>
-    <footer>
-      <p>&copy; Jon Allured, <a href="https://github.com/jonallured/jonallured.com">view source</a></p>
-    </footer>
-  </body>
-</html>
+---
+layout: shared
+---
+<main>
+  <section>{{ content }}</section>
+  <aside>
+    <h2>Writing</h2>
+      <ul>
+        <li><a href="/all-posts.html">All Posts</a></li>
+        <li><a href="/favorite-posts.html">Favorite Posts</a></li>
+        <li><a href="/review-posts.html">Review Posts</a></li>
+        <li><a href="/crossposts.html">Crossposts</a></li>
+      </ul>
+    <h2>RSS</h2>
+    <ul>
+      <li><a href="/atom.xml">My Feed</a></li>
+      <li><a href="/feeds-i-read.html">Feeds I Read</a></li>
+      <li><a href="/podcasts.html">Podcasts</a></li>
+    </ul>
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/@2RadDads">2RadDads</a></li>
+      <li><a href="https://github.com/jonallured/pear">pear</a></li>
+      <li><a href="https://puddingtime.buzzsprout.com">Pudding Time</a></li>
+      <li><a href="https://rubyconferences.org">RubyConferences.org</a></li>
+    </ul>
+    <h2>Elsewhere</h2>
+    <ul>
+      <li><a href="https://bsky.app/profile/jonallured.com">Bluesky</a></li>
+      <li><a href="https://github.com/jonallured">GitHub</a></li>
+      <li><a href="https://hachyderm.io/@jonallured">Mastodon</a></li>
+    </ul>
+  </aside>
+</main>
