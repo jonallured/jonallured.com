@@ -1,8 +1,9 @@
 ---
 number: 38
-tags: article favorite
+tags: crosspost
 title: "Commit Lint for Danger"
 ---
+*Note: crossposted from [Hashrocket's Blog][hashrocket-link] for posterity.*
 
 I love using [Danger][danger] to automate routine Pull Request feedback and so I
 made a plugin that [lints commit messages][plugin]. It was an interesting
@@ -316,24 +317,25 @@ I had a lot of fun extracting this plugin and working on improving the code
 until not only the tests passed, but the Rubocop and documentation checks also
 passed. And I even got it on the [official plugin list][list]!!
 
-[danger]: http://danger.systems
-[plugin]: https://github.com/jonallured/danger-commit_lint
-[tpope]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-[setup]: http://danger.systems/guides/getting_started.html
-[config]: https://github.com/jonallured/danger-commit_lint#configuration
-[rc_dangerfile]: https://github.com/ruby-conferences/ruby-conferences.github.io/blob/af8bc12b6c4ee027e2006b01e1f76c1d00b6cf9c/Dangerfile#L16
-[rubocop_config]: https://github.com/jonallured/danger-commit_lint/blob/master/.rubocop.yml#L4
-[dont_kid]: https://twitter.com/jonallured/status/769018523393941504
-[cyclo]: https://en.wikipedia.org/wiki/Cyclomatic_complexity
-[perceived]: http://mattgemmell.com/perceived-software-complexity/
 [abc]: http://c2.com/cgi/wiki?AbcMetric
-[new_check]: https://github.com/jonallured/danger-commit_lint/pull/2
-[rubocop]: https://github.com/bbatsov/rubocop
-[swiftlint]: https://github.com/realm/SwiftLint
-[learned]: https://twitter.com/orta/status/769279173214994432
-[remove_comment]: https://github.com/jonallured/danger-commit_lint/commit/9ca11d66b5bb53530fc8abe6c1a753711af40a72
 [cloc]: https://github.com/AlDanial/cloc/
-[orta]: http://orta.io/
+[config]: https://github.com/jonallured/danger-commit_lint#configuration
+[cyclo]: https://en.wikipedia.org/wiki/Cyclomatic_complexity
+[danger]: http://danger.systems
+[dont_kid]: https://twitter.com/jonallured/status/769018523393941504
 [felix]: https://krausefx.com/
-[vision]: https://github.com/danger/danger/blob/master/VISION.md
+[hashrocket-link]: https://hashrocket.com/blog/posts/commit-lint-for-danger
+[learned]: https://twitter.com/orta/status/769279173214994432
 [list]: https://github.com/danger/danger.systems/pull/93
+[new_check]: https://github.com/jonallured/danger-commit_lint/pull/2
+[orta]: http://orta.io/
+[perceived]: http://mattgemmell.com/perceived-software-complexity/
+[plugin]: https://github.com/jonallured/danger-commit_lint
+[rc_dangerfile]: https://github.com/ruby-conferences/ruby-conferences.github.io/blob/af8bc12b6c4ee027e2006b01e1f76c1d00b6cf9c/Dangerfile#L16
+[remove_comment]: https://github.com/jonallured/danger-commit_lint/commit/9ca11d66b5bb53530fc8abe6c1a753711af40a72
+[rubocop]: https://github.com/bbatsov/rubocop
+[rubocop_config]: https://github.com/jonallured/danger-commit_lint/blob/master/.rubocop.yml#L4
+[setup]: http://danger.systems/guides/getting_started.html
+[swiftlint]: https://github.com/realm/SwiftLint
+[tpope]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[vision]: https://github.com/danger/danger/blob/master/VISION.md
