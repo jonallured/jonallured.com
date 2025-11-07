@@ -3,4 +3,8 @@ title: Favorite Posts
 ---
 <h1>Favorite Posts</h1>
 {% assign favorite_posts = site.tags.favorite %}
-{% include post_list.html posts=favorite_posts %}
+{%
+  include
+  post_list.html
+  posts=favorite_posts
+%}

@@ -2,4 +2,9 @@
 title: All Posts
 ---
 <h1>All Posts</h1>
-{% include post_list.html posts=site.posts %}
+{% assign article_posts = site.tags.article %}
+{%
+  include
+  post_list.html
+  posts=article_posts
+%}
