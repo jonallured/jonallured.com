@@ -264,6 +264,7 @@ time - looks like this:
   include
   wrapped_image.html
   alt="Screenshot of Apache Directory Listing."
+  caption="Can you believe how nice this looks??"
   src="/images/post-71/apache-directory-listing-screenshot.png"
 %}
 

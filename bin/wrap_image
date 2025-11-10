@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+post_number=$1
+image_filename=$2
+
+mkdir -p "source/images/post-${post_number}"
+mv ${image_filename} "source/images/post-${post_number}/${image_filename}"
+
+cat << END
+{%
+  include
+  wrapped_image.html
+  alt="Use alt to describe the image with a short phrase"
+  caption="Use the caption to comment on the image with a complete sentence."
+  src="/images/post-${post_number}/${image_filename}"
+%}
+END

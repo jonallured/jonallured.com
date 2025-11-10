@@ -113,14 +113,15 @@ body {
         font-style: italic;
       }
 
-      .imageWrapper {
+      figure {
         background: var(--light-gray);
-        line-height: 0px;
+        margin: 0;
         padding: 20px;
         text-align: center;
 
-        p {
+        figcaption {
           font-size: 12px;
+          line-height: 18px;
         }
       }
 

@@ -1,6 +1,12 @@
-<div class="imageWrapper">
-  <a href="{{ include.src }}">
-    <img alt="{{ include.alt }}" src="{{ include.src }}" width="700" />
+<figure>
+  <a href="/images/post-80/sketch-1@full.png">
+    <img
+      alt="{{ include.alt }}"
+      src="/images/post-80/sketch-1@1x.png"
+      srcset="/images/post-80/sketch-1@1x.png, /images/post-80/sketch-1@2x.png 2x, /images/post-80/sketch-1@3x.png 3x"
+      title="click for bigger"
+      width="100%"
+    />
   </a>
-  <p><em>click for bigger</em></p>
-</div>
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
