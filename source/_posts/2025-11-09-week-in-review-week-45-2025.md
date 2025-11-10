@@ -16,11 +16,13 @@ productive despite not quite landing what I was hoping to finish up this week.
 * published [Active Vinyl][pt-101] and [Keep Loose][pt-102] for Pudding Time
 * shipped [Use Jekyll tags][gh-161]
 * shipped [Collect offsite posts and crosspost them][gh-163]
+* finished reading [Mistborn][book-649]
 
 [pt-101]: https://puddingtime.buzzsprout.com/1470301/episodes/18147734-active-vinyl
 [pt-102]: https://puddingtime.buzzsprout.com/1470301/episodes/18147866-keep-loose
 [gh-161]: https://github.com/jonallured/jonallured.com/pull/161
 [gh-163]: https://github.com/jonallured/jonallured.com/pull/163
+[book-649]: https://us.macmillan.com/books/9781250868282/mistborn/
 
 New season of Pudding Time starting publishing this week so that's fun! Gotta
 get some guests booked.

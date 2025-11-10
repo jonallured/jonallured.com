@@ -18,10 +18,10 @@ unpack but it's coming along nicely.
 
 * worked 40:00, no PTO
 * published [Capturing and Storing Apache Access Log Data][post-69] on here
-* finished reading [Vanishing Treasures][book-66]
+* finished reading [Vanishing Treasures][book-616]
 
 [post-69]: https://www.jonallured.com/posts/2025/10/20/capturing-and-storing-apache-access-log-data.html
-[book-66]: https://www.penguinrandomhouse.com/books/748893/vanishing-treasures-by-katherine-rundell/
+[book-616]: https://www.penguinrandomhouse.com/books/748893/vanishing-treasures-by-katherine-rundell/
 
 ## Next Week
 
