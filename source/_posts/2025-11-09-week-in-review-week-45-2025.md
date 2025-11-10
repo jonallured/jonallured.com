@@ -1,4 +1,5 @@
 ---
+date: 2025-11-09 22:02 -0600
 number: 80
 tags: review
 title: "Week in Review: Week 45, 2025"
