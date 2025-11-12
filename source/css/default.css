@@ -124,6 +124,23 @@ body {
         }
       }
 
+      figure {
+        background: var(--light-gray);
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+
+        img {
+          height: auto;
+          width: 100%;
+        }
+
+        figcaption {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+
       code {
         background-color: var(--light-gray);
         font-family: var(--code-family);
