@@ -1,0 +1,11 @@
+#!/bin/bash
+
+input_path=$1
+width=$2
+output_folder=$(dirname $input_path)/$width
+
+rm -rf $output_folder
+mkdir -p $output_folder
+magick $input_path -resize ${width}x -strip $output_folder/resized.png
+pngquant --quality=80-95 --speed 1 $output_folder/resized.png -o $output_folder/compressed.png
+oxipng -o 3 --strip safe $output_folder/compressed.png --out $output_folder/organized.png
