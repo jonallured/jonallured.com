@@ -1,46 +1,43 @@
 body {
-  font-size: 16px;
+  color: #000000;
+  font-size: 14px;
   line-height: 20px;
 
   a:visited {
-    color: #333;
+    color: #000000;
   }
 
   header {
-    margin-top: 0px;
+    margin: 0;
 
     h2 {
-      font-size: 40px;
-      line-height: 50px;
+      border-bottom: 2px solid #000000;
+      font-size: 50px;
+      line-height: 60px;
+      text-align: left;
     }
 
     p {
-      font-size: 14px;
+      display: none;
     }
-  }
-
-  article ul {
-    font-size: 16px;
   }
 
   main {
-    article {
-      h1 {
-        display: none;
-      }
-
-      h2 {
-        font-size: 20px;
-        line-height: 24px;
-      }
-
-      p {
-        font-size: 16px;
-      }
+    h1 {
+      display: none;
     }
 
-    aside {
-      display: none;
+    #contactDetails {
+      margin-right: 26px;
+      margin-top: 30px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    h2 {
+      font-size: 20px;
+      line-height: 24px;
     }
   }
 
