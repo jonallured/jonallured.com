@@ -6,14 +6,11 @@ body {
     }
   }
 
-  main {
-    flex-direction: column;
-
-    aside {
-      border-top: 1px solid var(--black);
-      margin-top: 10px;
-      padding-top: 30px;
-      margin-left: 0;
+  footer {
+    nav {
+      section {
+        width: 50%;
+      }
     }
   }
 }

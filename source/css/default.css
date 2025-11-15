@@ -37,20 +37,17 @@ body {
 
   header, main, footer {
     margin: 0 auto;
-    max-width: 1000px;
-  }
-
-  header, aside, footer {
-    font-family: var(--title-family);
-    text-align: center;
+    max-width: 800px;
   }
 
   header, footer {
-    letter-spacing: 3px;
+    font-family: var(--title-family);
+    text-align: center;
     text-transform: uppercase;
   }
 
   header {
+    letter-spacing: 3px;
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -58,7 +55,7 @@ body {
       font-size: 80px;
       font-weight: normal;
       line-height: 90px;
-      margin: 10px 0 5px;
+      margin: 10px 0 10px;
 
       a:link, a:visited, a:hover, a:active {
         color: var(--black);
@@ -77,157 +74,155 @@ body {
   }
 
   main {
-    display: flex;
-    justify-content: space-between;
+    overflow: hidden;
 
-    article {
-      max-width: 800px;
-      overflow: hidden;
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--title-family);
+      font-weight: normal;
+    }
 
-      h1, h2, h3, h4, h5, h6 {
-        font-family: var(--title-family);
-        font-weight: normal;
-      }
+    h1 {
+      font-size: 40px;
+      line-height: 54px;
+      margin: 0;
+    }
 
-      h1 {
-        font-size: 40px;
-        line-height: 54px;
-        margin: 0;
-      }
+    h2 {
+      font-size: 30px;
+    }
 
-      h2 {
-        font-size: 30px;
-      }
+    h3, h4, h5, h6 {
+      font-size: 24px;
+    }
 
-      h3, h4, h5, h6 {
-        font-size: 24px;
-      }
-
-      p, ol, ul {
-        code {
-          padding: 2px 4px;
-        }
-      }
-
-      blockquote {
-        font-style: italic;
-      }
-
-      .imageWrapper {
-        background: var(--light-gray);
-        line-height: 0px;
-        padding: 20px;
-        text-align: center;
-
-        p {
-          font-size: 12px;
-        }
-      }
-
-      figure {
-        background: var(--light-gray);
-        margin: 0;
-        padding: 20px;
-        text-align: center;
-
-        img {
-          height: auto;
-          width: 100%;
-        }
-
-        figcaption {
-          font-size: 12px;
-          line-height: 18px;
-        }
-      }
-
+    p, ol, ul {
       code {
-        background-color: var(--light-gray);
-        font-family: var(--code-family);
-      }
-
-      pre {
-        background-color: var(--light-gray);
-        line-height: 22px;
-        overflow-x: auto;
-        padding: 10px;
-      }
-
-      hr {
-        background-color: var(--gray);
-        border: 0;
-        height: 1px;
-        width: 100px;
-      }
-
-      p#articleDate {
-        font-family: var(--title-family);
-        font-style: italic;
-        margin-top: 10px;
-      }
-
-      .weak {
-        color: var(--gray);
-        font-style: italic;
-      }
-
-      #contactDetails {
-        float: right;
-        text-align: right;
-        margin: 0 0 0 20px;
-
-        p {
-          margin: 0;
-        }
-      }
-
-      table {
-        border-collapse: collapse;
-        text-align: left;
-        width: 100%;
-
-        tr {
-          border-bottom: 1px solid var(--gray);
-
-          th, td {
-            padding: 10px 0;
-          }
-
-          th:last-child, td:last-child {
-            text-align: right;
-          }
-        }
+        padding: 2px 4px;
       }
     }
 
-    aside {
-      font-size: 18px;
-      line-height: 30px;
-      margin-left: 20px;
-      min-width: 180px;
+    blockquote {
+      font-style: italic;
+    }
 
-      h2 {
-        font-size: 18px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin: 30px 0 5px;
+    .imageWrapper {
+      background: var(--light-gray);
+      line-height: 0px;
+      padding: 20px;
+      text-align: center;
 
-        &:first-child {
-          margin-top: 0;
-        }
+      p {
+        font-size: 12px;
+      }
+    }
+
+    figure {
+      background: var(--light-gray);
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+
+      img {
+        height: auto;
+        width: 100%;
       }
 
-      ul {
-        list-style: none;
+      figcaption {
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
+
+    code {
+      background-color: var(--light-gray);
+      font-family: var(--code-family);
+    }
+
+    pre {
+      background-color: var(--light-gray);
+      line-height: 22px;
+      overflow-x: auto;
+      padding: 10px;
+    }
+
+    hr {
+      background-color: var(--gray);
+      border: 0;
+      height: 1px;
+      width: 100px;
+    }
+
+    p#articleDate {
+      font-family: var(--title-family);
+      font-style: italic;
+      margin-top: 10px;
+    }
+
+    .weak {
+      color: var(--gray);
+      font-style: italic;
+    }
+
+    #contactDetails {
+      float: right;
+      text-align: right;
+      margin: 0 0 0 20px;
+
+      p {
         margin: 0;
-        padding: 0;
+      }
+    }
+
+    table {
+      border-collapse: collapse;
+      text-align: left;
+      width: 100%;
+
+      tr {
+        border-bottom: 1px solid var(--gray);
+
+        th, td {
+          padding: 10px 0;
+        }
+
+        th:last-child, td:last-child {
+          text-align: right;
+        }
       }
     }
   }
 
   footer {
+    border-top: 1px solid var(--black);
     margin-top: 30px;
     margin-bottom: 60px;
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 20px;
+
+      section {
+        margin-top: 20px;
+        width: 25%;
+
+        h2 {
+          font-size: 18px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          margin: 0 0 5px;
+        }
+
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          text-transform: none;
+        }
+      }
+    }
 
     p {
       border-bottom: 2px solid var(--black);
