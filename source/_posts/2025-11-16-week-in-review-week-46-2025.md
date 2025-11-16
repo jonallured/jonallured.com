@@ -1,4 +1,5 @@
 ---
+date: 2025-11-16 09:13 -0600
 number: 81
 tags: review
 title: "Week in Review: Week 46, 2025"
