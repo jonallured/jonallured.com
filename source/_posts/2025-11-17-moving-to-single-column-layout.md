@@ -1,4 +1,5 @@
 ---
+date: 2025-11-17 12:09 -0600
 number: 82
 tags: article
 title: "Moving to a Single Column Layout"
