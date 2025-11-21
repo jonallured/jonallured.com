@@ -18,6 +18,7 @@ I think they turned out pretty great:
   framed_image.html
   alt="Example social share image"
   caption="I tinkered with this layout A LOT."
+  height="380"
   slug="example-social-share"
 %}
 
@@ -175,6 +176,7 @@ And here's how it looks on Twitter in all it's unfurled glory:
   framed_image.html
   alt="Social share image on Twitter"
   caption="I will never call it X."
+  height="755"
   slug="unfurled"
 %}
 
@@ -187,6 +189,7 @@ I also did this for the [Forty blog][forty-blog]:
   framed_image.html
   alt="Another social share image on Twitter"
   caption="Elon can suck it."
+  height="596"
   slug="forty-unfurled"
 %}
 
