@@ -51,6 +51,7 @@ looked like this:
   alt="Unstyled table screenshot"
   caption="The default styles aren't terrible but we can do better."
   height="570"
+  loading="lazy"
   slug="table-before-styling"
 %}
 
@@ -64,6 +65,7 @@ that and then iterated on the design until it looked like this:
   alt="Styled table screenshot"
   caption="See this is much more polished looking!"
   height="570"
+  loading="lazy"
   slug="table-after-styling"
 %}
 

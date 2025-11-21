@@ -38,6 +38,7 @@ them.
   alt="SSH keys picker screenshot"
   caption="It would be nice if there were a little help here."
   height="531"
+  loading="lazy"
   slug="broken-prompt-screen"
 %}
 
@@ -57,6 +58,7 @@ saving them so that it could be one-tap to connect. Behold:
   alt="SSH session screenshot"
   caption="Any bets on how often I actually use this??"
   height="531"
+  loading="lazy"
   slug="connected-to-domino"
 %}
 

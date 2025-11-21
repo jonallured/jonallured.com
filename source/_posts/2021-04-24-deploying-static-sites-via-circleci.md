@@ -83,6 +83,7 @@ Then upload the private key in the CircleCI interface:
   alt="Add SSH key form screenshot"
   caption="Possibly hot take: this does not have to be a modal."
   height="684"
+  loading="lazy"
   slug="circleci-ssh-key"
 %}
 
