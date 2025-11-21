@@ -45,7 +45,8 @@ of what our CircleCI 2.0 builds looked like:
 {%
   include
   framed_image.html
-  alt="Screenshot of CircleCI workflow."
+  alt="CircleCI workflow screenshot"
+  caption="It's pretty fun to watch this run and see the boxes go green."
   src="/images/post-77/circleci-workflow-diagram.png"
 %}
 

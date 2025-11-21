@@ -263,7 +263,8 @@ time - looks like this:
 {%
   include
   framed_image.html
-  alt="Screenshot of Apache Directory Listing."
+  alt="Apache directory listing screenshot"
+  caption="Wow could this page look any more basic??"
   src="/images/post-71/apache-directory-listing-screenshot.png"
 %}
 

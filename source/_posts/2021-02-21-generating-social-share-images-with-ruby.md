@@ -16,7 +16,8 @@ I think they turned out pretty great:
 {%
   include
   framed_image.html
-  alt="Social Share Image for Post 42: Start and Stop Your Work Day With a List."
+  alt="Example social share image"
+  caption="I tinkered with this layout A LOT."
   src="/images/post-42/social-share.png"
 %}
 
@@ -172,7 +173,8 @@ And here's how it looks on Twitter in all it's unfurled glory:
 {%
   include
   framed_image.html
-  alt="Unfurled social share image as seen on Twitter."
+  alt="Social share image on Twitter"
+  caption="I will never call it X."
   src="/images/post-45/unfurled.png"
 %}
 
@@ -183,7 +185,8 @@ I also did this for the [Forty blog][forty-blog]:
 {%
   include
   framed_image.html
-  alt="Unfurled Forty social share image as seen on Twitter."
+  alt="Another social share image on Twitter"
+  caption="Elon can suck it."
   src="/images/post-45/forty-unfurled.png"
 %}
 

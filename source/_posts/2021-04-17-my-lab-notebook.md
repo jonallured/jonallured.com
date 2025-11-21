@@ -252,6 +252,7 @@ looking please agree with me!
   include
   framed_image.html
   alt="Work in progress screenshot of my lab notebook."
+  caption="Futura is such a cool font."
   src="/images/post-50/lab-notebook.png"
 %}
 

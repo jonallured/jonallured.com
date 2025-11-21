@@ -48,7 +48,8 @@ looked like this:
 {%
   include
   framed_image.html
-  alt="Screenshot of table before styling."
+  alt="Unstyled table screenshot"
+  caption="The default styles aren't terrible but we can do better."
   src="/images/post-72/table-before-styling.png"
 %}
 
@@ -59,7 +60,8 @@ that and then iterated on the design until it looked like this:
 {%
   include
   framed_image.html
-  alt="Screenshot of table after styling."
+  alt="Styled table screenshot"
+  caption="See this is much more polished looking!"
   src="/images/post-72/table-after-styling.png"
 %}
 

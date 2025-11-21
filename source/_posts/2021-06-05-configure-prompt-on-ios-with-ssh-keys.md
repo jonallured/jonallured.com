@@ -35,7 +35,8 @@ them.
 {%
   include
   framed_image.html
-  alt="Interface in Prompt for picking SSH keys."
+  alt="SSH keys picker screenshot"
+  caption="It would be nice if there were a little help here."
   src="/images/post-58/prompt-import-wtf.png"
 %}
 
@@ -52,7 +53,8 @@ saving them so that it could be one-tap to connect. Behold:
 {%
   include
   framed_image.html
-  alt="Connected to Domino in Prompt."
+  alt="SSH session screenshot"
+  caption="Any bets on how often I actually use this??"
   src="/images/post-58/prompt-connected-to-domino.png"
 %}
 
