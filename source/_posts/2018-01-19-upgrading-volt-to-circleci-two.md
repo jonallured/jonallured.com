@@ -44,7 +44,7 @@ of what our CircleCI 2.0 builds looked like:
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Screenshot of CircleCI workflow."
   src="/images/post-77/circleci-workflow-diagram.png"
 %}

@@ -262,7 +262,7 @@ time - looks like this:
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Screenshot of Apache Directory Listing."
   src="/images/post-71/apache-directory-listing-screenshot.png"
 %}

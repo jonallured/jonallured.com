@@ -80,7 +80,7 @@ This was pretty easy to do and looks like this:
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Screenshot of form to decode JWT."
   src="/images/post-65/decode-jwt-screenshot.png"
 %}

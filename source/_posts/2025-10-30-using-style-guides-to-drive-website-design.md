@@ -47,7 +47,7 @@ looked like this:
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Screenshot of table before styling."
   src="/images/post-72/table-before-styling.png"
 %}
@@ -58,7 +58,7 @@ that and then iterated on the design until it looked like this:
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Screenshot of table after styling."
   src="/images/post-72/table-after-styling.png"
 %}

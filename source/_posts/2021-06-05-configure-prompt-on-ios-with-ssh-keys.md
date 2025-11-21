@@ -34,7 +34,7 @@ them.
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Interface in Prompt for picking SSH keys."
   src="/images/post-58/prompt-import-wtf.png"
 %}
@@ -51,7 +51,7 @@ saving them so that it could be one-tap to connect. Behold:
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Connected to Domino in Prompt."
   src="/images/post-58/prompt-connected-to-domino.png"
 %}

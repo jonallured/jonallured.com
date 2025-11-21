@@ -16,7 +16,7 @@ screenshot:
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Work in progress screenshot of my lab notebook."
   src="/images/post-50/lab-notebook.png"
 %}
