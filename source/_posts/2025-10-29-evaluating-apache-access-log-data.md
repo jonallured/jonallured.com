@@ -265,7 +265,7 @@ time - looks like this:
   framed_image.html
   alt="Apache directory listing screenshot"
   caption="Wow could this page look any more basic??"
-  src="/images/post-71/apache-directory-list-full.png"
+  slug="apache-directory-list"
 %}
 
 There is [an Apache doc page][options-doc] that has the fix: `Options -Indexes`

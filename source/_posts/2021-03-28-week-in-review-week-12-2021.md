@@ -19,7 +19,7 @@ screenshot:
   framed_image.html
   alt="Lab notebook screenshot"
   caption="Futura is such a cool font."
-  src="/images/post-50/wip-lab-notebook-full.png"
+  slug="wip-lab-notebook"
 %}
 
 ## Highlights

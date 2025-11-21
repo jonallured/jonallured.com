@@ -253,7 +253,7 @@ looking please agree with me!
   framed_image.html
   alt="Work in progress screenshot of my lab notebook."
   caption="Futura is such a cool font."
-  src="/images/post-52/lab-notebook-full.png"
+  slug="lab-notebook"
 %}
 
 ## Next Steps

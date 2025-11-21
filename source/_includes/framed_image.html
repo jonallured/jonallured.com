@@ -1,8 +1,12 @@
+{%- capture full_src -%}
+/images/post-{{ page.number }}/{{ include.slug }}-full.png
+{%- endcapture -%}
+
 <figure>
-  <a href="{{ include.src }}">
+  <a href="{{ full_src }}">
     <img
       alt="{{ include.alt }}"
-      src="{{ include.src }}"
+      src="{{ full_src }}"
       title="click for bigger"
       width="700"
     />

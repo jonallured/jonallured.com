@@ -18,7 +18,7 @@ I think they turned out pretty great:
   framed_image.html
   alt="Example social share image"
   caption="I tinkered with this layout A LOT."
-  src="/images/post-45/example-social-share-full.png"
+  slug="example-social-share"
 %}
 
 I've got the title of the post laid out nice and big in the center of the top
@@ -175,7 +175,7 @@ And here's how it looks on Twitter in all it's unfurled glory:
   framed_image.html
   alt="Social share image on Twitter"
   caption="I will never call it X."
-  src="/images/post-45/unfurled-full.png"
+  slug="unfurled"
 %}
 
 ## Forty's Blog Got Them Too
@@ -187,7 +187,7 @@ I also did this for the [Forty blog][forty-blog]:
   framed_image.html
   alt="Another social share image on Twitter"
   caption="Elon can suck it."
-  src="/images/post-45/forty-unfurled-full.png"
+  slug="forty-unfurled"
 %}
 
 [hicks-twitter]: https://twitter.com/pepopowitz
