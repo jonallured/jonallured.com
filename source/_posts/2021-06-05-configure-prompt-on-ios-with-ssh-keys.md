@@ -37,7 +37,7 @@ them.
   framed_image.html
   alt="SSH keys picker screenshot"
   caption="It would be nice if there were a little help here."
-  src="/images/post-58/broken-prompt-screen.png"
+  src="/images/post-58/broken-prompt-screen-full.png"
 %}
 
 What I figured out was that they needed a file extension in order to work:
@@ -55,7 +55,7 @@ saving them so that it could be one-tap to connect. Behold:
   framed_image.html
   alt="SSH session screenshot"
   caption="Any bets on how often I actually use this??"
-  src="/images/post-58/connected-to-domino.png"
+  src="/images/post-58/connected-to-domino-full.png"
 %}
 
 [Prompt]: https://panic.com/prompt/

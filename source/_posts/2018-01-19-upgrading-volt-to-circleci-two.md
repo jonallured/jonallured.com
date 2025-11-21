@@ -47,7 +47,7 @@ of what our CircleCI 2.0 builds looked like:
   framed_image.html
   alt="CircleCI workflow screenshot"
   caption="It's pretty fun to watch this run and see the boxes go green."
-  src="/images/post-77/circleci-workflow.png"
+  src="/images/post-77/circleci-workflow-full.png"
 %}
 
 I'm really proud of this - it's cool and it was hard to figure out!
