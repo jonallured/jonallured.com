@@ -81,7 +81,8 @@ This was pretty easy to do and looks like this:
 {%
   include
   framed_image.html
-  alt="Screenshot of form to decode JWT."
+  alt="Decode JWT form screenshot"
+  caption="It drives me nuts that the token doesn't fit on one line."
   src="/images/post-65/decode-jwt-screenshot.png"
 %}
 
