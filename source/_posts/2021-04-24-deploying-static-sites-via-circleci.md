@@ -82,7 +82,7 @@ Then upload the private key in the CircleCI interface:
   framed_image.html
   alt="Add SSH key form screenshot"
   caption="Possibly hot take: this does not have to be a modal."
-  src="/images/post-55/circleci-ssh-key.png"
+  src="/images/post-55/circleci-ssh-key-full.png"
 %}
 
 Make sure you add the ENV var at CircleCI too:
