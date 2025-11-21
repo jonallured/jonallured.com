@@ -32,12 +32,12 @@ puts "this is a very long line of code so that we can have an example where we m
 </blockquote>
 <h2>Images</h2>
 <p>Some blog post pages have images and they look like this:</p>
-<div class="imageWrapper">
-  <a href="/images/post-55/circleci-ssh-key.png">
-    <img alt="Add SSH Key Screen in CircleCI Settings." src="/images/post-55/circleci-ssh-key.png" width="700" />
-  </a>
-  <p><em>click for bigger</em></p>
-</div>
+{%
+  include
+  framed_image.html
+  alt="Add SSH Key Screen in CircleCI Settings."
+  src="/images/post-55/circleci-ssh-key.png"
+%}
 <h2>Tables</h2>
 <p>Sometimes you just have to list tabular data. I expect that I'll want the right-most column to normally be right aligned so that's the default for now.</p>
 <table>
