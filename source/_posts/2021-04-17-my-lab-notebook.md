@@ -253,6 +253,7 @@ looking please agree with me!
   framed_image.html
   alt="Work in progress screenshot of my lab notebook."
   caption="Futura is such a cool font."
+  height="553"
   slug="lab-notebook"
 %}
 

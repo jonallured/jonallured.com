@@ -19,6 +19,7 @@ screenshot:
   framed_image.html
   alt="Lab notebook screenshot"
   caption="Futura is such a cool font."
+  height="553"
   slug="wip-lab-notebook"
 %}
 
