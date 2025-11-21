@@ -84,6 +84,7 @@ This was pretty easy to do and looks like this:
   alt="Decode JWT form screenshot"
   caption="It drives me nuts that the token doesn't fit on one line."
   height="570"
+  loading="lazy"
   slug="jwt-decoder"
 %}
 
