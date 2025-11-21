@@ -79,7 +79,7 @@ Then upload the private key in the CircleCI interface:
 
 {%
   include
-  wrapped_image.html
+  framed_image.html
   alt="Add SSH Key Screen in CircleCI Settings."
   src="/images/post-55/circleci-ssh-key.png"
 %}
