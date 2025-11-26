@@ -93,114 +93,77 @@ Now let's look at some before and after screenshots to help illustrate things.
 Here we have the before shot of the above the fold layout where the sidebar
 looks fine:
 
-<figure>
-  <a href="/images/post-82/before-desktop-header-full.png">
-    <img
-      alt="Desktop header before screenshot"
-      height="570"
-      loading="lazy"
-      sizes="(max-width: 800px) calc(100vw - 80px), (max-width:1000px) calc(100vw - 280px), 760px"
-      src="/images/post-82/before-desktop-header-900.png"
-      srcset="/images/post-82/before-desktop-header-900.png 900w, /images/post-82/before-desktop-header-1200.png 1200w, /images/post-82/before-desktop-header-1800.png 1800w"
-      title="click for bigger"
-      width="760"
-    />
-  </a>
-  <figcaption>This looks fine just don't scroll!</figcaption>
-</figure>
+{%
+  include
+  framed_image.html
+  alt="Desktop header before screenshot"
+  caption="This looks fine just don't scroll!"
+  height="570"
+  loading="lazy"
+  slug="before-desktop-header"
+%}
 
 But then if we do scroll down to the bottom of the page then we see that the
 column of content looks awkward against the centered footer.
 
-<figure>
-  <a href="/images/post-82/before-desktop-footer-full.png">
-    <img
-      alt="Desktop footer before screenshot"
-      height="570"
-      loading="lazy"
-      sizes="(max-width: 800px) calc(100vw - 80px), (max-width:1000px) calc(100vw - 280px), 760px"
-      src="/images/post-82/before-desktop-footer-900.png"
-      srcset="/images/post-82/before-desktop-footer-900.png 900w, /images/post-82/before-desktop-footer-1200.png 1200w, /images/post-82/before-desktop-footer-1800.png 1800w"
-      title="click for bigger"
-      width="760"
-    />
-  </a>
-  <figcaption>To my eye this looks like a mistake - why is the content not aligned to the footer?</figcaption>
-</figure>
+{%
+  include
+  framed_image.html
+  alt="Desktop footer before screenshot"
+  caption="To my eye this looks like a mistake - why is the content not aligned to the footer?"
+  height="570"
+  loading="lazy"
+  slug="before-desktop-footer"
+%}
 
 Now let's look at these after the move to a single column layout:
 
-<figure>
-  <a href="/images/post-82/after-desktop-header-full.png">
-    <img
-      alt="Desktop header after screenshot"
-      height="570"
-      loading="lazy"
-      sizes="(max-width: 800px) calc(100vw - 80px), (max-width:1000px) calc(100vw - 280px), 760px"
-      src="/images/post-82/after-desktop-header-900.png"
-      srcset="/images/post-82/after-desktop-header-900.png 900w, /images/post-82/after-desktop-header-1200.png 1200w, /images/post-82/after-desktop-header-1800.png 1800w"
-      title="click for bigger"
-      width="760"
-    />
-  </a>
-  <figcaption>I don't miss the sidebar at all.</figcaption>
-</figure>
+{%
+  include
+  framed_image.html
+  alt="Desktop header after screenshot"
+  caption="I don't miss the sidebar at all."
+  height="570"
+  loading="lazy"
+  slug="after-desktop-header"
+%}
 
 Here's where we see that sidebar content run in the footer with a 4 column
 layout:
 
-<figure>
-  <a href="/images/post-82/after-desktop-footer-full.png">
-    <img
-      alt="Desktop footer after screenshot"
-      height="570"
-      loading="lazy"
-      sizes="(max-width: 800px) calc(100vw - 80px), (max-width:1000px) calc(100vw - 280px), 760px"
-      src="/images/post-82/after-desktop-footer-900.png"
-      srcset="/images/post-82/after-desktop-footer-900.png 900w, /images/post-82/after-desktop-footer-1200.png 1200w, /images/post-82/after-desktop-footer-1800.png 1800w"
-      title="click for bigger"
-      width="760"
-    />
-  </a>
-  <figcaption>No more awkward layout although a part of me really wishes there were a consistent number of items in each list.</figcaption>
-</figure>
+{%
+  include
+  framed_image.html
+  alt="Desktop footer after screenshot"
+  caption="No more awkward layout although a part of me really wishes there were a consistent number of items in each list."
+  height="570"
+  loading="lazy"
+  slug="after-desktop-footer"
+%}
 
 And for good measure here's how the site looked on a narrow screen before:
 
-<figure>
-  <a href="/images/post-82/before-mobile-footer-full.png">
-    <img
-      alt="mobile footer before screenshot"
-      height="570"
-      loading="lazy"
-      sizes="(max-width: 800px) calc(100vw - 80px), (max-width:1000px) calc(100vw - 280px), 760px"
-      src="/images/post-82/before-mobile-footer-900.png"
-      srcset="/images/post-82/before-mobile-footer-900.png 900w, /images/post-82/before-mobile-footer-1200.png 1200w, /images/post-82/before-mobile-footer-1800.png 1800w"
-      title="click for bigger"
-      width="760"
-    />
-  </a>
-  <figcaption>I don't think Flexbox even existed when I moved this down under the content area hence it had some room for improvement.</figcaption>
-</figure>
+{%
+  include
+  framed_image.html
+  alt="Mobile footer before screenshot"
+  caption="I don't think Flexbox even existed when I moved this down under the content area hence it had some room for improvement."
+  height="570"
+  loading="lazy"
+  slug="before-mobile-footer"
+%}
 
 I like this much better:
 
-<figure>
-  <a href="/images/post-82/after-mobile-footer-full.png">
-    <img
-      alt="mobile footer after screenshot"
-      height="570"
-      loading="lazy"
-      sizes="(max-width: 800px) calc(100vw - 80px), (max-width:1000px) calc(100vw - 280px), 760px"
-      src="/images/post-82/after-mobile-footer-900.png"
-      srcset="/images/post-82/after-mobile-footer-900.png 900w, /images/post-82/after-mobile-footer-1200.png 1200w, /images/post-82/after-mobile-footer-1800.png 1800w"
-      title="click for bigger"
-      width="760"
-    />
-  </a>
-  <figcaption>Ok I really need to even out the items in these lists but still
-this is much better than before.</figcaption>
-</figure>
+{%
+  include
+  framed_image.html
+  alt="Mobile footer after screenshot"
+  caption="Ok I really need to even out the items in these lists but still this is much better than before."
+  height="570"
+  loading="lazy"
+  slug="after-mobile-footer"
+%}
 
 ## Caching Woes
 
