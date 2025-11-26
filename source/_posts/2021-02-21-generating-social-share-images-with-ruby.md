@@ -178,7 +178,6 @@ And here's how it looks on Twitter in all it's unfurled glory:
   alt="Social share image on Twitter"
   caption="I will never call it X."
   height="755"
-  loading="lazy"
   slug="unfurled"
 %}
 
@@ -192,7 +191,6 @@ I also did this for the [Forty blog][forty-blog]:
   alt="Another social share image on Twitter"
   caption="Elon can suck it."
   height="596"
-  loading="lazy"
   slug="forty-unfurled"
 %}
 

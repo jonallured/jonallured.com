@@ -1,5 +1,7 @@
 {% assign image_extension = include.ext | default: "png" %}
 
+{% assign image_loading = include.loading | default: "lazy" %}
+
 {%- capture small_src -%}
 /images/post-{{ page.number }}/{{ include.slug }}-900.{{ image_extension }}
 {%- endcapture -%}
@@ -21,7 +23,7 @@
     <img
       alt="{{ include.alt }}"
       height="{{ include.height }}"
-      loading="{{ include.loading }}"
+      loading="{{ image_loading }}"
       sizes="(max-width: 800px) calc(100vw - 80px), 760px"
       src="{{ full_src }}"
       srcset="{{ small_src }} 900w, {{ medium_src }} 1200w, {{ large_src }} 1800w"

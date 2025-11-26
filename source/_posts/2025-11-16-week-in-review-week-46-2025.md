@@ -31,7 +31,6 @@ and gives me an excuse to share a bit more.
   caption="To the naked eye the sky was unremarkable but when viewed through a camera it was dazzling!"
   ext="jpg"
   height="1013"
-  loading="lazy"
   slug="pic-of-week"
 %}
 
