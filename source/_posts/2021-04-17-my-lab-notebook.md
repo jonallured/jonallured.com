@@ -254,7 +254,6 @@ looking please agree with me!
   alt="Work in progress screenshot of my lab notebook."
   caption="Futura is such a cool font."
   height="553"
-  loading="lazy"
   slug="lab-notebook"
 %}
 
