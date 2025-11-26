@@ -1,5 +1,7 @@
 {% assign image_extension = include.ext | default: "png" %}
 
+{% assign image_height = include.height | default: "570" %}
+
 {% assign image_loading = include.loading | default: "lazy" %}
 
 {%- capture small_src -%}
@@ -22,7 +24,7 @@
   <a href="{{ full_src }}">
     <img
       alt="{{ include.alt }}"
-      height="{{ include.height }}"
+      height="{{ image_height }}"
       loading="{{ image_loading }}"
       sizes="(max-width: 800px) calc(100vw - 80px), 760px"
       src="{{ full_src }}"
