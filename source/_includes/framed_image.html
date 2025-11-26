@@ -1,3 +1,15 @@
+{%- capture small_src -%}
+/images/post-{{ page.number }}/{{ include.slug }}-900.png
+{%- endcapture -%}
+
+{%- capture medium_src -%}
+/images/post-{{ page.number }}/{{ include.slug }}-1200.png
+{%- endcapture -%}
+
+{%- capture large_src -%}
+/images/post-{{ page.number }}/{{ include.slug }}-1800.png
+{%- endcapture -%}
+
 {%- capture full_src -%}
 /images/post-{{ page.number }}/{{ include.slug }}-full.png
 {%- endcapture -%}
@@ -8,7 +20,9 @@
       alt="{{ include.alt }}"
       height="{{ include.height }}"
       loading="{{ include.loading }}"
+      sizes="(max-width: 800px) calc(100vw - 80px), 760px"
       src="{{ full_src }}"
+      srcset="{{ small_src }} 900w, {{ medium_src }} 1200w, {{ large_src }} 1800w"
       title="click for bigger"
       width="760"
     />
