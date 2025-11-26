@@ -24,21 +24,16 @@ and gives me an excuse to share a bit more.
 
 ## Pic of the Week
 
-<figure>
-  <a href="/images/post-81/pic-of-week-full.jpg">
-    <img
-      alt="Pic of night sky with northern lights"
-      height="1013"
-      loading="lazy"
-      sizes="(max-width: 800px) calc(100vw - 80px), (max-width:1000px) calc(100vw - 280px), 760px"
-      src="/images/post-81/pic-of-week-900.jpg"
-      srcset="/images/post-81/pic-of-week-900.jpg 900w, /images/post-81/pic-of-week-1200.jpg 1200w, /images/post-81/pic-of-week-1800.jpg 1800w"
-      title="click for bigger"
-      width="760"
-    />
-  </a>
-  <figcaption>To the naked eye the sky was unremarkable but when viewed through a camera it was dazzling!</figcaption>
-</figure>
+{%
+  include
+  framed_image.html
+  alt="Pic of night sky with northern lights"
+  caption="To the naked eye the sky was unremarkable but when viewed through a camera it was dazzling!"
+  ext="jpg"
+  height="1013"
+  loading="lazy"
+  slug="pic-of-week"
+%}
 
 I've always heard this called "aurora borealis" or "northern lights" but I guess
 what's really happening is that the sun is doing something called a "coronal
