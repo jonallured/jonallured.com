@@ -1,17 +1,19 @@
+{% assign image_extension = include.ext | default: "png" %}
+
 {%- capture small_src -%}
-/images/post-{{ page.number }}/{{ include.slug }}-900.png
+/images/post-{{ page.number }}/{{ include.slug }}-900.{{ image_extension }}
 {%- endcapture -%}
 
 {%- capture medium_src -%}
-/images/post-{{ page.number }}/{{ include.slug }}-1200.png
+/images/post-{{ page.number }}/{{ include.slug }}-1200.{{ image_extension }}
 {%- endcapture -%}
 
 {%- capture large_src -%}
-/images/post-{{ page.number }}/{{ include.slug }}-1800.png
+/images/post-{{ page.number }}/{{ include.slug }}-1800.{{ image_extension }}
 {%- endcapture -%}
 
 {%- capture full_src -%}
-/images/post-{{ page.number }}/{{ include.slug }}-full.png
+/images/post-{{ page.number }}/{{ include.slug }}-full.{{ image_extension }}
 {%- endcapture -%}
 
 <figure>
