@@ -265,7 +265,6 @@ time - looks like this:
   framed_image.html
   alt="Apache directory listing screenshot"
   caption="Wow could this page look any more basic??"
-  height="570"
   slug="apache-directory-list"
 %}
 

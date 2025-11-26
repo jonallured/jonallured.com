@@ -50,7 +50,6 @@ looked like this:
   framed_image.html
   alt="Unstyled table screenshot"
   caption="The default styles aren't terrible but we can do better."
-  height="570"
   slug="table-before-styling"
 %}
 
@@ -63,7 +62,6 @@ that and then iterated on the design until it looked like this:
   framed_image.html
   alt="Styled table screenshot"
   caption="See this is much more polished looking!"
-  height="570"
   slug="table-after-styling"
 %}
 

@@ -98,7 +98,6 @@ looks fine:
   framed_image.html
   alt="Desktop header before screenshot"
   caption="This looks fine just don't scroll!"
-  height="570"
   slug="before-desktop-header"
 %}
 
@@ -110,7 +109,6 @@ column of content looks awkward against the centered footer.
   framed_image.html
   alt="Desktop footer before screenshot"
   caption="To my eye this looks like a mistake - why is the content not aligned to the footer?"
-  height="570"
   slug="before-desktop-footer"
 %}
 
@@ -121,7 +119,6 @@ Now let's look at these after the move to a single column layout:
   framed_image.html
   alt="Desktop header after screenshot"
   caption="I don't miss the sidebar at all."
-  height="570"
   slug="after-desktop-header"
 %}
 
@@ -133,7 +130,6 @@ layout:
   framed_image.html
   alt="Desktop footer after screenshot"
   caption="No more awkward layout although a part of me really wishes there were a consistent number of items in each list."
-  height="570"
   slug="after-desktop-footer"
 %}
 
@@ -144,7 +140,6 @@ And for good measure here's how the site looked on a narrow screen before:
   framed_image.html
   alt="Mobile footer before screenshot"
   caption="I don't think Flexbox even existed when I moved this down under the content area hence it had some room for improvement."
-  height="570"
   slug="before-mobile-footer"
 %}
 
@@ -155,7 +150,6 @@ I like this much better:
   framed_image.html
   alt="Mobile footer after screenshot"
   caption="Ok I really need to even out the items in these lists but still this is much better than before."
-  height="570"
   slug="after-mobile-footer"
 %}
 
