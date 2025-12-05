@@ -1,0 +1,37 @@
+#!/bin/bash
+
+set -e
+
+original_file=$1
+post_number=$2
+
+image_slug="${original_file%.*}"
+image_type="${original_file##*.}"
+post_images_folder="$(pwd)/source/images/post-$post_number"
+mkdir -p $post_images_folder
+
+open $original_file -a "Pixelmator Pro"
+
+sleep 0.5
+
+target_widths=("full" "1800" "1200" "900")
+
+for target_width in "${target_widths[@]}"; do
+  target_path="$post_images_folder/$image_slug-$target_width.$image_type"
+  osascript bin/pxp_export.scpt $target_width $image_type $target_path
+done
+
+sleep 0.5
+
+osascript bin/pxp_close.scpt
+
+cat << EOF
+{%
+  include
+  framed_image.html
+  alt="Short phrase"
+  caption="This should be a sentence."
+  loading="eager"
+  slug="${image_slug}"
+%}
+EOF
