@@ -1,4 +1,5 @@
 ---
+date: 2025-12-05 14:05 -0600
 number: 83
 tags: article
 title: "Overhauling My Blog Post Images"
