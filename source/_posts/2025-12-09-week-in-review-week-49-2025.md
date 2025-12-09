@@ -1,4 +1,5 @@
 ---
+date: 2025-12-09 14:08 -0600
 number: 84
 tags: review
 title: "Week in Review: Week 49, 2025"
