@@ -33,6 +33,7 @@ it so I can't wait to make him do even more work in the future.
   caption="Nothing makes me more pleased than when my son is capable of doing work instead of me."
   ext="jpg"
   loading="eager"
+  height="478"
   slug="driveway-helper"
 %}
 
