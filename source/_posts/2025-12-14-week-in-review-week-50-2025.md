@@ -1,4 +1,5 @@
 ---
+date: 2025-12-14 09:38 -0600
 number: 85
 tags: review
 title: "Week in Review: Week 50, 2025"
