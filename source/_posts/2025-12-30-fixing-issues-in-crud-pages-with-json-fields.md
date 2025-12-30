@@ -1,4 +1,5 @@
 ---
+date: 2025-12-30 12:03 -0600
 number: 86
 tags: article
 title: "Fixing Issues in CRUD Pages With JSON Fields"
