@@ -2,6 +2,11 @@
 
 set -e
 
+if [ $# -ne 2 ]; then
+  echo "Provide a file path and a post number"
+  exit 1
+fi
+
 original_file=$1
 post_number=$2
 
