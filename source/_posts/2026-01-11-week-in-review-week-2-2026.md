@@ -1,4 +1,5 @@
 ---
+date: 2026-01-11 16:51 -0600
 number: 88
 tags: review
 title: "Week in Review: Week 2, 2026"
