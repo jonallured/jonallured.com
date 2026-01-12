@@ -15,6 +15,6 @@ task deploy: :dotenv do
   system "rsync -av -e ssh --delete build/ #{ENV["DEPLOY_TARGET"]}"
 end
 
-RSpec::Core::RakeTask.new(:spec)
+RSpec::Core::RakeTask.new(:spec) { |t| t.verbose = false }
 
 task default: %i[standard spec build]
