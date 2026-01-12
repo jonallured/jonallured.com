@@ -1,4 +1,5 @@
 ---
+date: 2026-01-12 13:22 -0600
 number: 89
 tags: article
 title: "Configure Spec Task Without Verbose Output"
