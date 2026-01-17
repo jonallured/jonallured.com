@@ -1,4 +1,5 @@
 ---
+date: 2026-01-17 16:42 -0600
 number: 90
 tags: article
 title: "Building Analytics Reports in Rails Using Apache Logs"
