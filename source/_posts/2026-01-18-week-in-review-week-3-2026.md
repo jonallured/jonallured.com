@@ -1,4 +1,5 @@
 ---
+date: 2026-01-18 13:20 -0600
 number: 91
 tags: review
 title: "Week in Review: Week 3, 2026"
