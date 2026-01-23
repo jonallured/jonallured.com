@@ -13,7 +13,19 @@ post_path=$(bundle exec jekyll publish $publish_path | tail -n 1 | cut -w -f6)
 post_number=$(bundle exec rake finalize_post[$post_path])
 
 label="publish-post"
+message=$(cat << END
+Publish post $post_number
+
+This commit publishes a new blog post. It was automatically created with this
+script:
+
+```
+$ bin/publish_post
+```
+END
+)
+
 git add .
-git commit -am "Publish post $post_number"
+git commit --message "$message"
 git push --set-upstream origin post-$post_number
 gh pr create --fill --label "$label"
