@@ -1,4 +1,5 @@
 ---
+date: 2026-02-08 15:33 -0600
 number: 93
 tags: review
 title: "Week in Review: Week 6, 2026"
