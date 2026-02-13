@@ -1,4 +1,5 @@
 ---
+date: 2026-02-13 14:44 -0600
 number: 94
 tags: article
 title: "Making Time for Boops"
