@@ -1,4 +1,5 @@
 ---
+date: 2026-02-14 11:28 -0600
 number: 95
 tags: article
 title: "Upgrading to Ruby 4.0"
