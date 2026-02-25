@@ -1,4 +1,5 @@
 ---
+date: 2026-02-25 16:44 -0600
 number: 97
 tags: article
 title: "Show Timestamps in Local Zone"
