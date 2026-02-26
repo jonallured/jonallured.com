@@ -113,8 +113,12 @@ const intz = () => {
 Find all the `time` elements and loop through them. For each element pull out
 the timestamp in UTC, convert it to a local time that is formatted nicely,
 update the text of the element, and then update the data attribute. Pass that
-function to the event handler for `DOMContentLoaded` and boom, timestamps get
+function to the event handler for `turbo:load` and boom, timestamps get
 converted!
+
+Note that I originally had been using `DOMContentLoaded` but then noticed Turbo
+was getting in the way and made [Use Turbo event to localize
+times][monolithium-298] to switch the event.
 
 What ended up being the worst part of this was that `formatTime` function. Did
 you know that formatting a `Date` object in Javascript sucks? It does if you
@@ -151,4 +155,5 @@ the idea of spinning up an entire Javascript test suite just for one file.
 [local_time]: https://github.com/basecamp/local_time
 [monolithium-296]: https://github.com/jonallured/monolithium/pull/296
 [monolithium-297]: https://github.com/jonallured/monolithium/pull/297
+[monolithium-298]: https://github.com/jonallured/monolithium/pull/298
 [rb]: https://refactoring.guru/smells/refused-bequest
