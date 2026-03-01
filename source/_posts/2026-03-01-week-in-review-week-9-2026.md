@@ -1,4 +1,5 @@
 ---
+date: 2026-03-01 15:52 -0600
 number: 98
 tags: review
 title: "Week in Review: Week 9, 2026"
