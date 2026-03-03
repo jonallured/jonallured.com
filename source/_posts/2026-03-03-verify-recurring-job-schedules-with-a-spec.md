@@ -1,4 +1,5 @@
 ---
+date: 2026-03-03 09:04 -0600
 number: 99
 tags: article
 title: "Verify Recurring Job Schedules With a Spec"
