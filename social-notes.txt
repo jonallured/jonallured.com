@@ -1,0 +1,80 @@
+My main domain is:
+
+https://www.jonallured.com
+
+And I also have my Rails app on that domain:
+
+https://app.jonallured.com
+
+But I have my URL shortener here:
+
+https://jon.zone
+
+Because I wanted it to be short.
+
+For hosting my social media accounts, what should I do? Let's brainstorm some ideas.
+
+https://bluesky.jonallured.com
+https://mastodon.jonallured.com
+
+https://bluesky.jon.zone
+https://mastodon.jon.zone
+
+https://bs.jonallured.social
+https://m.jonallured.social
+
+Another aspect of this is that it appears the servers will need to be able to
+send email. My email is setup with Fastmail which is connected to
+jonallured.com. I'm not sure what would happen if I attempted to send emails
+from a different domain.
+
+Handles are another part too. My existing profile link looks like this:
+
+https://bsky.app/profile/jonallured.com
+
+But then when people are using my handle then they would just write:
+
+@jonallured.com
+
+Which I guess makes me think that I should have my profile be this:
+
+https://bluesky.jonallured.com/profile/@jonallured.com
+
+But damn that looks gross.
+
+
+https://bsky.app/profile/jonallured.com
+
+https://bsky.jon.zone/profile/jonallured.com
+
+Over on Mastodon my handle looks like this:
+
+@jonallured@hachyderm.io
+
+So I guess that would change too - something like this:
+
+@jonallured@mastodon.jonallured.com
+
+PUKE.
+
+@jonallured@m.jon.zone
+https://m.jon.zone/@jonallured
+
+---
+
+Yeah I guess I'm coming around to the idea that I should host these social media servers using subdomains on jon.zone:
+
+https://b.jon.zone => bluesky pds
+https://m.jon.zone => mastodon server
+
+Maybe it doesn't really matter if the email doesn't line up? I guess you can send an email from admin@jonallured.com or something? But damn it would be much cooler to have admin@b.jon.zone or admin@m.jon.zone hmmm.
+
+---
+
+What about my gems? How might this affect them? I might also want robot accounts?
+
+@tinysky.b.jon.zone
+@robot.b.jon.zone
+
+@tinytoot@m.jon.zone
+@robot@m.jon.zone
