@@ -30,10 +30,11 @@ to know when to make the "boring" choice.
 
 ## Employment History
 
-Shopify, _remote_ (2025-present)
+Shopify, _remote_ (2025-2026)
 
-* __Senior Engineer:__ (2025-present) Used AI tools to augment the army of
-  engineers with a focus on generating tests at scale.
+* __Senior Engineer:__ (2025-2026) Used AI tools to augment the army of
+  engineers with an initial focus on generating tests at scale. Evolved that
+  effort into automating AI code reviews aimed at reducing incidents.
 
 Artsy, _remote_ (2017-2025)
 
@@ -82,19 +83,14 @@ Allured Business Media, _Carol Stream, Illinois_ (2007-2011)
 ## Open Source Projects
 
 I work on a number of projects for myself and the wider development community.
-Probably my most well known project is a list of Ruby conferences called
+My most well known project is a list of Ruby conferences called
 [RubyConferences.org][rc]. Averaging around 1,500 pageviews a month, the site
 helps people find events both future and past.
 
 My personal Rails project is called [Monolithium][] and it's where I build
 things for myself. It's got a Post Bin and an artwork viewer. I made a list of
-the books I've read. Random stuff but I've enjoyed tinkering with it over the
-years.
-
-Another thing I made is a CLI tool called [pear][] that helps sign commits when
-pair programming so that everybody gets credit. It's a small thing but I like
-using it and I learned a lot by making it.
+the books I've read. Random stuff, but I've enjoyed tinkering with it over the
+years and it has helped me stay knowledgable on all things Ruby on Rails.
 
 [rc]: http://rubyconferences.org
 [Monolithium]: https://github.com/jonallured/monolithium
-[pear]: https://github.com/jonallured/pear
