@@ -67,8 +67,8 @@ Hashrocket, _Chicago, Illinois_ (2011-2014)
 
 * __Senior Developer:__ Started as an apprentice and worked up to leading many
   projects, managing hiring process and helping to host community events.
-  Focusing on Rails development, used agile practices, strong TDD and pair
-  programming to deliver first-class web applications for our clients.
+  Focusing on Rails development, used agile practices, strong TDD and 100%
+  pair programming to deliver first-class web applications for our clients.
 
 Allured Business Media, _Carol Stream, Illinois_ (2007-2011)
 
